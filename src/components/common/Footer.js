@@ -1,0 +1,61 @@
+import Link from 'next/link';
+
+export default function Footer() {
+  return (
+    <footer className="bg-black text-white pt-16 pb-8 border-t border-neutral-800">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* Grid u tri kolone */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 text-sm">
+          
+          {/* LEVA KOLONA: Podaci o firmi */}
+          <div>
+            <h3 className="font-bold mb-4">HYPERMEP DOO</h3>
+            <p className="text-neutral-400 leading-relaxed">
+              [insert street and number]<br />
+              [insert postal code and city], Serbia
+            </p>
+          </div>
+
+          {/* SREDNJA KOLONA: Kontakt */}
+          <div>
+            <h3 className="text-neutral-400 mb-4">Contact Hyper:</h3>
+            <p className="leading-relaxed">
+              <a href="tel:[insert phone number]" className="hover:text-neutral-300 transition-colors">
+                [insert phone number]
+              </a>
+              <br />
+              <a href="mailto:[insert email address]" className="hover:text-neutral-300 transition-colors">
+                [insert email address]
+              </a>
+            </p>
+          </div>
+
+          {/* DESNA KOLONA: Mreže (Placeholderi) */}
+          <div className="flex md:justify-end gap-6">
+            <Link href="" className="text-neutral-400 hover:text-white transition-colors">
+              LinkedIn
+            </Link>
+            <Link href="" className="text-neutral-400 hover:text-white transition-colors">
+              Instagram
+            </Link>
+            <Link href="" className="text-neutral-400 hover:text-white transition-colors">
+              Facebook
+            </Link>
+          </div>
+          
+        </div>
+
+        {/* Donji deo (Copyright) */}
+        <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-800 text-xs text-neutral-500">
+          <p>© {new Date().getFullYear()} HYPER MEP. All rights reserved.</p>
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <Link href="" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="" className="hover:text-white transition-colors">Terms of Service</Link>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+}
