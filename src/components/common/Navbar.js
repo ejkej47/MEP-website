@@ -22,11 +22,23 @@ export default function Navbar() {
         </div>
 
         {/* SREDINA: Navigacioni linkovi (Desktop) */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-600">
-          <Link href="/o-nama" className="hover:text-black transition-colors">O nama</Link>
-          <Link href="/usluge" className="hover:text-black transition-colors">Usluge</Link>
-          <Link href="/projekti" className="hover:text-black transition-colors">Projekti</Link>
-          <Link href="/ljudi" className="hover:text-black transition-colors">Ljudi</Link>
+        <nav className="hidden md:flex items-center gap-10 text-base font-bold uppercase tracking-wider text-black">
+          <Link href="/o-nama" className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">O nama</span>
+            <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
+          </Link>
+          <Link href="/usluge" className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Usluge</span>
+            <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
+          </Link>
+          <Link href="/projekti" className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Projekti</span>
+            <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
+          </Link>
+          <Link href="/ljudi" className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Ljudi</span>
+            <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
+          </Link>
         </nav>
 
         {/* DESNO: Jezik i Kontakt dugme (Desktop) */}
