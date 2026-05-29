@@ -23,7 +23,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
           
           {/* Slika lokacije kao u image_e63663.png */}
-          <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-700">
+          <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center  transition-all duration-700">
             <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
             <span className="relative z-10 text-neutral-500 font-mono text-xs uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
               [Placeholder: Slika Kancelarije / Lokacije]

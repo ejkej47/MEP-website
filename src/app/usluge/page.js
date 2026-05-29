@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 export default function ServicesPage() {
   return (
@@ -48,9 +50,13 @@ export default function ServicesPage() {
             <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide border border-neutral-300">
               
               {/* Slika 1 u slajderu */}
-              <div className="w-full flex-none snap-center aspect-video bg-neutral-100 relative flex items-center justify-center">
-                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-                <span className="text-neutral-400 font-mono text-sm">[Slika 1: 2D Osnova / CAD]</span>
+              <div className="w-full flex-none snap-center aspect-video relative overflow-hidden bg-neutral-100">
+                <Image 
+                  src="/usluge-1.jpg" 
+                  alt="2D Osnova CAD" 
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               {/* Slika 2 u slajderu */}
@@ -88,9 +94,13 @@ export default function ServicesPage() {
               Galerija
             </div>
             <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide border border-neutral-300">
-              <div className="w-full flex-none snap-center aspect-video bg-neutral-100 relative flex items-center justify-center">
-                <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-                <span className="text-neutral-400 font-mono text-sm">[Slika 1: Revit Presek Zgrade]</span>
+              <div className="w-full flex-none snap-center aspect-video relative overflow-hidden bg-neutral-100">
+                <Image 
+                  src="/usluge-2.jpg" 
+                  alt="2D Osnova CAD" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="w-full flex-none snap-center aspect-video bg-neutral-200 relative flex items-center justify-center border-l border-neutral-300">
                 <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>

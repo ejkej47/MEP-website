@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -29,11 +30,14 @@ export default function Home() {
           </div>
 
           {/* Vizuelni Blok Placeholder */}
-          <div className="w-full aspect-video bg-neutral-100 border border-neutral-200 relative flex items-center justify-center overflow-hidden" aria-label="3D BIM model elektroinstalacija - Placeholder">
-            <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
-            <div className="relative z-10 text-neutral-400 font-mono text-sm uppercase tracking-widest bg-white/80 px-4 py-2 border border-neutral-200">
-              [Insert Main Architecture / BIM Render Here]
-            </div>
+          <div className="w-full aspect-video border border-neutral-200 relative overflow-hidden bg-neutral-100">
+            <Image 
+              src="/hero-slika-v3.jpg" 
+              alt="3D BIM model elektroinstalacija" 
+              fill
+              priority
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
@@ -59,7 +63,7 @@ export default function Home() {
               </div>
             </div>
             {/* Velika Slika Placeholder */}
-            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
+            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden  transition-all duration-500">
               <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
               <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
                 [Placeholder: Ethos / Office / Team Image]
@@ -84,11 +88,14 @@ export default function Home() {
               </div>
             </div>
             {/* Velika Slika Placeholder */}
-            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-                [Placeholder: MEP Systems / BIM Model]
-              </span>
+            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden  transition-all duration-500">
+              <Image 
+              src="/landing-usluge-v2.jpg" 
+              alt="3D BIM model elektroinstalacija" 
+              fill
+              priority
+              className="object-cover"
+            />
             </div>
           </Link>
 
@@ -109,11 +116,15 @@ export default function Home() {
               </div>
             </div>
             {/* Velika Slika Placeholder */}
-            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-                [Placeholder: Featured Project / Building Render]
-              </span>
+            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden  transition-all duration-500">
+              <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden  transition-all duration-500">
+              <Image 
+                src="/landing-projekti.jpg" 
+                alt="2D Osnova CAD" 
+                fill
+                className="object-cover"
+              />
+            </div>
             </div>
           </Link>
 
@@ -134,11 +145,13 @@ export default function Home() {
               </div>
             </div>
             {/* Velika Slika Placeholder */}
-            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-500">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-                [Placeholder: Engineers at Work / Field Image]
-              </span>
+            <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden  transition-all duration-500">
+              <Image 
+                src="/featured-ljudi.jpg" 
+                alt="2D Osnova CAD" 
+                fill
+                className="object-cover"
+              />
             </div>
           </Link>
 

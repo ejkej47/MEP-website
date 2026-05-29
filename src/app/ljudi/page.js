@@ -1,4 +1,6 @@
 import PersonCard from '../../components/ljudi/PersonCard';
+import Image from 'next/image';
+
 
 // Ovdje definišemo podatke o timu (kasnije ovo lako prevodimo)
 const teamMembers = [
@@ -49,11 +51,13 @@ export default function PeoplePage() {
       {/* GLAVNA SLIKA TIMA (Kolaž) */}
       <section className="py-12 md:py-16 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-            <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-              [Placeholder: Velika grupna slika celog tima / Kolaž]
-            </span>
+          <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-700">
+            <Image 
+              src="/featured-ljudi.jpg" 
+              alt="2D Osnova CAD" 
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </section>
