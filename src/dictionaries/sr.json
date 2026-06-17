@@ -12,5 +12,385 @@
     "rights": "Sva prava zadržana.",
     "privacy": "Politika privatnosti",
     "terms": "Uslovi korišćenja"
+  },
+  "landing": {
+    "hero": {
+      "title1": "Inženjerska preciznost.",
+      "title2": "Integrisano elektro-projektovanje.",
+      "description": "Napredno projektovanje, BIM modelovanje i tehnička koordinacija elektroinstalacija za složene komercijalne, industrijske, obrazovne i \"Life Science\" komplekse.",
+      "btnExplore": "Istraži usluge",
+      "btnProjects": "Vidi projekte",
+      "imageAlt": "3D BIM model elektroinstalacija"
+    },
+    "statements": {
+      "s1": {
+        "title": "O nama",
+        "desc": "Bez praznih reči. Samo inženjerska suština i pouzdanost.",
+        "placeholder": "[Placeholder: Ethos / Office / Team Image]"
+      },
+      "s2": {
+        "title": "Usluge",
+        "desc": "Integrisani sistemi, BIM modelovanje i koordinacija."
+      },
+      "s3": {
+        "title": "Projekti",
+        "desc": "Dokazana izvodljivost kroz kompleksne objekte."
+      },
+      "s4": {
+        "title": "Ljudi",
+        "desc": "Stručnjaci koji razumeju širu sliku gradilišta."
+      },
+      "s5": {
+        "title": "Karijere",
+        "desc": "Pridruži se našem timu i gradi budućnost zajedno sa nama."
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja (FAQ)",
+      "q1": "Šta tačno obuhvata vaše MEP projektovanje?",
+      "a1": "HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija. To uključuje energetski efikasne sisteme (HVAC), kompletne instalacije jake i slabe struje, kao i održive hidrotehničke sisteme za distribuciju i upravljanje vodom.",
+      "q2": "Kako koristite BIM tehnologiju u projektima?",
+      "a2": "Koristimo alate poput Autodesk Revit i Navisworks za razvoj visoko preciznih 3D modela. Naš glavni fokus je napredna detekcija kolizija (Clash Detection) sa arhitekturom i konstrukcijom, čime rešavamo potencijalne probleme pre nego što se oni pojave na samom gradilištu.",
+      "q3": "Za koje vrste objekata radite tehničku dokumentaciju?",
+      "a3": "Naše usluge pokrivaju širok spektar složenih struktura. Najčešće radimo na komercijalnim poslovnim zgradama, industrijskim postrojenjima, zdravstvenim i obrazovnim ustanovama, data centrima, kao i objektima mešovite namene."
+    }
+  },
+  "about": {
+    "title": "O nama",
+    "company": {
+      "title": "O kompaniji",
+      "p1": "HyperMEP je nezavisna inženjerska konsultantska kompanija specijalizovana za projektovanje MEP sistema (Mechanical, Electrical & Public Health Engineering), BIM modelovanje i multidisciplinarnu tehničku koordinaciju.",
+      "p2": "Osnovana 2023. godine u Pančevu, kompanija je nastala sa ciljem da objedini savremeno inženjerstvo, digitalne tehnologije i visok nivo tehničke ekspertize kako bi klijentima pružila pouzdana, održiva i efikasna projektantska rešenja.",
+      "p3": "Kompaniju je osnovao Uroš Milenković, vođen vizijom da kreira inženjerski biro sposoban da odgovori na izazove savremenog građevinskog sektora kroz integrisani pristup projektovanju, BIM koordinaciji i optimizaciji performansi objekata."
+    },
+    "philosophy": {
+      "title": "Naša filozofija",
+      "p1": "Verujemo da vrhunski projekti nastaju kada se inženjerska preciznost, inovacije i saradnja objedine u jedinstven proces. Zato svakom projektu pristupamo sa fokusom na:",
+      "list": [
+        "tehničku izvrsnost,",
+        "funkcionalnost i pouzdanost sistema,",
+        "energetsku efikasnost,",
+        "održivost i dugoročnu vrednost,",
+        "koordinaciju svih projektnih disciplina,",
+        "optimizaciju investicionih i operativnih troškova."
+      ],
+      "p2": "Naš cilj nije samo izrada projektne dokumentacije, već kreiranje inteligentnih tehničkih rešenja koja unapređuju performanse objekata tokom celog njihovog životnog ciklusa."
+    },
+    "vision": {
+      "title": "Vizija",
+      "text": "Da postanemo vodeći regionalni partner za integrisano MEP projektovanje i BIM koordinaciju, prepoznat po tehničkoj izvrsnosti, inovativnim rešenjima i profesionalnom pristupu."
+    },
+    "mission": {
+      "title": "Misija",
+      "text": "Da kroz vrhunsko inženjerstvo, digitalne tehnologije i multidisciplinarnu saradnju kreiramo održive, efikasne i budućnosti prilagođene objekte koji stvaraju dugoročnu vrednost za naše klijente."
+    },
+    "fieldwork": {
+      "placeholder": "[Placeholder: Slika tima / Fieldwork / Gradilište]",
+      "title": "Praksa na terenu",
+      "link": "Pogledajte naše izvedene objekte ➔"
+    },
+    "quote": "\"HyperMEP spaja inženjersko znanje, BIM tehnologiju i strateško razmišljanje kako bi svaki projekat bio realizovan sa maksimalnom efikasnošću, pouzdanošću i kvalitetom.\""
+  },
+  "services": {
+    "title": "Usluge",
+    "intro": "HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija, kombinujući tehničku ekspertizu, BIM metodologiju i praktična inženjerska rešenja. Naš cilj je razvoj efikasnih, održivih i pouzdanih sistema koji zadovoljavaju najviše tehničke i regulatorne standarde.",
+    "gallery": "Galerija",
+    "s1": {
+      "title": "Mašinske instalacije (Mechanical Engineering)",
+      "desc": "Projektujemo energetski efikasne sisteme koji obezbeđuju optimalan komfor, funkcionalnost i dugoročnu pouzdanost objekata.",
+      "list": [
+        "Sistemi grejanja",
+        "Ventilacioni sistemi",
+        "Klimatizacioni sistemi (HVAC)",
+        "Rashladni sistemi",
+        "Sistemi odimljavanja i kontrole dima",
+        "Sistemi obnovljivih izvora energije",
+        "Toplotne pumpe i sistemi rekuperacije",
+        "Energetsko modelovanje",
+        "Analiza termičkog komfora",
+        "CFD simulacije",
+        "Optimizacija energetske efikasnosti i životnog ciklusa sistema (LCC)"
+      ],
+      "placeholder": "[Placeholder: Mašinske Instalacije / HVAC]"
+    },
+    "s2": {
+      "title": "Elektro instalacije (Electrical Engineering)",
+      "desc": "Razvijamo sigurne, pouzdane i skalabilne elektroenergetske sisteme prilagođene savremenim zahtevima objekata.",
+      "list": [
+        "VN i NN sistemi",
+        "Unutrašnje i spoljno osvetljenje",
+        "Panik i evakuaciona rasveta",
+        "Sistemi dojave požara",
+        "Telekomunikacione i ICT instalacije",
+        "Rezervno i neprekidno napajanje",
+        "UPS i agregatska postrojenja",
+        "Proračuni opterećenja i kratkog spoja",
+        "Sistemi uzemljenja i gromobrani",
+        "DALI i pametni sistemi rasvete",
+        "BMS integracija",
+        "EV Charging infrastruktura"
+      ],
+      "alt": "Elektro instalacije MEP"
+    },
+    "s3": {
+      "title": "Hidrotehničke instalacije (Public Health Engineering)",
+      "desc": "Projektujemo održive sisteme za distribuciju i upravljanje vodom uz maksimalnu efikasnost i usklađenost sa standardima.",
+      "list": [
+        "Sistemi sanitarne vode",
+        "Priprema potrošne tople vode",
+        "Kanalizacioni sistemi",
+        "Odvođenje otpadnih voda",
+        "Protivpožarni sistemi",
+        "Gasne instalacije",
+        "Hidraulički proračuni",
+        "Analiza potrošnje i pritisaka",
+        "Reciklaža sive vode",
+        "Sistemi za korišćenje kišnice"
+      ],
+      "placeholder": "[Placeholder: Hidrotehničke instalacije]"
+    },
+    "s4": {
+      "title": "BIM modelovanje i koordinacija",
+      "desc": "Koristimo Autodesk Revit, Navisworks i napredne interne alate za razvoj koordinisanih BIM modela koji unapređuju kvalitet projektovanja i smanjuju rizike tokom izgradnje.",
+      "list": [
+        "BIM modelovanje svih disciplina",
+        "Detekcija i rešavanje kolizija (Clash Detection)",
+        "Koordinacija arhitekture, konstrukcije i MEP sistema",
+        "Optimizacija trasa instalacija",
+        "3D, 4D i 5D BIM podrška",
+        "Generisanje projektne i izvođačke dokumentacije",
+        "As-built modeli i Digital Twin podrška",
+        "BIM standardizacija i kontrola kvaliteta modela"
+      ],
+      "alt": "BIM Koordinacija"
+    },
+    "s5": {
+      "title": "Održivost i energetska efikasnost",
+      "desc": "Pomažemo investitorima da ostvare maksimalne performanse objekata uz smanjenje potrošnje energije i operativnih troškova.",
+      "list": [
+        "Energetske analize i simulacije",
+        "Studije energetske efikasnosti",
+        "Net Zero strategije i ESG podrška",
+        "Analiza ugljeničnog otiska (Carbon Footprint)",
+        "LEED, BREEAM i WELL konsultantske usluge",
+        "Analiza životnog ciklusa objekta (LCA)"
+      ],
+      "placeholder": "[Placeholder: Analiza Energetske Efikasnosti]"
+    },
+    "s6": {
+      "title": "Commissioning i tehnička verifikacija",
+      "desc": "Obezbeđujemo da projektovani sistemi funkcionišu u skladu sa projektovanim parametrima i zahtevima investitora.",
+      "list": [
+        "Commissioning planovi i procedure",
+        "Funkcionalna ispitivanja sistema",
+        "Testiranje i puštanje sistema u rad",
+        "Verifikacija performansi",
+        "Podrška tokom primopredaje objekta",
+        "Obuka krajnjih korisnika i tehničkog osoblja"
+      ],
+      "placeholder": "[Placeholder: Tehnička Verifikacija / Commissioning]"
+    },
+    "s7": {
+      "title": "Projektni menadžment i tehnička podrška",
+      "desc": "Pratimo projekat kroz sve faze razvoja – od ideje do realizacije.",
+      "list": [
+        "Studije izvodljivosti i konceptualna rešenja",
+        "Idejni, glavni i izvedbeni projekti",
+        "Tehničke specifikacije i tenderska dokumentacija",
+        "Koordinacija projektnih disciplina",
+        "Tehnička podrška tokom izvođenja radova",
+        "Kontrola kvaliteta dokumentacije i Value Engineering",
+        "Podrška tokom dobijanja dozvola i odobrenja"
+      ],
+      "placeholder": "[Placeholder: Projektni menadžment]"
+    },
+    "tools": {
+      "title": "Softveri i Alati",
+      "t1": "Autodesk Revit",
+      "t2": "Navisworks",
+      "t3": "AutoCAD",
+      "t4": "BIM Interni alati"
+    },
+    "sectors": {
+      "title": "Sektori u kojima poslujemo",
+      "desc": "Naše usluge pružamo za širok spektar objekata i industrija, obezbeđujući skalabilna rešenja prilagođena specifičnim zahtevima svake namene.",
+      "g1": {
+        "title": "Komercijalni objekti",
+        "list": [
+          "Poslovne zgrade",
+          "Tržni i logistički centri",
+          "Hoteli i ugostiteljstvo",
+          "Objekti mešovite namene"
+        ]
+      },
+      "g2": {
+        "title": "Industrija i Transport",
+        "list": [
+          "Industrijska postrojenja",
+          "Data centri",
+          "Aerodromi / Transport"
+        ]
+      },
+      "g3": {
+        "title": "Specijalizovani objekti",
+        "list": [
+          "Zdravstvene ustanove",
+          "Stambeni kompleksi",
+          "Obrazovne ustanove",
+          "Sportski objekti"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Spremni za tehničku razradu vašeg projekta?",
+      "desc": "Kontaktirajte nas za konsultacije u vezi sa vašim sledećim komercijalnim ili industrijskim objektom.",
+      "btn": "Započni projekat"
+    }
+  },
+  "projects": {
+    "title": "Projekti",
+    "featured": {
+      "label": "Istaknuti projekat",
+      "title": "[Insert Featured Project]",
+      "imgAlt": "3D BIM model elektroinstalacija",
+      "specs": {
+        "location": "Lokacija",
+        "locationVal": "[Insert City, Country]",
+        "area": "Površina",
+        "areaVal": "[Insert SQM] m²",
+        "sector": "Sektor",
+        "sectorVal": "[Insert Sector]",
+        "phases": "Faze",
+        "phasesVal": "LPH 1-8, BIM LOD 400"
+      }
+    },
+    "archive": {
+      "imgPlaceholder": "[Slika Projekta 4:3]",
+      "labels": {
+        "location": "Location:",
+        "year": "Year:",
+        "client": "Client:",
+        "systems": "Sistemi:",
+        "scope": "MEP Scope:"
+      },
+      "p1": {
+        "title": "Alpha kompleks",
+        "loc": "Beograd, Srbija",
+        "year": "2024",
+        "client": "[Ime Klijenta]",
+        "sys": "Transformatorske stanice; SN razvod; Inteligentno osvetljenje (DALI); Protivpožarni sistemi; Rezervno napajanje (UPS)",
+        "scope": "Koncept i Idejno rešenje; PGD i PZI; BIM Koordinacija (LOD 400); Nadzor na gradilištu"
+      },
+      "p2": {
+        "title": "Beta Life Science",
+        "loc": "Novi Sad, Srbija",
+        "year": "2023",
+        "client": "Confidential",
+        "sys": "Čiste sobe (Cleanrooms); Specijalni gasovi; IT infrastruktura; Sigurnosni sistemi i kontrola pristupa",
+        "scope": "Detaljno projektovanje; 3D Modelovanje i Detekcija kolizija; Izrada As-Built dokumentacije"
+      }
+    }
+  },
+  "people": {
+    "title": "Ljudi",
+    "imgAlt": "Tim kompanije HyperMEP",
+    "team": [
+      {
+        "id": 1,
+        "name": "[Ime Prezime 1]",
+        "role": "Glavni MEP inženjer",
+        "imagePlaceholder": "[Slika: Osoba 1]"
+      },
+      {
+        "id": 2,
+        "name": "[Ime Prezime 2]",
+        "role": "BIM Menadžer",
+        "imagePlaceholder": "[Slika: Osoba 2]"
+      },
+      {
+        "id": 3,
+        "name": "[Ime Prezime 3]",
+        "role": "Senior Elektro inženjer",
+        "imagePlaceholder": "[Slika: Osoba 3]"
+      },
+      {
+        "id": 4,
+        "name": "[Ime Prezime 4]",
+        "role": "Elektro inženjer",
+        "imagePlaceholder": "[Slika: Osoba 4]"
+      }
+    ]
+  },
+  "careers": {
+    "title": "Karijere",
+    "intro": {
+      "title": "Pridružite se timu koji projektuje budućnost",
+      "p1": "U HyperMEP-u verujemo da vrhunski projekti nastaju zahvaljujući vrhunskim ljudima. Zato kontinuirano ulažemo u razvoj stručnjaka koji dele našu strast prema inženjerstvu, inovacijama i kvalitetu.",
+      "p2": "Tražimo ambiciozne i posvećene profesionalce koji žele da rade na izazovnim projektima, usavršavaju svoje veštine i budu deo modernog inženjerskog okruženja zasnovanog na saradnji, znanju i tehnologiji."
+    },
+    "positions": {
+      "title": "Otvorene pozicije",
+      "reqLabel": "Od kandidata očekujemo:",
+      "p1": {
+        "title": "Elektro projektant",
+        "list": [
+          "Iskustvo u projektovanju elektro instalacija",
+          "Poznavanje relevantnih standarda i propisa",
+          "Rad u AutoCAD-u i/ili Revit-u",
+          "Sposobnost samostalnog rada i tehničke koordinacije",
+          "Odgovornost, preciznost i profesionalan pristup"
+        ]
+      },
+      "p2": {
+        "title": "Projektant mašinskih instalacija",
+        "list": [
+          "Iskustvo u projektovanju HVAC i drugih mašinskih sistema",
+          "Poznavanje tehničkih propisa i standarda",
+          "Rad u AutoCAD-u i/ili Revit-u",
+          "Razumevanje BIM procesa predstavlja prednost",
+          "Analitičnost i sposobnost rešavanja tehničkih izazova"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Šta nudimo",
+      "subtitle": "Fleksibilnost koja prati savremeni način rada",
+      "desc": "Verujemo da vrhunski rezultati ne zavise od lokacije, već od znanja, odgovornosti i posvećenosti. Zato našim zaposlenima nudimo:",
+      "list": [
+        "Mogućnost rada od kuće (Remote Work)",
+        "Fleksibilno radno vreme",
+        "Rad na domaćim i međunarodnim projektima",
+        "Kontinuirano stručno usavršavanje",
+        "Razvoj BIM veština i rad sa savremenim alatima",
+        "Profesionalno i podsticajno radno okruženje",
+        "Dugoročnu saradnju i mogućnost napredovanja",
+        "Učešće u projektima različitih namena i složenosti"
+      ]
+    },
+    "whyUs": {
+      "title": "Zašto HyperMEP?",
+      "p1": "Kod nas nećete biti samo deo tima – bićete deo kompanije koja raste, razvija se i gradi reputaciju kroz kvalitet svog rada.",
+      "p2": "Tražimo ljude koji žele da preuzmu odgovornost, razvijaju svoje znanje i ostave trag na projektima koji oblikuju prostor u kome živimo i radimo.",
+      "p3": "Ako želite da radite u okruženju koje vrednuje stručnost, inicijativu i profesionalni razvoj, HyperMEP je pravo mesto za vas."
+    },
+    "apply": {
+      "title": "Prijavite se",
+      "desc": "Pošaljite svoj CV i kratko predstavljanje na:",
+      "email": "karijera@hypermep.com"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "office": "Head Office",
+    "contactTitle": "Kontakt",
+    "formTitle": "Hajde da razgovaramo o vašem projektu!",
+    "form": {
+      "name": "Ime*",
+      "email": "Email*",
+      "subject": "Naslov*",
+      "message": "Poruka*",
+      "btn": "Pošalji poruku"
+    },
+    "placeholder": "[Placeholder: Slika Kancelarije / Lokacije]"
   }
 }

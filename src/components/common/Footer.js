@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
+
 
 export default function Footer({ lang, dict }) {
   return (
@@ -29,14 +31,14 @@ export default function Footer({ lang, dict }) {
           </div>
 
           <div className="flex md:justify-end gap-6">
-            <Link href="#" className="text-neutral-400 hover:text-white transition-colors">
-              LinkedIn
+            <Link href="https://linkedin.com/company/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+              <FaLinkedin size={32} />
             </Link>
-            <Link href="#" className="text-neutral-400 hover:text-white transition-colors">
-              Instagram
+            <Link href="https://instagram.com/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+              <FaInstagram size={32} />
             </Link>
-            <Link href="#" className="text-neutral-400 hover:text-white transition-colors">
-              Facebook
+            <Link href="https://facebook.com/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+              <FaFacebook size={32} />
             </Link>
           </div>
           

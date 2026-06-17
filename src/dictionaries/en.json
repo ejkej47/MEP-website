@@ -12,5 +12,385 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
+  },
+  "landing": {
+    "hero": {
+      "title1": "Engineering precision.",
+      "title2": "Integrated electrical design.",
+      "description": "Advanced design, BIM modeling, and technical coordination of electrical installations for complex commercial, industrial, educational, and Life Science facilities.",
+      "btnExplore": "Explore Services",
+      "btnProjects": "View Projects",
+      "imageAlt": "3D BIM electrical installations model"
+    },
+    "statements": {
+      "s1": {
+        "title": "About Us",
+        "desc": "No empty words. Just engineering essence and reliability.",
+        "placeholder": "[Placeholder: Ethos / Office / Team Image]"
+      },
+      "s2": {
+        "title": "Services",
+        "desc": "Integrated systems, BIM modeling, and coordination."
+      },
+      "s3": {
+        "title": "Projects",
+        "desc": "Proven feasibility through complex structures."
+      },
+      "s4": {
+        "title": "People",
+        "desc": "Experts who understand the bigger picture of the construction site."
+      },
+      "s5": {
+        "title": "Careers",
+        "desc": "Join our team and build the future with us."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "q1": "What exactly does your MEP design cover?",
+      "a1": "HyperMEP provides comprehensive design services for electrical, mechanical, and public health (plumbing) installations. This includes energy-efficient HVAC systems, complete high and low voltage installations, as well as sustainable water distribution and management systems.",
+      "q2": "How do you use BIM technology in your projects?",
+      "a2": "We use tools like Autodesk Revit and Navisworks to develop high-precision 3D models. Our main focus is advanced Clash Detection with architecture and structural engineering, resolving potential issues before they appear on site.",
+      "q3": "What types of facilities do you provide technical documentation for?",
+      "a3": "Our services cover a wide range of complex structures. We most commonly work on commercial office buildings, industrial plants, healthcare and educational facilities, data centers, and mixed-use developments."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "company": {
+      "title": "About the Company",
+      "p1": "HyperMEP is an independent engineering consulting company specializing in MEP (Mechanical, Electrical & Public Health Engineering) design, BIM modeling, and multidisciplinary technical coordination.",
+      "p2": "Founded in 2023 in Pančevo, the company was created with the goal of combining modern engineering, digital technologies, and a high level of technical expertise to provide clients with reliable, sustainable, and efficient design solutions.",
+      "p3": "The company was founded by Uroš Milenković, driven by the vision to create an engineering firm capable of meeting the challenges of the modern construction sector through an integrated approach to design, BIM coordination, and building performance optimization."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "p1": "We believe that top-tier projects are born when engineering precision, innovation, and collaboration unite in a single process. That is why we approach every project with a focus on:",
+      "list": [
+        "technical excellence,",
+        "system functionality and reliability,",
+        "energy efficiency,",
+        "sustainability and long-term value,",
+        "coordination of all design disciplines,",
+        "optimization of investment and operational costs."
+      ],
+      "p2": "Our goal is not just to produce design documentation, but to create intelligent technical solutions that enhance building performance throughout their entire life cycle."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "To become the leading regional partner for integrated MEP design and BIM coordination, recognized for technical excellence, innovative solutions, and a professional approach."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "To create sustainable, efficient, and future-ready facilities that generate long-term value for our clients through top-tier engineering, digital technologies, and multidisciplinary collaboration."
+    },
+    "fieldwork": {
+      "placeholder": "[Placeholder: Team / Fieldwork / Construction Site Image]",
+      "title": "Field Practice",
+      "link": "View our completed projects ➔"
+    },
+    "quote": "\"HyperMEP combines engineering knowledge, BIM technology, and strategic thinking so that every project is realized with maximum efficiency, reliability, and quality.\""
+  },
+  "services": {
+    "title": "Services",
+    "intro": "HyperMEP provides comprehensive MEP (Mechanical, Electrical, and Public Health) engineering services, combining technical expertise, BIM methodology, and practical engineering solutions. Our goal is the development of efficient, sustainable, and reliable systems that meet the highest technical and regulatory standards.",
+    "gallery": "Gallery",
+    "s1": {
+      "title": "Mechanical Engineering",
+      "desc": "We design energy-efficient systems that ensure optimal comfort, functionality, and long-term reliability of buildings.",
+      "list": [
+        "Heating systems",
+        "Ventilation systems",
+        "Air conditioning systems (HVAC)",
+        "Cooling systems",
+        "Smoke exhaust and control systems",
+        "Renewable energy systems",
+        "Heat pumps and recovery systems",
+        "Energy modeling",
+        "Thermal comfort analysis",
+        "CFD simulations",
+        "Energy efficiency and life cycle cost (LCC) optimization"
+      ],
+      "placeholder": "[Placeholder: Mechanical Installations / HVAC]"
+    },
+    "s2": {
+      "title": "Electrical Engineering",
+      "desc": "We develop safe, reliable, and scalable power systems tailored to the modern requirements of facilities.",
+      "list": [
+        "HV and LV systems",
+        "Interior and exterior lighting",
+        "Emergency and evacuation lighting",
+        "Fire alarm systems",
+        "Telecommunication and ICT installations",
+        "Backup and uninterruptible power supply (UPS)",
+        "Generator plants",
+        "Load and short-circuit calculations",
+        "Earthing systems and lightning protection",
+        "DALI and smart lighting systems",
+        "BMS integration",
+        "EV Charging infrastructure"
+      ],
+      "alt": "Electrical MEP Installations"
+    },
+    "s3": {
+      "title": "Public Health Engineering",
+      "desc": "We design sustainable water distribution and management systems with maximum efficiency and standard compliance.",
+      "list": [
+        "Domestic water systems",
+        "Domestic hot water generation",
+        "Drainage systems",
+        "Wastewater disposal",
+        "Fire protection systems",
+        "Gas installations",
+        "Hydraulic calculations",
+        "Consumption and pressure analysis",
+        "Greywater recycling",
+        "Rainwater harvesting systems"
+      ],
+      "placeholder": "[Placeholder: Public Health Installations]"
+    },
+    "s4": {
+      "title": "BIM Modeling and Coordination",
+      "desc": "We utilize Autodesk Revit, Navisworks, and advanced internal tools to develop coordinated BIM models that enhance design quality and mitigate construction risks.",
+      "list": [
+        "BIM modeling for all disciplines",
+        "Clash Detection and resolution",
+        "Coordination of architecture, structure, and MEP systems",
+        "Routing optimization",
+        "3D, 4D, and 5D BIM support",
+        "Generation of design and construction documentation",
+        "As-built models and Digital Twin support",
+        "BIM standardization and model quality control"
+      ],
+      "alt": "BIM Coordination"
+    },
+    "s5": {
+      "title": "Sustainability and Energy Efficiency",
+      "desc": "We help investors achieve maximum building performance while reducing energy consumption and operational costs.",
+      "list": [
+        "Energy analysis and simulations",
+        "Energy efficiency studies",
+        "Net Zero strategies and ESG support",
+        "Carbon Footprint analysis",
+        "LEED, BREEAM, and WELL consulting services",
+        "Life Cycle Assessment (LCA)"
+      ],
+      "placeholder": "[Placeholder: Energy Efficiency Analysis]"
+    },
+    "s6": {
+      "title": "Commissioning and Technical Verification",
+      "desc": "We ensure that designed systems function in accordance with design parameters and investor requirements.",
+      "list": [
+        "Commissioning plans and procedures",
+        "Functional system testing",
+        "System testing and start-up",
+        "Performance verification",
+        "Support during facility handover",
+        "Training for end-users and technical staff"
+      ],
+      "placeholder": "[Placeholder: Technical Verification / Commissioning]"
+    },
+    "s7": {
+      "title": "Project Management and Technical Support",
+      "desc": "We guide the project through all development phases – from concept to realization.",
+      "list": [
+        "Feasibility studies and conceptual designs",
+        "Preliminary, main, and execution designs",
+        "Technical specifications and tender documentation",
+        "Coordination of design disciplines",
+        "Technical support during construction",
+        "Documentation quality control and Value Engineering",
+        "Support during permitting processes"
+      ],
+      "placeholder": "[Placeholder: Project Management]"
+    },
+    "tools": {
+      "title": "Software and Tools",
+      "t1": "Autodesk Revit",
+      "t2": "Navisworks",
+      "t3": "AutoCAD",
+      "t4": "Internal BIM Tools"
+    },
+    "sectors": {
+      "title": "Sectors We Serve",
+      "desc": "We provide our services for a wide range of facilities and industries, ensuring scalable solutions tailored to the specific requirements of each use.",
+      "g1": {
+        "title": "Commercial Facilities",
+        "list": [
+          "Office buildings",
+          "Retail and logistics centers",
+          "Hotels and hospitality",
+          "Mixed-use developments"
+        ]
+      },
+      "g2": {
+        "title": "Industry and Transport",
+        "list": [
+          "Industrial plants",
+          "Data centers",
+          "Airports / Transport"
+        ]
+      },
+      "g3": {
+        "title": "Specialized Facilities",
+        "list": [
+          "Healthcare facilities",
+          "Residential complexes",
+          "Educational institutions",
+          "Sports facilities"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready for the technical development of your project?",
+      "desc": "Contact us for a consultation regarding your next commercial or industrial facility.",
+      "btn": "Start a Project"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "featured": {
+      "label": "Featured Project",
+      "title": "[Insert Featured Project]",
+      "imgAlt": "3D BIM electrical installations model",
+      "specs": {
+        "location": "Location",
+        "locationVal": "[Insert City, Country]",
+        "area": "Area",
+        "areaVal": "[Insert SQM] m²",
+        "sector": "Sector",
+        "sectorVal": "[Insert Sector]",
+        "phases": "Phases",
+        "phasesVal": "LPH 1-8, BIM LOD 400"
+      }
+    },
+    "archive": {
+      "imgPlaceholder": "[Project Image 4:3]",
+      "labels": {
+        "location": "Location:",
+        "year": "Year:",
+        "client": "Client:",
+        "systems": "Systems:",
+        "scope": "MEP Scope:"
+      },
+      "p1": {
+        "title": "Alpha Complex",
+        "loc": "Belgrade, Serbia",
+        "year": "2024",
+        "client": "[Client Name]",
+        "sys": "Transformer stations; MV distribution; Intelligent lighting (DALI); Fire protection systems; Backup power (UPS)",
+        "scope": "Concept and Preliminary Design; Detailed Design; BIM Coordination (LOD 400); Site Supervision"
+      },
+      "p2": {
+        "title": "Beta Life Science",
+        "loc": "Novi Sad, Serbia",
+        "year": "2023",
+        "client": "Confidential",
+        "sys": "Cleanrooms; Special gases; IT infrastructure; Security systems and access control",
+        "scope": "Detailed Design; 3D Modeling and Clash Detection; As-Built documentation"
+      }
+    }
+  },
+  "people": {
+    "title": "People",
+    "imgAlt": "HyperMEP Team",
+    "team": [
+      {
+        "id": 1,
+        "name": "[Ime Prezime 1]",
+        "role": "Lead MEP Engineer",
+        "imagePlaceholder": "[Image: Person 1]"
+      },
+      {
+        "id": 2,
+        "name": "[Ime Prezime 2]",
+        "role": "BIM Manager",
+        "imagePlaceholder": "[Image: Person 2]"
+      },
+      {
+        "id": 3,
+        "name": "[Ime Prezime 3]",
+        "role": "Senior Electrical Engineer",
+        "imagePlaceholder": "[Image: Person 3]"
+      },
+      {
+        "id": 4,
+        "name": "[Ime Prezime 4]",
+        "role": "Electrical Engineer",
+        "imagePlaceholder": "[Image: Person 4]"
+      }
+    ]
+  },
+  "careers": {
+    "title": "Careers",
+    "intro": {
+      "title": "Join the team designing the future",
+      "p1": "At HyperMEP, we believe that top-tier projects are created by top-tier people. That is why we continuously invest in the development of professionals who share our passion for engineering, innovation, and quality.",
+      "p2": "We are looking for ambitious and dedicated professionals who want to work on challenging projects, hone their skills, and be part of a modern engineering environment based on collaboration, knowledge, and technology."
+    },
+    "positions": {
+      "title": "Open Positions",
+      "reqLabel": "Requirements:",
+      "p1": {
+        "title": "Electrical Engineer",
+        "list": [
+          "Experience in electrical systems design",
+          "Knowledge of relevant standards and regulations",
+          "Proficiency in AutoCAD and/or Revit",
+          "Ability to work independently and manage technical coordination",
+          "Responsibility, precision, and a professional approach"
+        ]
+      },
+      "p2": {
+        "title": "Mechanical Engineer",
+        "list": [
+          "Experience in designing HVAC and other mechanical systems",
+          "Knowledge of technical regulations and standards",
+          "Proficiency in AutoCAD and/or Revit",
+          "Understanding of BIM processes is an advantage",
+          "Analytical skills and ability to solve technical challenges"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "What We Offer",
+      "subtitle": "Flexibility adapted to modern work styles",
+      "desc": "We believe that outstanding results depend on knowledge, responsibility, and dedication, not location. That is why we offer our employees:",
+      "list": [
+        "Remote work opportunities",
+        "Flexible working hours",
+        "Work on domestic and international projects",
+        "Continuous professional development",
+        "Development of BIM skills and work with modern tools",
+        "A professional and stimulating work environment",
+        "Long-term collaboration and career advancement opportunities",
+        "Participation in projects of varying complexity and purpose"
+      ]
+    },
+    "whyUs": {
+      "title": "Why HyperMEP?",
+      "p1": "With us, you won't just be part of a team – you'll be part of a company that is growing, developing, and building a reputation through the quality of its work.",
+      "p2": "We are looking for people who want to take responsibility, develop their knowledge, and leave a mark on projects that shape the spaces where we live and work.",
+      "p3": "If you want to work in an environment that values expertise, initiative, and professional development, HyperMEP is the right place for you."
+    },
+    "apply": {
+      "title": "Apply Now",
+      "desc": "Send your CV and a brief introduction to:",
+      "email": "careers@hypermep.com"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "office": "Head Office",
+    "contactTitle": "Contact",
+    "formTitle": "Let's talk about your project!",
+    "form": {
+      "name": "Name*",
+      "email": "Email*",
+      "subject": "Subject*",
+      "message": "Message*",
+      "btn": "Send Message"
+    },
+    "placeholder": "[Placeholder: Office / Location Image]"
   }
 }

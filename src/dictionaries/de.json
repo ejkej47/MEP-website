@@ -12,5 +12,385 @@
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen"
+  },
+  "landing": {
+    "hero": {
+      "title1": "Ingenieurpräzision.",
+      "title2": "Integrierte Elektroplanung.",
+      "description": "Erweiterte Planung, BIM-Modellierung und technische Koordination von Elektroinstallationen für komplexe gewerbliche, industrielle, Bildungs- und Life-Science-Einrichtungen.",
+      "btnExplore": "Leistungen erkunden",
+      "btnProjects": "Projekte ansehen",
+      "imageAlt": "3D BIM Elektroinstallationsmodell"
+    },
+    "statements": {
+      "s1": {
+        "title": "Über uns",
+        "desc": "Keine leeren Worte. Nur Ingenieurwesen und Zuverlässigkeit.",
+        "placeholder": "[Platzhalter: Ethos / Büro / Team Bild]"
+      },
+      "s2": {
+        "title": "Leistungen",
+        "desc": "Integrierte Systeme, BIM-Modellierung und Koordination."
+      },
+      "s3": {
+        "title": "Projekte",
+        "desc": "Nachgewiesene Machbarkeit durch komplexe Strukturen."
+      },
+      "s4": {
+        "title": "Team",
+        "desc": "Experten, die das große Ganze der Baustelle verstehen."
+      },
+      "s5": {
+        "title": "Karriere",
+        "desc": "Werde Teil unseres Teams und gestalte die Zukunft mit uns."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen (FAQ)",
+      "q1": "Was genau umfasst Ihre TGA-Planung (MEP)?",
+      "a1": "HyperMEP bietet umfassende Planungsdienstleistungen für Elektro-, Sanitär- und Heizungs-/Lüftungs-/Klimatechnik (HKLS). Dies umfasst energieeffiziente HVAC-Systeme, komplette Stark- und Schwachstrominstallationen sowie nachhaltige Wasserverteilungs- und Managementsysteme.",
+      "q2": "Wie setzen Sie BIM-Technologie in Ihren Projekten ein?",
+      "a2": "Wir verwenden Tools wie Autodesk Revit und Navisworks, um hochpräzise 3D-Modelle zu entwickeln. Unser Hauptaugenmerk liegt auf der fortschrittlichen Kollisionsprüfung (Clash Detection) mit Architektur und Tragwerksplanung, um potenzielle Probleme zu lösen, bevor sie auf der Baustelle auftreten.",
+      "q3": "Für welche Arten von Gebäuden erstellen Sie die technische Dokumentation?",
+      "a3": "Unsere Dienstleistungen decken ein breites Spektrum komplexer Strukturen ab. Am häufigsten arbeiten wir an gewerblichen Bürogebäuden, Industrieanlagen, Gesundheits- und Bildungseinrichtungen, Rechenzentren sowie gemischt genutzten Komplexen."
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "company": {
+      "title": "Über das Unternehmen",
+      "p1": "HyperMEP ist ein unabhängiges Ingenieurberatungsunternehmen, das sich auf die Planung von TGA-Systemen (Mechanik, Elektrik & Sanitärtechnik), BIM-Modellierung und multidisziplinäre technische Koordination spezialisiert hat.",
+      "p2": "Das Unternehmen wurde 2023 in Pančevo mit dem Ziel gegründet, modernes Ingenieurwesen, digitale Technologien und ein hohes Maß an technischer Expertise zu bündeln, um Kunden zuverlässige, nachhaltige und effiziente Planungslösungen zu bieten.",
+      "p3": "Gegründet wurde das Unternehmen von Uroš Milenković, angetrieben von der Vision, ein Ingenieurbüro zu schaffen, das den Herausforderungen der modernen Bauindustrie durch einen integrierten Ansatz bei der Planung, BIM-Koordination und Gebäudeoptimierung gerecht wird."
+    },
+    "philosophy": {
+      "title": "Unsere Philosophie",
+      "p1": "Wir glauben, dass herausragende Projekte entstehen, wenn sich Ingenieurpräzision, Innovation und Zusammenarbeit in einem Prozess vereinen. Deshalb nähern wir uns jedem Projekt mit dem Fokus auf:",
+      "list": [
+        "technische Exzellenz,",
+        "Systemfunktionalität und Zuverlässigkeit,",
+        "Energieeffizienz,",
+        "Nachhaltigkeit und langfristigen Wert,",
+        "Koordination aller Planungsdisziplinen,",
+        "Optimierung von Investitions- und Betriebskosten."
+      ],
+      "p2": "Unser Ziel ist nicht nur die Erstellung von Planungsunterlagen, sondern die Entwicklung intelligenter technischer Lösungen, die die Gebäudeleistung über den gesamten Lebenszyklus hinweg verbessern."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "Der führende regionale Partner für integrierte TGA-Planung und BIM-Koordination zu werden, anerkannt für technische Exzellenz, innovative Lösungen und einen professionellen Ansatz."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Durch erstklassiges Ingenieurwesen, digitale Technologien und multidisziplinäre Zusammenarbeit nachhaltige, effiziente und zukunftssichere Gebäude zu schaffen, die für unsere Kunden langfristigen Wert generieren."
+    },
+    "fieldwork": {
+      "placeholder": "[Platzhalter: Team / Feldarbeit / Baustellenbild]",
+      "title": "Praxis vor Ort",
+      "link": "Sehen Sie sich unsere abgeschlossenen Projekte an ➔"
+    },
+    "quote": "\"HyperMEP verbindet Ingenieurwissen, BIM-Technologie und strategisches Denken, damit jedes Projekt mit maximaler Effizienz, Zuverlässigkeit und Qualität realisiert wird.\""
+  },
+  "services": {
+    "title": "Leistungen",
+    "intro": "HyperMEP bietet umfassende Planungsdienstleistungen für Elektro-, Sanitär- und Heizungs-/Lüftungs-/Klimatechnik (HKLS), die technische Expertise, BIM-Methodik und praktische Ingenieurlösungen vereinen. Unser Ziel ist die Entwicklung effizienter, nachhaltiger und zuverlässiger Systeme, die höchsten technischen und regulatorischen Standards entsprechen.",
+    "gallery": "Galerie",
+    "s1": {
+      "title": "Maschinentechnik (HKLS)",
+      "desc": "Wir planen energieeffiziente Systeme, die optimalen Komfort, Funktionalität und langfristige Zuverlässigkeit von Gebäuden gewährleisten.",
+      "list": [
+        "Heizungssysteme",
+        "Lüftungssysteme",
+        "Klimaanlagen (HVAC)",
+        "Kühlsysteme",
+        "Entrauchungs- und Rauchkontrollsysteme",
+        "Erneuerbare Energiesysteme",
+        "Wärmepumpen und Rückgewinnungssysteme",
+        "Energiemodellierung",
+        "Analyse des thermischen Komforts",
+        "CFD-Simulationen",
+        "Optimierung der Energieeffizienz und der Lebenszykluskosten (LCC)"
+      ],
+      "placeholder": "[Platzhalter: Maschinentechnik / HKLS]"
+    },
+    "s2": {
+      "title": "Elektrotechnik",
+      "desc": "Wir entwickeln sichere, zuverlässige und skalierbare Stromversorgungssysteme, die auf die modernen Anforderungen von Anlagen zugeschnitten sind.",
+      "list": [
+        "HS- und NS-Systeme",
+        "Innen- und Außenbeleuchtung",
+        "Panik- und Fluchtwegbeleuchtung",
+        "Brandmeldeanlagen",
+        "Telekommunikations- und IKT-Installationen",
+        "Ersatz- und unterbrechungsfreie Stromversorgung (USV)",
+        "Generatoranlagen",
+        "Last- und Kurzschlussberechnungen",
+        "Erdungssysteme und Blitzschutz",
+        "DALI und smarte Beleuchtungssysteme",
+        "BMS-Integration",
+        "Ladeinfrastruktur für E-Mobilität"
+      ],
+      "alt": "Elektroinstallationen TGA"
+    },
+    "s3": {
+      "title": "Sanitärtechnik",
+      "desc": "Wir planen nachhaltige Wasserverteilungs- und Managementsysteme mit maximaler Effizienz und Normenkonformität.",
+      "list": [
+        "Trinkwassersysteme",
+        "Warmwasserbereitung",
+        "Abwassersysteme",
+        "Abwasserentsorgung",
+        "Brandschutzsysteme",
+        "Gasinstallationen",
+        "Hydraulische Berechnungen",
+        "Verbrauchs- und Druckanalyse",
+        "Grauwasserrecycling",
+        "Regenwassernutzungsanlagen"
+      ],
+      "placeholder": "[Platzhalter: Sanitärinstallationen]"
+    },
+    "s4": {
+      "title": "BIM-Modellierung und Koordination",
+      "desc": "Wir verwenden Autodesk Revit, Navisworks und fortschrittliche interne Tools, um koordinierte BIM-Modelle zu entwickeln, die die Planungsqualität verbessern und Baurisiken mindern.",
+      "list": [
+        "BIM-Modellierung für alle Disziplinen",
+        "Kollisionsprüfung und -behebung (Clash Detection)",
+        "Koordination von Architektur, Tragwerk und TGA-Systemen",
+        "Trassenoptimierung",
+        "3D-, 4D- und 5D-BIM-Unterstützung",
+        "Erstellung von Planungs- und Ausführungsdokumentation",
+        "As-built-Modelle und Digital Twin-Unterstützung",
+        "BIM-Standardisierung und Modellqualitätskontrolle"
+      ],
+      "alt": "BIM-Koordination"
+    },
+    "s5": {
+      "title": "Nachhaltigkeit und Energieeffizienz",
+      "desc": "Wir helfen Investoren, die maximale Gebäudeleistung zu erreichen und gleichzeitig den Energieverbrauch und die Betriebskosten zu senken.",
+      "list": [
+        "Energieanalysen und -simulationen",
+        "Energieeffizienzstudien",
+        "Net-Zero-Strategien und ESG-Unterstützung",
+        "Analyse des CO2-Fußabdrucks (Carbon Footprint)",
+        "LEED-, BREEAM- und WELL-Beratungsdienste",
+        "Lebenszyklusanalyse (LCA)"
+      ],
+      "placeholder": "[Platzhalter: Analyse der Energieeffizienz]"
+    },
+    "s6": {
+      "title": "Inbetriebnahme und technische Verifizierung",
+      "desc": "Wir stellen sicher, dass die geplanten Systeme gemäß den Auslegungsparametern und den Anforderungen des Investors funktionieren.",
+      "list": [
+        "Inbetriebnahmepläne und -verfahren",
+        "Funktionsprüfungen der Systeme",
+        "Systemtests und Inbetriebnahme",
+        "Leistungsverifizierung",
+        "Unterstützung bei der Objektübergabe",
+        "Schulung von Endnutzern und technischem Personal"
+      ],
+      "placeholder": "[Platzhalter: Technische Verifizierung / Inbetriebnahme]"
+    },
+    "s7": {
+      "title": "Projektmanagement und technischer Support",
+      "desc": "Wir begleiten das Projekt durch alle Entwicklungsphasen – von der Idee bis zur Realisierung.",
+      "list": [
+        "Machbarkeitsstudien und Konzeptentwürfe",
+        "Vor-, Haupt- und Ausführungsplanung",
+        "Technische Spezifikationen und Ausschreibungsunterlagen",
+        "Koordination der Planungsdisziplinen",
+        "Technische Unterstützung während der Bauausführung",
+        "Qualitätskontrolle der Dokumentation und Value Engineering",
+        "Unterstützung bei Genehmigungsverfahren"
+      ],
+      "placeholder": "[Platzhalter: Projektmanagement]"
+    },
+    "tools": {
+      "title": "Software und Tools",
+      "t1": "Autodesk Revit",
+      "t2": "Navisworks",
+      "t3": "AutoCAD",
+      "t4": "Interne BIM-Tools"
+    },
+    "sectors": {
+      "title": "Unsere Branchen",
+      "desc": "Wir erbringen unsere Dienstleistungen für ein breites Spektrum von Einrichtungen und Industrien und gewährleisten skalierbare Lösungen, die auf die spezifischen Anforderungen der jeweiligen Nutzung zugeschnitten sind.",
+      "g1": {
+        "title": "Gewerbeobjekte",
+        "list": [
+          "Bürogebäude",
+          "Einzelhandels- und Logistikzentren",
+          "Hotels und Gastgewerbe",
+          "Gemischt genutzte Komplexe"
+        ]
+      },
+      "g2": {
+        "title": "Industrie und Verkehr",
+        "list": [
+          "Industrieanlagen",
+          "Rechenzentren",
+          "Flughäfen / Verkehr"
+        ]
+      },
+      "g3": {
+        "title": "Spezialobjekte",
+        "list": [
+          "Gesundheitseinrichtungen",
+          "Wohnanlagen",
+          "Bildungseinrichtungen",
+          "Sportstätten"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Bereit für die technische Ausarbeitung Ihres Projekts?",
+      "desc": "Kontaktieren Sie uns für eine Beratung zu Ihrem nächsten Gewerbe- oder Industrieobjekt.",
+      "btn": "Projekt starten"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "featured": {
+      "label": "Ausgewähltes Projekt",
+      "title": "[Insert Featured Project]",
+      "imgAlt": "3D BIM Elektroinstallationsmodell",
+      "specs": {
+        "location": "Standort",
+        "locationVal": "[Insert City, Country]",
+        "area": "Fläche",
+        "areaVal": "[Insert SQM] m²",
+        "sector": "Sektor",
+        "sectorVal": "[Insert Sector]",
+        "phases": "Leistungsphasen",
+        "phasesVal": "LPH 1-8, BIM LOD 400"
+      }
+    },
+    "archive": {
+      "imgPlaceholder": "[Projektbild 4:3]",
+      "labels": {
+        "location": "Standort:",
+        "year": "Jahr:",
+        "client": "Kunde:",
+        "systems": "Systeme:",
+        "scope": "TGA Umfang:"
+      },
+      "p1": {
+        "title": "Alpha Komplex",
+        "loc": "Belgrad, Serbien",
+        "year": "2024",
+        "client": "[Kundenname]",
+        "sys": "Transformatorenstationen; MS-Verteilung; Intelligente Beleuchtung (DALI); Brandschutzsysteme; Notstromversorgung (USV)",
+        "scope": "Konzept- und Vorentwurf; Ausführungsplanung; BIM-Koordination (LOD 400); Bauüberwachung"
+      },
+      "p2": {
+        "title": "Beta Life Science",
+        "loc": "Novi Sad, Serbien",
+        "year": "2023",
+        "client": "Vertraulich",
+        "sys": "Reinräume (Cleanrooms); Spezialgase; IT-Infrastruktur; Sicherheitssysteme und Zutrittskontrolle",
+        "scope": "Detailplanung; 3D-Modellierung und Kollisionsprüfung; Erstellung der As-Built-Dokumentation"
+      }
+    }
+  },
+  "people": {
+    "title": "Team",
+    "imgAlt": "HyperMEP Team",
+    "team": [
+      {
+        "id": 1,
+        "name": "[Ime Prezime 1]",
+        "role": "Leitender TGA-Ingenieur",
+        "imagePlaceholder": "[Bild: Person 1]"
+      },
+      {
+        "id": 2,
+        "name": "[Ime Prezime 2]",
+        "role": "BIM-Manager",
+        "imagePlaceholder": "[Bild: Person 2]"
+      },
+      {
+        "id": 3,
+        "name": "[Ime Prezime 3]",
+        "role": "Senior Elektroingenieur",
+        "imagePlaceholder": "[Bild: Person 3]"
+      },
+      {
+        "id": 4,
+        "name": "[Ime Prezime 4]",
+        "role": "Elektroingenieur",
+        "imagePlaceholder": "[Bild: Person 4]"
+      }
+    ]
+  },
+  "careers": {
+    "title": "Karriere",
+    "intro": {
+      "title": "Werden Sie Teil des Teams, das die Zukunft plant",
+      "p1": "Bei HyperMEP glauben wir, dass Spitzenprojekte durch Spitzenkräfte entstehen. Deshalb investieren wir kontinuierlich in die Entwicklung von Fachkräften, die unsere Leidenschaft für Ingenieurwesen, Innovation und Qualität teilen.",
+      "p2": "Wir suchen ambitionierte und engagierte Fachleute, die an anspruchsvollen Projekten arbeiten, ihre Fähigkeiten verbessern und Teil einer modernen Ingenieurumgebung sein möchten, die auf Zusammenarbeit, Wissen und Technologie basiert."
+    },
+    "positions": {
+      "title": "Offene Stellen",
+      "reqLabel": "Wir erwarten von Ihnen:",
+      "p1": {
+        "title": "Elektroingenieur",
+        "list": [
+          "Erfahrung in der Planung von Elektroinstallationen",
+          "Kenntnis der relevanten Normen und Vorschriften",
+          "Arbeiten mit AutoCAD und/oder Revit",
+          "Fähigkeit zum selbstständigen Arbeiten und zur technischen Koordination",
+          "Verantwortungsbewusstsein, Präzision und professionelles Auftreten"
+        ]
+      },
+      "p2": {
+        "title": "TGA-Ingenieur (HKLS)",
+        "list": [
+          "Erfahrung in der Planung von HVAC- und anderen maschinentechnischen Systemen",
+          "Kenntnis der technischen Vorschriften und Normen",
+          "Arbeiten mit AutoCAD und/oder Revit",
+          "Verständnis von BIM-Prozessen ist von Vorteil",
+          "Analytische Fähigkeiten und Lösungskompetenz bei technischen Herausforderungen"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Was wir bieten",
+      "subtitle": "Flexibilität für eine moderne Arbeitsweise",
+      "desc": "Wir glauben, dass hervorragende Ergebnisse nicht vom Standort, sondern von Wissen, Verantwortung und Engagement abhängen. Deshalb bieten wir unseren Mitarbeitern:",
+      "list": [
+        "Möglichkeit zur Heimarbeit (Remote Work)",
+        "Flexible Arbeitszeiten",
+        "Arbeit an nationalen und internationalen Projekten",
+        "Kontinuierliche fachliche Weiterbildung",
+        "Entwicklung von BIM-Fähigkeiten und Arbeit mit modernen Tools",
+        "Ein professionelles und anregendes Arbeitsumfeld",
+        "Langfristige Zusammenarbeit und Aufstiegsmöglichkeiten",
+        "Teilnahme an Projekten unterschiedlicher Nutzung und Komplexität"
+      ]
+    },
+    "whyUs": {
+      "title": "Warum HyperMEP?",
+      "p1": "Bei uns sind Sie nicht nur Teil eines Teams – Sie sind Teil eines Unternehmens, das wächst, sich entwickelt und durch die Qualität seiner Arbeit einen Ruf aufbaut.",
+      "p2": "Wir suchen Menschen, die Verantwortung übernehmen, ihr Wissen erweitern und bei Projekten, die unsere Lebens- und Arbeitsräume prägen, Spuren hinterlassen wollen.",
+      "p3": "Wenn Sie in einem Umfeld arbeiten möchten, das Fachwissen, Eigeninitiative und berufliche Weiterentwicklung schätzt, ist HyperMEP der richtige Ort für Sie."
+    },
+    "apply": {
+      "title": "Bewerben Sie sich",
+      "desc": "Senden Sie Ihren Lebenslauf und eine kurze Vorstellung an:",
+      "email": "karriere@hypermep.com"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "office": "Hauptsitz",
+    "contactTitle": "Kontakt",
+    "formTitle": "Lassen Sie uns über Ihr Projekt sprechen!",
+    "form": {
+      "name": "Name*",
+      "email": "E-Mail*",
+      "subject": "Betreff*",
+      "message": "Nachricht*",
+      "btn": "Nachricht senden"
+    },
+    "placeholder": "[Platzhalter: Büro- / Standortbild]"
   }
 }

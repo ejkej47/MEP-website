@@ -54,11 +54,21 @@ export default function Navbar({ lang, dict }) {
 
         <div className="hidden md:flex items-center gap-6">
           <div className="flex text-xs font-semibold tracking-widest">
-            <Link href={redirectedPathName('sr')} className={lang === 'sr' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>SR</Link>
-            <span className="text-neutral-300 mx-2">|</span>
-            <Link href={redirectedPathName('en')} className={lang === 'en' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>EN</Link>
-            <span className="text-neutral-300 mx-2">|</span>
-            <Link href={redirectedPathName('de')} className={lang === 'de' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>DE</Link>
+            {['sr', 'en', 'de'].map((locale, i) => (
+              <span key={locale} className="flex items-center">
+                <Link
+                  href={redirectedPathName(locale)}
+                  className={`px-2 py-2 transition-colors ${
+                    lang === locale
+                      ? 'text-black underline underline-offset-4 decoration-2'
+                      : 'text-neutral-400 hover:text-black'
+                  }`}
+                >
+                  {locale.toUpperCase()}
+                </Link>
+                {i < 2 && <span className="text-neutral-300">|</span>}
+              </span>
+            ))}
           </div>
           <Link href={`/${lang}/kontakt`} className="bg-black text-white px-6 py-3 text-sm font-bold flex items-center gap-2 hover:bg-neutral-800 transition-colors">
             {dict.contact}
@@ -89,12 +99,23 @@ export default function Navbar({ lang, dict }) {
           <Link href={`/${lang}/ljudi`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.people}</Link>
           <Link href={`/${lang}/karijere`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.careers}</Link>
           
-          <div className="flex gap-4 py-2 text-sm font-semibold tracking-widest text-neutral-400">
-            <Link href={redirectedPathName('sr')} className={lang === 'sr' ? "text-black" : "hover:text-black transition-colors"}>SR</Link>
-            <span>|</span>
-            <Link href={redirectedPathName('en')} className={lang === 'en' ? "text-black" : "hover:text-black transition-colors"}>EN</Link>
-            <span>|</span>
-            <Link href={redirectedPathName('de')} className={lang === 'de' ? "text-black" : "hover:text-black transition-colors"}>DE</Link>
+          <div className="flex gap-1 py-2 text-sm font-semibold tracking-widest">
+            {['sr', 'en', 'de'].map((locale, i) => (
+              <span key={locale} className="flex items-center">
+                <Link
+                  href={redirectedPathName(locale)}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`px-3 py-2 transition-colors ${
+                    lang === locale
+                      ? 'text-black underline underline-offset-4 decoration-2'
+                      : 'text-neutral-400 hover:text-black'
+                  }`}
+                >
+                  {locale.toUpperCase()}
+                </Link>
+                {i < 2 && <span className="text-neutral-300">|</span>}
+              </span>
+            ))}
           </div>
 
           <Link href={`/${lang}/kontakt`} onClick={() => setIsMenuOpen(false)} className="bg-black text-white px-6 py-4 mt-2 text-sm font-bold flex justify-between items-center hover:bg-neutral-800 transition-colors">
