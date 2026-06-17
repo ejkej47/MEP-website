@@ -1,4 +1,4 @@
-import PersonCard from '../../components/ljudi/PersonCard';
+import PersonCard from '../../../components/ljudi/PersonCard';
 import Image from 'next/image';
 
 
