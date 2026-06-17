@@ -1,6 +1,7 @@
 import PersonCard from '../../../components/ljudi/PersonCard';
 import Image from 'next/image';
 import { getDictionary } from '../../../dictionaries/getDictionary';
+import Link from 'next/link';
 
 export default async function PeoplePage({ params }) {
   const dict = await getDictionary(params.lang);
@@ -53,6 +54,27 @@ export default async function PeoplePage({ params }) {
             ))}
 
           </div>
+        </div>
+      </section>
+      
+      {/* CTA (POZIV NA AKCIJU) - ZA STRANICU LJUDI */}
+      <section className="bg-black text-white py-24">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
+            {people.cta.title}
+          </h2>
+          <p className="text-neutral-400 text-lg mb-10">
+            {people.cta.desc}
+          </p>
+          <Link 
+            href="/projekti" 
+            className="inline-flex bg-white text-black px-8 py-4 text-sm font-bold items-center gap-2 hover:bg-neutral-200 transition-colors"
+          >
+            {people.cta.btn}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </Link>
         </div>
       </section>
     </>

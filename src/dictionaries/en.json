@@ -289,6 +289,11 @@
         "sys": "Cleanrooms; Special gases; IT infrastructure; Security systems and access control",
         "scope": "Detailed Design; 3D Modeling and Clash Detection; As-Built documentation"
       }
+    },
+    "cta": {
+    "title": "Ready for the technical development of your project?",
+    "desc": "Contact us for a consultation regarding your next commercial or industrial facility.",
+    "btn": "Contact Us"
     }
   },
   "people": {
@@ -319,7 +324,12 @@
         "role": "Electrical Engineer",
         "imagePlaceholder": "[Image: Person 4]"
       }
-    ]
+    ],
+    "cta": {
+    "title": "See what our team has built.",
+    "desc": "Explore our portfolio and witness engineering precision through successfully realized commercial and industrial facilities.",
+    "btn": "Explore Projects"
+    }
   },
   "careers": {
     "title": "Careers",

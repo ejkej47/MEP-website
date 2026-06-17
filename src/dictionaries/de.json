@@ -289,6 +289,11 @@
         "sys": "Reinräume (Cleanrooms); Spezialgase; IT-Infrastruktur; Sicherheitssysteme und Zutrittskontrolle",
         "scope": "Detailplanung; 3D-Modellierung und Kollisionsprüfung; Erstellung der As-Built-Dokumentation"
       }
+    },
+    "cta": {
+    "title": "Bereit für die technische Ausarbeitung Ihres Projekts?",
+    "desc": "Kontaktieren Sie uns für eine Beratung zu Ihrem nächsten Gewerbe- oder Industrieobjekt.",
+    "btn": "Kontaktieren Sie uns"
     }
   },
   "people": {
@@ -319,7 +324,12 @@
         "role": "Elektroingenieur",
         "imagePlaceholder": "[Bild: Person 4]"
       }
-    ]
+    ],
+    "cta": {
+    "title": "Sehen Sie, was unser Team aufgebaut hat.",
+    "desc": "Erkunden Sie unser Portfolio und überzeugen Sie sich von unserer Ingenieurpräzision bei erfolgreich realisierten Gewerbe- und Industrieobjekten.",
+    "btn": "Projekte erkunden"
+    }
   },
   "careers": {
     "title": "Karriere",

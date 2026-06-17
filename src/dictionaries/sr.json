@@ -289,6 +289,11 @@
         "sys": "Čiste sobe (Cleanrooms); Specijalni gasovi; IT infrastruktura; Sigurnosni sistemi i kontrola pristupa",
         "scope": "Detaljno projektovanje; 3D Modelovanje i Detekcija kolizija; Izrada As-Built dokumentacije"
       }
+    },
+    "cta": {
+    "title": "Spremni za tehničku razradu vašeg projekta?",
+    "desc": "Kontaktirajte nas za konsultacije u vezi sa vašim sledećim komercijalnim ili industrijskim objektom.",
+    "btn": "Kontaktirajte nas"
     }
   },
   "people": {
@@ -319,7 +324,12 @@
         "role": "Elektro inženjer",
         "imagePlaceholder": "[Slika: Osoba 4]"
       }
-    ]
+    ],
+    "cta": {
+    "title": "Pogledajte šta je naš tim izgradio.",
+    "desc": "Istražite naš portfolio i uverite se u inženjersku preciznost kroz uspešno realizovane komercijalne i industrijske objekte.",
+    "btn": "Istražite projekte"
+    }
   },
   "careers": {
     "title": "Karijere",
