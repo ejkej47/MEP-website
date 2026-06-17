@@ -1,8 +1,9 @@
-import "../styles/globals.css";
-import Navbar from "../components/common/Navbar";
-import Footer from "../components/common/Footer";
+import "../../styles/globals.css";
+import Navbar from "../../components/common/Navbar";
+import Footer from "../../components/common/Footer";
+import { getDictionary } from "../../dictionaries/getDictionary";
 
-// Globalni SEO parametri spremni za Google pretragu
+// Globalni SEO parametri
 export const metadata = {
   title: {
     default: "HYPER MEP | Electrical Design & BIM Modeling",
@@ -15,12 +16,11 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "sr_RS",
-    url: "https://www.hyper-mep.pro", // Zameniće se pravim domenom kada klijent kupi
+    url: "https://www.hyper-mep.pro", 
     title: "HYPER MEP | Electrical Design & BIM Modeling",
     description: "Integrisano elektro-projektovanje i inženjering sa fokusom na preciznost i BIM koordinaciju.",
     siteName: "HYPER MEP",
   },
-  // Priprema za višejezični SEO (Alternates)
   alternates: {
     canonical: "/",
     languages: {
@@ -31,20 +31,22 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params }) {
+  // Učitavamo rečnik za trenutni jezik
+  const dict = await getDictionary(params.lang);
+
   return (
-    <html lang="sr">
+    <html lang={params.lang}>
       <body className="flex flex-col min-h-screen">
-        {/* Navigacija se renderuje na vrhu svake stranice */}
-        <Navbar />
+        {/* Prosleđujemo jezik i specifičan deo rečnika za Navbar */}
+        <Navbar lang={params.lang} dict={dict.navbar} />
         
-        {/* Glavni sadržaj koji se menja u zavisnosti od rute */}
         <main>
           {children}
         </main>
 
-        {/* Footer sa kontakt podacima sa slike na dnu */}
-        <Footer />
+        {/* Prosleđujemo jezik i specifičan deo rečnika za Footer */}
+        <Footer lang={params.lang} dict={dict.footer} />
       </body>
     </html>
   );

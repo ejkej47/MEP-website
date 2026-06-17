@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "people": "Team",
+    "careers": "Karriere",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "contactTitle": "Kontakt Hyper:",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}

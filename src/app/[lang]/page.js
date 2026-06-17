@@ -157,6 +157,61 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* FAQ SEKCIJA */}
+      <section className="py-24 border-b border-black">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="flex items-center gap-4 mb-12">
+            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
+              Često postavljana pitanja (FAQ)
+            </h2>
+          </div>
+
+          <div className="border-t-2 border-black">
+            {/* Pitanje 1 */}
+            <details className="group [&_summary::-webkit-details-marker]:hidden border-b border-neutral-200 hover:bg-neutral-50 transition-colors cursor-pointer">
+              <summary className="flex items-center justify-between p-6">
+                <h3 className="text-lg md:text-xl font-bold tracking-tight pr-4">Šta tačno obuhvata vaše MEP projektovanje?</h3>
+                <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                  <svg className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M12 4v16m8-8H4"/></svg>
+                  <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
+                </span>
+              </summary>
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+                HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija. To uključuje energetski efikasne sisteme (HVAC), kompletne instalacije jake i slabe struje, kao i održive hidrotehničke sisteme za distribuciju i upravljanje vodom.
+              </div>
+            </details>
+
+            {/* Pitanje 2 */}
+            <details className="group [&_summary::-webkit-details-marker]:hidden border-b border-neutral-200 hover:bg-neutral-50 transition-colors cursor-pointer">
+              <summary className="flex items-center justify-between p-6">
+                <h3 className="text-lg md:text-xl font-bold tracking-tight pr-4">Kako koristite BIM tehnologiju u projektima?</h3>
+                <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                  <svg className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M12 4v16m8-8H4"/></svg>
+                  <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
+                </span>
+              </summary>
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+                Koristimo alate poput Autodesk Revit i Navisworks za razvoj visoko preciznih 3D modela. Naš glavni fokus je napredna detekcija kolizija (Clash Detection) sa arhitekturom i konstrukcijom, čime rešavamo potencijalne probleme pre nego što se oni pojave na samom gradilištu.
+              </div>
+            </details>
+
+            {/* Pitanje 3 */}
+            <details className="group [&_summary::-webkit-details-marker]:hidden border-b border-neutral-200 hover:bg-neutral-50 transition-colors cursor-pointer">
+              <summary className="flex items-center justify-between p-6">
+                <h3 className="text-lg md:text-xl font-bold tracking-tight pr-4">Za koje vrste objekata radite tehničku dokumentaciju?</h3>
+                <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                  <svg className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M12 4v16m8-8H4"/></svg>
+                  <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
+                </span>
+              </summary>
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+                Naše usluge pokrivaju širok spektar složenih struktura. Najčešće radimo na komercijalnim poslovnim zgradama, industrijskim postrojenjima, zdravstvenim i obrazovnim ustanovama, data centrima, kao i objektima mešovite namene.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

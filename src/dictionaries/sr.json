@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "about": "O nama",
+    "services": "Usluge",
+    "projects": "Projekti",
+    "people": "Ljudi",
+    "careers": "Karijere",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "contactTitle": "Kontaktirajte Hyper:",
+    "rights": "Sva prava zadržana.",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korišćenja"
+  }
+}

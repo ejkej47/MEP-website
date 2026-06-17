@@ -2,63 +2,72 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
-export default function Navbar() {
+export default function Navbar({ lang, dict }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const redirectedPathName = (locale) => {
+    if (!pathname) return `/${locale}`;
+    const segments = pathname.split('/');
+    segments[1] = locale;
+    return segments.join('/');
   };
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between relative bg-white z-20">
         
-        {/* LEVO: Logo */}
         <div className="flex-shrink-0">
-          <Link href="/" className="text-xl tracking-tighter" onClick={() => setIsMenuOpen(false)}>
+          <Link href={`/${lang}`} className="text-xl tracking-tighter" onClick={() => setIsMenuOpen(false)}>
             HYPER<span className="font-extrabold ml-1">MEP</span>
           </Link>
         </div>
 
-        {/* SREDINA: Navigacioni linkovi (Desktop) */}
         <nav className="hidden md:flex items-center gap-10 text-base font-bold uppercase tracking-wider text-black">
-          <Link href="/o-nama" className="relative group py-2">
-            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">O nama</span>
+          <Link href={`/${lang}/o-nama`} className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">{dict.about}</span>
             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
           </Link>
-          <Link href="/usluge" className="relative group py-2">
-            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Usluge</span>
+          <Link href={`/${lang}/usluge`} className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">{dict.services}</span>
             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
           </Link>
-          <Link href="/projekti" className="relative group py-2">
-            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Projekti</span>
+          <Link href={`/${lang}/projekti`} className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">{dict.projects}</span>
             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
           </Link>
-          <Link href="/ljudi" className="relative group py-2">
-            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">Ljudi</span>
+          <Link href={`/${lang}/ljudi`} className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">{dict.people}</span>
+            <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
+          </Link>
+          <Link href={`/${lang}/karijere`} className="relative group py-2">
+            <span className="block group-hover:text-neutral-400 group-hover:-translate-y-0.5 transition-all duration-300">{dict.careers}</span>
             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out"></span>
           </Link>
         </nav>
 
-        {/* DESNO: Jezik i Kontakt dugme (Desktop) */}
         <div className="hidden md:flex items-center gap-6">
           <div className="flex text-xs font-semibold tracking-widest">
-            <button className="text-black">SR</button>
+            <Link href={redirectedPathName('sr')} className={lang === 'sr' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>SR</Link>
             <span className="text-neutral-300 mx-2">|</span>
-            <button className="text-neutral-400 hover:text-black transition-colors">EN</button>
+            <Link href={redirectedPathName('en')} className={lang === 'en' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>EN</Link>
             <span className="text-neutral-300 mx-2">|</span>
-            <button className="text-neutral-400 hover:text-black transition-colors">DE</button>
+            <Link href={redirectedPathName('de')} className={lang === 'de' ? "text-black" : "text-neutral-400 hover:text-black transition-colors"}>DE</Link>
           </div>
-          <Link href="/kontakt" className="bg-black text-white px-6 py-3 text-sm font-bold flex items-center gap-2 hover:bg-neutral-800 transition-colors">
-            Contact Us
+          <Link href={`/${lang}/kontakt`} className="bg-black text-white px-6 py-3 text-sm font-bold flex items-center gap-2 hover:bg-neutral-800 transition-colors">
+            {dict.contact}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </Link>
         </div>
 
-        {/* HAMBURGER DUGME (Mobilni) */}
         <button 
           className="md:hidden flex flex-col items-center justify-center gap-1.5 p-2"
           onClick={toggleMenu}
@@ -70,26 +79,26 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* MOBILNI MENI (Padajući) */}
       <div 
         className={`md:hidden absolute top-20 left-0 w-full bg-white border-b border-neutral-200 transition-all duration-300 ease-in-out overflow-hidden -z-10 ${isMenuOpen ? 'max-h-[500px] border-t opacity-100 shadow-xl' : 'max-h-0 opacity-0'}`}
       >
         <nav className="flex flex-col px-6 py-6 gap-4 text-lg font-medium text-black">
-          <Link href="/o-nama" onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">O nama</Link>
-          <Link href="/usluge" onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">Usluge</Link>
-          <Link href="/projekti" onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">Projekti</Link>
-          <Link href="/ljudi" onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">Ljudi</Link>
+          <Link href={`/${lang}/o-nama`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.about}</Link>
+          <Link href={`/${lang}/usluge`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.services}</Link>
+          <Link href={`/${lang}/projekti`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.projects}</Link>
+          <Link href={`/${lang}/ljudi`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.people}</Link>
+          <Link href={`/${lang}/karijere`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.careers}</Link>
           
           <div className="flex gap-4 py-2 text-sm font-semibold tracking-widest text-neutral-400">
-            <button className="text-black">SR</button>
+            <Link href={redirectedPathName('sr')} className={lang === 'sr' ? "text-black" : "hover:text-black transition-colors"}>SR</Link>
             <span>|</span>
-            <button className="hover:text-black transition-colors">EN</button>
+            <Link href={redirectedPathName('en')} className={lang === 'en' ? "text-black" : "hover:text-black transition-colors"}>EN</Link>
             <span>|</span>
-            <button className="hover:text-black transition-colors">DE</button>
+            <Link href={redirectedPathName('de')} className={lang === 'de' ? "text-black" : "hover:text-black transition-colors"}>DE</Link>
           </div>
 
-          <Link href="/kontakt" onClick={() => setIsMenuOpen(false)} className="bg-black text-white px-6 py-4 mt-2 text-sm font-bold flex justify-between items-center hover:bg-neutral-800 transition-colors">
-            Contact Us
+          <Link href={`/${lang}/kontakt`} onClick={() => setIsMenuOpen(false)} className="bg-black text-white px-6 py-4 mt-2 text-sm font-bold flex justify-between items-center hover:bg-neutral-800 transition-colors">
+            {dict.contact}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
