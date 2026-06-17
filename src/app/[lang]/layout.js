@@ -3,33 +3,40 @@ import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
 import { getDictionary } from "../../dictionaries/getDictionary";
 
-// Globalni SEO parametri
-export const metadata = {
-  title: {
-    default: "HYPER MEP | Electrical Design & BIM Modeling",
-    template: "%s | HYPER MEP"
-  },
-  description: "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
-  keywords: ["electrical design", "elektro projektovanje", "BIM modeling", "MEP engineering", "projekti", "Srbija"],
-  authors: [{ name: "HYPER MEP" }],
-  creator: "HYPER MEP",
-  openGraph: {
-    type: "website",
-    locale: "sr_RS",
-    url: "https://www.hyper-mep.pro", 
-    title: "HYPER MEP | Electrical Design & BIM Modeling",
-    description: "Integrisano elektro-projektovanje i inženjering sa fokusom na preciznost i BIM koordinaciju.",
-    siteName: "HYPER MEP",
-  },
-  alternates: {
-    canonical: "/",
-    languages: {
-      "sr-RS": "/sr",
-      "en-US": "/en",
-      "de-DE": "/de",
+export async function generateMetadata({ params }) {
+  const localeMap = {
+    sr: "sr_RS",
+    en: "en_US",
+    de: "de_DE",
+  };
+
+  return {
+    title: {
+      default: "HYPER MEP | Electrical Design & BIM Modeling",
+      template: "%s | HYPER MEP"
     },
-  },
-};
+    description: "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
+    keywords: ["electrical design", "elektro projektovanje", "BIM modeling", "MEP engineering", "projekti", "Srbija"],
+    authors: [{ name: "HYPER MEP" }],
+    creator: "HYPER MEP",
+    openGraph: {
+      type: "website",
+      locale: localeMap[params.lang] ?? "sr_RS",
+      url: `https://mep-website-delta.vercel.app/${params.lang}`,
+      title: "HYPER MEP | Electrical Design & BIM Modeling",
+      description: "Integrisano elektro-projektovanje i inženjering sa fokusom na preciznost i BIM koordinaciju.",
+      siteName: "HYPER MEP",
+    },
+    alternates: {
+      canonical: `https://mep-website-delta.vercel.app/${params.lang}`,
+      languages: {
+        "sr": "https://mep-website-delta.vercel.app/sr",
+        "en": "https://mep-website-delta.vercel.app/en",
+        "de": "https://mep-website-delta.vercel.app/de",
+      },
+    },
+  };
+}
 
 export default async function RootLayout({ children, params }) {
   // Učitavamo rečnik za trenutni jezik
