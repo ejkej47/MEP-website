@@ -31,13 +31,13 @@ export default function Footer({ lang, dict }) {
           </div>
 
           <div className="flex md:justify-end gap-6">
-            <Link href="https://linkedin.com/company/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://linkedin.com/company/hypermep" aria-label="LinkedIn" className="text-neutral-400 hover:text-white transition-colors">
               <FaLinkedin size={32} />
             </Link>
-            <Link href="https://instagram.com/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://instagram.com/hypermep" aria-label="Instagram" className="text-neutral-400 hover:text-white transition-colors">
               <FaInstagram size={32} />
             </Link>
-            <Link href="https://facebook.com/hypermep" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://facebook.com/hypermep" aria-label="Facebook" className="text-neutral-400 hover:text-white transition-colors">
               <FaFacebook size={32} />
             </Link>
           </div>
