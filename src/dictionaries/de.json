@@ -74,14 +74,14 @@
         "Koordination aller Planungsdisziplinen,",
         "Optimierung von Investitions- und Betriebskosten."
       ],
-      "p2": "Unser Ziel ist nicht nur die Erstellung von Planungsunterlagen, sondern die Entwicklung intelligenter technischer Lösungen, die die Gebäudeleistung über den gesamten Lebenszyklus hinweg verbessern."
+      "p2": "Unser Ziel ist nicht nur die Erstellung von Planungsunterlagen, sondern die Entwicklung intelligenter technical Lösungen, die die Gebäudeleistung über den gesamten Lebenszyklus hinweg verbessern."
     },
     "vision": {
-      "title": "Vision",
+      "title": "Mission",
       "text": "Der führende regionale Partner für integrierte TGA-Planung und BIM-Koordination zu werden, anerkannt für technische Exzellenz, innovative Lösungen und einen professionellen Ansatz."
     },
     "mission": {
-      "title": "Mission",
+      "title": "Vision",
       "text": "Durch erstklassiges Ingenieurwesen, digitale Technologien und multidisziplinäre Zusammenarbeit nachhaltige, effiziente und zukunftssichere Gebäude zu schaffen, die für unsere Kunden langfristigen Wert generieren."
     },
     "fieldwork": {
@@ -93,7 +93,7 @@
   },
   "services": {
     "title": "Leistungen",
-    "intro": "HyperMEP bietet umfassende Planungsdienstleistungen für Elektro-, Sanitär- und Heizungs-/Lüftungs-/Klimatechnik (HKLS), die technische Expertise, BIM-Methodik und praktische Ingenieurlösungen vereinen. Unser Ziel ist die Entwicklung effizienter, nachhaltiger und zuverlässiger Systeme, die höchsten technischen und regulatorischen Standards entsprechen.",
+    "intro": "HyperMEP bietet umfassende Planungsdienstleistungen für Elektro-, Sanitär- und Heizungs-/Lüftungs-/Klimatechnik (HKLS), die technische Expertise, BIM-Methodik und praktische Ingenieurlösungen vereinen. Unser Ziel ist die Entwicklung effizienter, nachhaltiger und zuverlässiger Systeme, die höchsten technischen und regulatorischen Standards.",
     "gallery": "Galerie",
     "s1": {
       "title": "Maschinentechnik (HKLS)",
@@ -109,6 +109,7 @@
         "Energiemodellierung",
         "Analyse des thermischen Komforts",
         "CFD-Simulationen",
+        "Gasinstallationen",
         "Optimierung der Energieeffizienz und der Lebenszykluskosten (LCC)"
       ],
       "placeholder": "[Platzhalter: Maschinentechnik / HKLS]"
@@ -141,7 +142,6 @@
         "Abwassersysteme",
         "Abwasserentsorgung",
         "Brandschutzsysteme",
-        "Gasinstallationen",
         "Hydraulische Berechnungen",
         "Verbrauchs- und Druckanalyse",
         "Grauwasserrecycling",
@@ -206,18 +206,23 @@
     },
     "tools": {
       "title": "Software und Tools",
-      "t1": "Autodesk Revit",
+      "t1": "AutoCAD",
       "t2": "Navisworks",
-      "t3": "AutoCAD",
-      "t4": "Interne BIM-Tools"
+      "t3": "Revit",
+      "t4": "Interne BIM-Tools",
+      "t5": "PV Sol",
+      "t6": "HagerCAD",
+      "t7": "Relux",
+      "t8": "Dialux"
     },
     "sectors": {
       "title": "Unsere Branchen",
       "desc": "Wir erbringen unsere Dienstleistungen für ein breites Spektrum von Einrichtungen und Industrien und gewährleisten skalierbare Lösungen, die auf die spezifischen Anforderungen der jeweiligen Nutzung zugeschnitten sind.",
       "g1": {
-        "title": "Gewerbeobjekte",
+        "title": "Wohn- und Gewerbeobjekte",
         "list": [
           "Bürogebäude",
+          "Wohnanlagen",
           "Einzelhandels- und Logistikzentren",
           "Hotels und Gastgewerbe",
           "Gemischt genutzte Komplexe"
@@ -228,14 +233,15 @@
         "list": [
           "Industrieanlagen",
           "Rechenzentren",
-          "Flughäfen / Verkehr"
+          "Flughäfen",
+          "Bahnhöfe",
+          "Busbahnhöfe"
         ]
       },
       "g3": {
         "title": "Spezialobjekte",
         "list": [
           "Gesundheitseinrichtungen",
-          "Wohnanlagen",
           "Bildungseinrichtungen",
           "Sportstätten"
         ]
@@ -291,9 +297,9 @@
       }
     },
     "cta": {
-    "title": "Bereit für die technische Ausarbeitung Ihres Projekts?",
-    "desc": "Kontaktieren Sie uns für eine Beratung zu Ihrem nächsten Gewerbe- oder Industrieobjekt.",
-    "btn": "Kontaktieren Sie uns"
+      "title": "Bereit für die technische Ausarbeitung Ihres Projekts?",
+      "desc": "Kontaktieren Sie uns für eine Beratung zu Ihrem nächsten Gewerbe- oder Industrieobjekt.",
+      "btn": "Kontaktieren Sie uns"
     }
   },
   "people": {
@@ -326,9 +332,9 @@
       }
     ],
     "cta": {
-    "title": "Sehen Sie, was unser Team aufgebaut hat.",
-    "desc": "Erkunden Sie unser Portfolio und überzeugen Sie sich von unserer Ingenieurpräzision bei erfolgreich realisierten Gewerbe- und Industrieobjekten.",
-    "btn": "Projekte erkunden"
+      "title": "Sehen Sie, was unser Team aufgebaut hat.",
+      "desc": "Erkunden Sie unser Portfolio und überzeugen Sie sich von unserer Ingenieurpräzision bei erfolgreich realisierten Gewerbe- und Industrieobjekten.",
+      "btn": "Projekte erkunden"
     }
   },
   "careers": {
@@ -346,7 +352,7 @@
         "list": [
           "Erfahrung in der Planung von Elektroinstallationen",
           "Kenntnis der relevanten Normen und Vorschriften",
-          "Arbeiten mit AutoCAD und/oder Revit",
+          "Arbeiten mit AutoDesk-Software",
           "Fähigkeit zum selbstständigen Arbeiten und zur technischen Koordination",
           "Verantwortungsbewusstsein, Präzision und professionelles Auftreten"
         ]
@@ -356,7 +362,7 @@
         "list": [
           "Erfahrung in der Planung von HVAC- und anderen maschinentechnischen Systemen",
           "Kenntnis der technischen Vorschriften und Normen",
-          "Arbeiten mit AutoCAD und/oder Revit",
+          "Arbeiten mit AutoDesk-Software",
           "Verständnis von BIM-Prozessen ist von Vorteil",
           "Analytische Fähigkeiten und Lösungskompetenz bei technischen Herausforderungen"
         ]

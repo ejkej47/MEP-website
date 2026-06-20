@@ -48,7 +48,7 @@
     "faq": {
       "title": "Frequently Asked Questions (FAQ)",
       "q1": "What exactly does your MEP design cover?",
-      "a1": "HyperMEP provides comprehensive design services for electrical, mechanical, and public health (plumbing) installations. This includes energy-efficient HVAC systems, complete high and low voltage installations, as well as sustainable water distribution and management systems.",
+      "a1": "HyperMEP provides comprehensive design services for electrical, mechanical, and plumbing installations. This includes energy-efficient HVAC systems, complete high and low voltage installations, as well as sustainable water distribution and management systems.",
       "q2": "How do you use BIM technology in your projects?",
       "a2": "We use tools like Autodesk Revit and Navisworks to develop high-precision 3D models. Our main focus is advanced Clash Detection with architecture and structural engineering, resolving potential issues before they appear on site.",
       "q3": "What types of facilities do you provide technical documentation for?",
@@ -59,7 +59,7 @@
     "title": "About Us",
     "company": {
       "title": "About the Company",
-      "p1": "HyperMEP is an independent engineering consulting company specializing in MEP (Mechanical, Electrical & Public Health Engineering) design, BIM modeling, and multidisciplinary technical coordination.",
+      "p1": "HyperMEP is an independent engineering consulting company specializing in MEP (Mechanical, Electrical & Plumbing Engineering) design, BIM modeling, and multidisciplinary technical coordination.",
       "p2": "Founded in 2023 in Pančevo, the company was created with the goal of combining modern engineering, digital technologies, and a high level of technical expertise to provide clients with reliable, sustainable, and efficient design solutions.",
       "p3": "The company was founded by Uroš Milenković, driven by the vision to create an engineering firm capable of meeting the challenges of the modern construction sector through an integrated approach to design, BIM coordination, and building performance optimization."
     },
@@ -77,11 +77,11 @@
       "p2": "Our goal is not just to produce design documentation, but to create intelligent technical solutions that enhance building performance throughout their entire life cycle."
     },
     "vision": {
-      "title": "Vision",
+      "title": "Mission",
       "text": "To become the leading regional partner for integrated MEP design and BIM coordination, recognized for technical excellence, innovative solutions, and a professional approach."
     },
     "mission": {
-      "title": "Mission",
+      "title": "Vision",
       "text": "To create sustainable, efficient, and future-ready facilities that generate long-term value for our clients through top-tier engineering, digital technologies, and multidisciplinary collaboration."
     },
     "fieldwork": {
@@ -93,7 +93,7 @@
   },
   "services": {
     "title": "Services",
-    "intro": "HyperMEP provides comprehensive MEP (Mechanical, Electrical, and Public Health) engineering services, combining technical expertise, BIM methodology, and practical engineering solutions. Our goal is the development of efficient, sustainable, and reliable systems that meet the highest technical and regulatory standards.",
+    "intro": "HyperMEP provides comprehensive MEP (Mechanical, Electrical, and Plumbing engineering) engineering services, combining technical expertise, BIM methodology, and practical engineering solutions. Our goal is the development of efficient, sustainable, and reliable systems that meet the highest technical and regulatory standards.",
     "gallery": "Gallery",
     "s1": {
       "title": "Mechanical Engineering",
@@ -109,6 +109,7 @@
         "Energy modeling",
         "Thermal comfort analysis",
         "CFD simulations",
+        "Gas installations",
         "Energy efficiency and life cycle cost (LCC) optimization"
       ],
       "placeholder": "[Placeholder: Mechanical Installations / HVAC]"
@@ -141,7 +142,6 @@
         "Drainage systems",
         "Wastewater disposal",
         "Fire protection systems",
-        "Gas installations",
         "Hydraulic calculations",
         "Consumption and pressure analysis",
         "Greywater recycling",
@@ -206,18 +206,23 @@
     },
     "tools": {
       "title": "Software and Tools",
-      "t1": "Autodesk Revit",
+      "t1": "AutoCAD",
       "t2": "Navisworks",
-      "t3": "AutoCAD",
-      "t4": "Internal BIM Tools"
+      "t3": "Revit",
+      "t4": "Internal BIM Tools",
+      "t5": "PV Sol",
+      "t6": "HagerCAD",
+      "t7": "Relux",
+      "t8": "Dialux"
     },
     "sectors": {
       "title": "Sectors We Serve",
       "desc": "We provide our services for a wide range of facilities and industries, ensuring scalable solutions tailored to the specific requirements of each use.",
       "g1": {
-        "title": "Commercial Facilities",
+        "title": "Residential and Commercial Facilities",
         "list": [
           "Office buildings",
+          "Residential complexes",
           "Retail and logistics centers",
           "Hotels and hospitality",
           "Mixed-use developments"
@@ -228,14 +233,15 @@
         "list": [
           "Industrial plants",
           "Data centers",
-          "Airports / Transport"
+          "Airports",
+          "Railway stations",
+          "Bus stations"
         ]
       },
       "g3": {
         "title": "Specialized Facilities",
         "list": [
           "Healthcare facilities",
-          "Residential complexes",
           "Educational institutions",
           "Sports facilities"
         ]
@@ -291,9 +297,9 @@
       }
     },
     "cta": {
-    "title": "Ready for the technical development of your project?",
-    "desc": "Contact us for a consultation regarding your next commercial or industrial facility.",
-    "btn": "Contact Us"
+      "title": "Ready for the technical development of your project?",
+      "desc": "Contact us for a consultation regarding your next commercial or industrial facility.",
+      "btn": "Contact Us"
     }
   },
   "people": {
@@ -326,9 +332,9 @@
       }
     ],
     "cta": {
-    "title": "See what our team has built.",
-    "desc": "Explore our portfolio and witness engineering precision through successfully realized commercial and industrial facilities.",
-    "btn": "Explore Projects"
+      "title": "See what our team has built.",
+      "desc": "Explore our portfolio and witness engineering precision through successfully realized commercial and industrial facilities.",
+      "btn": "Explore Projects"
     }
   },
   "careers": {
@@ -346,7 +352,7 @@
         "list": [
           "Experience in electrical systems design",
           "Knowledge of relevant standards and regulations",
-          "Proficiency in AutoCAD and/or Revit",
+          "Proficiency in AutoDesk software",
           "Ability to work independently and manage technical coordination",
           "Responsibility, precision, and a professional approach"
         ]
@@ -356,7 +362,7 @@
         "list": [
           "Experience in designing HVAC and other mechanical systems",
           "Knowledge of technical regulations and standards",
-          "Proficiency in AutoCAD and/or Revit",
+          "Proficiency in AutoDesk software",
           "Understanding of BIM processes is an advantage",
           "Analytical skills and ability to solve technical challenges"
         ]

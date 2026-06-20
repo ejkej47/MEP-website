@@ -54,7 +54,7 @@ export default function Navbar({ lang, dict }) {
 
         <div className="hidden md:flex items-center gap-6">
           <div className="flex text-xs font-semibold tracking-widest">
-            {['sr', 'en', 'de'].map((locale, i) => (
+            {['en', 'de', 'sr'].map((locale, i) => (
               <span key={locale} className="flex items-center">
                 <Link
                   href={redirectedPathName(locale)}

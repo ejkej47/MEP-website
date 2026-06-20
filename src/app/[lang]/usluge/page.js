@@ -256,29 +256,68 @@ export default async function ServicesPage({ params }) {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-extrabold tracking-tight mb-16 uppercase">{services.tools.title}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {/* Alat 1 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
                   <Image src="/autocad.webp" alt="AutoCAD" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t1}</span>
             </div>
+            
+            {/* Alat 2 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
                 <Image src="/navisworks.jpg" alt="Navisworks" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t2}</span>
             </div>
+            
+            {/* Alat 3 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
                 <Image src="/revit.jpg" alt="Revit" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t3}</span>
             </div>
+            
+            {/* Alat 4 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
                 <Image src="/tools.jpg" alt="Tools" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t4}</span>
+            </div>
+
+            {/* Alat 5: PV Sol */}
+            <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
+                <Image src="/pvsol.png" alt="PV Sol" width={56} height={56} className="object-contain" />
+              </div>
+              <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t5}</span>
+            </div>
+
+            {/* Alat 6: HagerCAD */}
+            <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
+                <Image src="/hagercad.png" alt="HagerCAD" width={56} height={56} className="object-contain" />
+              </div>
+              <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t6}</span>
+            </div>
+
+            {/* Alat 7: Relux */}
+            <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
+                <Image src="/relux.png" alt="Relux" width={56} height={56} className="object-contain" />
+              </div>
+              <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t7}</span>
+            </div>
+
+            {/* Alat 8: Dialux */}
+            <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
+              <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
+                <Image src="/dialux.png" alt="Dialux" width={56} height={56} className="object-contain" />
+              </div>
+              <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t8}</span>
             </div>
           </div>
         </div>

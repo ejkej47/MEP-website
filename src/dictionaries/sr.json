@@ -49,17 +49,17 @@
       "title": "Često postavljana pitanja (FAQ)",
       "q1": "Šta tačno obuhvata vaše MEP projektovanje?",
       "a1": "HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija. To uključuje energetski efikasne sisteme (HVAC), kompletne instalacije jake i slabe struje, kao i održive hidrotehničke sisteme za distribuciju i upravljanje vodom.",
-      "q2": "Kako koristite BIM tehnologiju u projektima?",
+      "q2": "Kako koristimo BIM tehnologiju u projektima?",
       "a2": "Koristimo alate poput Autodesk Revit i Navisworks za razvoj visoko preciznih 3D modela. Naš glavni fokus je napredna detekcija kolizija (Clash Detection) sa arhitekturom i konstrukcijom, čime rešavamo potencijalne probleme pre nego što se oni pojave na samom gradilištu.",
       "q3": "Za koje vrste objekata radite tehničku dokumentaciju?",
-      "a3": "Naše usluge pokrivaju širok spektar složenih struktura. Najčešće radimo na komercijalnim poslovnim zgradama, industrijskim postrojenjima, zdravstvenim i obrazovnim ustanovama, data centrima, kao i objektima mešovite namene."
+      "a3": "Naše usluge pokrivaju širok spektar različith objekata. Najčešće radimo na komercijalnim poslovnim zgradama, industrijskim postrojenjima, zdravstvenim i obrazovnim ustanovama, data centrima, kao i objektima mešovite namene."
     }
   },
   "about": {
     "title": "O nama",
     "company": {
       "title": "O kompaniji",
-      "p1": "HyperMEP je nezavisna inženjerska konsultantska kompanija specijalizovana za projektovanje MEP sistema (Mechanical, Electrical & Public Health Engineering), BIM modelovanje i multidisciplinarnu tehničku koordinaciju.",
+      "p1": "HyperMEP je nezavisna inženjerska konsultantska kompanija specijalizovana za projektovanje MEP sistema (Mechanical, Electrical & Plumbing Engineering), BIM modelovanje i multidisciplinarnu tehničku koordinaciju.",
       "p2": "Osnovana 2023. godine u Pančevu, kompanija je nastala sa ciljem da objedini savremeno inženjerstvo, digitalne tehnologije i visok nivo tehničke ekspertize kako bi klijentima pružila pouzdana, održiva i efikasna projektantska rešenja.",
       "p3": "Kompaniju je osnovao Uroš Milenković, vođen vizijom da kreira inženjerski biro sposoban da odgovori na izazove savremenog građevinskog sektora kroz integrisani pristup projektovanju, BIM koordinaciji i optimizaciji performansi objekata."
     },
@@ -77,11 +77,11 @@
       "p2": "Naš cilj nije samo izrada projektne dokumentacije, već kreiranje inteligentnih tehničkih rešenja koja unapređuju performanse objekata tokom celog njihovog životnog ciklusa."
     },
     "vision": {
-      "title": "Vizija",
+      "title": "Misija",
       "text": "Da postanemo vodeći regionalni partner za integrisano MEP projektovanje i BIM koordinaciju, prepoznat po tehničkoj izvrsnosti, inovativnim rešenjima i profesionalnom pristupu."
     },
     "mission": {
-      "title": "Misija",
+      "title": "Vizija",
       "text": "Da kroz vrhunsko inženjerstvo, digitalne tehnologije i multidisciplinarnu saradnju kreiramo održive, efikasne i budućnosti prilagođene objekte koji stvaraju dugoročnu vrednost za naše klijente."
     },
     "fieldwork": {
@@ -109,6 +109,7 @@
         "Energetsko modelovanje",
         "Analiza termičkog komfora",
         "CFD simulacije",
+        "Gasne instalacije",
         "Optimizacija energetske efikasnosti i životnog ciklusa sistema (LCC)"
       ],
       "placeholder": "[Placeholder: Mašinske Instalacije / HVAC]"
@@ -133,7 +134,7 @@
       "alt": "Elektro instalacije MEP"
     },
     "s3": {
-      "title": "Hidrotehničke instalacije (Public Health Engineering)",
+      "title": "Hidrotehničke instalacije (Plumbing Engineering)",
       "desc": "Projektujemo održive sisteme za distribuciju i upravljanje vodom uz maksimalnu efikasnost i usklađenost sa standardima.",
       "list": [
         "Sistemi sanitarne vode",
@@ -141,7 +142,6 @@
         "Kanalizacioni sistemi",
         "Odvođenje otpadnih voda",
         "Protivpožarni sistemi",
-        "Gasne instalacije",
         "Hidraulički proračuni",
         "Analiza potrošnje i pritisaka",
         "Reciklaža sive vode",
@@ -151,7 +151,7 @@
     },
     "s4": {
       "title": "BIM modelovanje i koordinacija",
-      "desc": "Koristimo Autodesk Revit, Navisworks i napredne interne alate za razvoj koordinisanih BIM modela koji unapređuju kvalitet projektovanja i smanjuju rizike tokom izgradnje.",
+      "desc": "Koristimo Autodesk Revit, Navisworks i napredne interne alate za razvoj koordinisanih BIM modela koji unapređuju kvalitet projektovanja i smanjuju neplanirane troškove",
       "list": [
         "BIM modelovanje svih disciplina",
         "Detekcija i rešavanje kolizija (Clash Detection)",
@@ -206,18 +206,23 @@
     },
     "tools": {
       "title": "Softveri i Alati",
-      "t1": "Autodesk Revit",
+      "t1": "AutoCAD",
       "t2": "Navisworks",
-      "t3": "AutoCAD",
-      "t4": "BIM Interni alati"
+      "t3": "Revit",
+      "t4": "BIM Interni alati",
+      "t5": "PV Sol",
+      "t6": "HagerCAD",
+      "t7": "Relux",
+      "t8": "Dialux"
     },
     "sectors": {
       "title": "Sektori u kojima poslujemo",
       "desc": "Naše usluge pružamo za širok spektar objekata i industrija, obezbeđujući skalabilna rešenja prilagođena specifičnim zahtevima svake namene.",
       "g1": {
-        "title": "Komercijalni objekti",
+        "title": "Stambeni i Komercijalni objekti",
         "list": [
           "Poslovne zgrade",
+          "Stambeni kompleksi",
           "Tržni i logistički centri",
           "Hoteli i ugostiteljstvo",
           "Objekti mešovite namene"
@@ -228,14 +233,15 @@
         "list": [
           "Industrijska postrojenja",
           "Data centri",
-          "Aerodromi / Transport"
+          "Aerodromi",
+          "Železničke stanice",
+          "Autobuske stanice"
         ]
       },
       "g3": {
         "title": "Specijalizovani objekti",
         "list": [
           "Zdravstvene ustanove",
-          "Stambeni kompleksi",
           "Obrazovne ustanove",
           "Sportski objekti"
         ]
@@ -346,7 +352,7 @@
         "list": [
           "Iskustvo u projektovanju elektro instalacija",
           "Poznavanje relevantnih standarda i propisa",
-          "Rad u AutoCAD-u i/ili Revit-u",
+          "Rad u AutoDesk softverima",
           "Sposobnost samostalnog rada i tehničke koordinacije",
           "Odgovornost, preciznost i profesionalan pristup"
         ]
@@ -356,7 +362,7 @@
         "list": [
           "Iskustvo u projektovanju HVAC i drugih mašinskih sistema",
           "Poznavanje tehničkih propisa i standarda",
-          "Rad u AutoCAD-u i/ili Revit-u",
+          "Rad u AutoDesk softverima",
           "Razumevanje BIM procesa predstavlja prednost",
           "Analitičnost i sposobnost rešavanja tehničkih izazova"
         ]
