@@ -134,7 +134,7 @@
       "alt": "Electrical MEP Installations"
     },
     "s3": {
-      "title": "Public Health Engineering",
+      "title": "Plubming Engineering",
       "desc": "We design sustainable water distribution and management systems with maximum efficiency and standard compliance.",
       "list": [
         "Domestic water systems",
@@ -147,7 +147,7 @@
         "Greywater recycling",
         "Rainwater harvesting systems"
       ],
-      "placeholder": "[Placeholder: Public Health Installations]"
+      "placeholder": "[Placeholder: Plumbing Installations]"
     },
     "s4": {
       "title": "BIM Modeling and Coordination",
