@@ -2,11 +2,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getDictionary } from '../../../dictionaries/getDictionary';
 import ProjectCard from '../../../components/projects/ProjectCard';
-import { projectsData } from '../../../data/projects';
+import { getProjectsData } from '../../../data/projects';
 
 export default async function ProjectsPage({ params }) {
   const dict = await getDictionary(params.lang);
   const { projects } = dict;
+
+  const projectsData = getProjectsData(params.lang);
 
   return (
     <>
