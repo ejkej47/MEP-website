@@ -407,6 +407,24 @@
       "message": "Nachricht*",
       "btn": "Nachricht senden"
     },
+    "successMsg": "Nachricht erfolgreich gesendet!",
+    "errorMsg": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
     "placeholder": "[Platzhalter: Büro- / Standortbild]"
+  },
+  "privacyPage": {
+    "title": "Datenschutzrichtlinie",
+    "p1": "HyperMEP erhebt Ihre personenbezogenen Daten (Name, E-Mail-Adresse, Nachrichteninhalt, Lebenslauf) ausschließlich zur Beantwortung Ihrer Anfragen und für das Bewerbungsverfahren.",
+    "p2": "Ihre Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.",
+    "p3": "Sie haben jederzeit das Recht, Auskunft über Ihre personenbezogenen Daten zu erhalten sowie deren Berichtigung oder Löschung zu verlangen, indem Sie eine Anfrage an unsere offizielle E-Mail-Adresse senden."
+  },
+  "termsPage": {
+    "title": "Nutzungsbedingungen",
+    "p1": "Alle Texte, Bilder, 3D-BIM-Modelle und sonstigen Materialien auf dieser Website sind geistiges Eigentum von HyperMEP und dürfen ohne vorherige schriftliche Genehmigung nicht kopiert, heruntergeladen oder verwendet werden.",
+    "p2": "Die Informationen auf dieser Website dienen ausschließlich zu Informationszwecken und stellen keine verbindliche technische Beratung oder ein offizielles Angebot dar."
+  },
+  "cookieConsent": {
+    "text": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung machen und um den Website-Traffic zu analysieren.",
+    "btnAccept": "Akzeptieren",
+    "btnDecline": "Ablehnen"
   }
 }

@@ -1,6 +1,7 @@
 import "../../styles/globals.css";
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
+import CookieBanner from "../../components/common/CookieBanner";
 import { getDictionary } from "../../dictionaries/getDictionary";
 
 export async function generateMetadata({ params }) {
@@ -12,7 +13,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      default: "HYPER MEP | Electrical Design & BIM Modeling",
+      default: "HYPER MEP",
       template: "%s | HYPER MEP"
     },
     description: "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
@@ -48,12 +49,14 @@ export default async function RootLayout({ children, params }) {
         {/* Prosleđujemo jezik i specifičan deo rečnika za Navbar */}
         <Navbar lang={params.lang} dict={dict.navbar} />
         
-        <main>
+        <main className="flex-1">
           {children}
         </main>
 
         {/* Prosleđujemo jezik i specifičan deo rečnika za Footer */}
         <Footer lang={params.lang} dict={dict.footer} />
+
+        <CookieBanner dict={dict.cookieConsent} />
       </body>
     </html>
   );

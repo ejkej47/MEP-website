@@ -407,6 +407,24 @@
       "message": "Poruka*",
       "btn": "Pošalji poruku"
     },
+    "successMsg": "Poruka je uspešno poslata!",
+    "errorMsg": "Došlo je do greške. Pokušajte ponovo.",
     "placeholder": "[Placeholder: Slika Kancelarije / Lokacije]"
+  },
+  "privacyPage": {
+    "title": "Politika privatnosti",
+    "p1": "Kompanija HyperMEP prikuplja vaše podatke (ime, email adresa, sadržaj poruke, CV) isključivo u svrhu odgovora na vaše upite i procesa selekcije kandidata za posao.",
+    "p2": "Vaši podaci se neće deliti sa trećim licima bez vašeg izričitog pristanka.",
+    "p3": "Imate pravo da u svakom trenutku zatražite uvid, izmenu ili brisanje vaših ličnih podataka slanjem zahteva na naš zvanični email."
+  },
+  "termsPage": {
+    "title": "Uslovi korišćenja",
+    "p1": "Svi tekstovi, slike, 3D BIM modeli i ostali materijali na ovom sajtu su intelektualna svojina kompanije HyperMEP i ne smeju se kopirati, preuzimati ili koristiti bez prethodnog pismenog odobrenja.",
+    "p2": "Informacije na sajtu su isključivo informativnog karaktera i ne predstavljaju obavezujući inženjerski savet ili zvaničnu ponudu."
+  },
+  "cookieConsent": {
+    "text": "Ovaj sajt koristi kolačiće (cookies) kako bismo vam pružili najbolje korisničko iskustvo i analizirali posećenost.",
+    "btnAccept": "Prihvatam",
+    "btnDecline": "Odbijam"
   }
 }

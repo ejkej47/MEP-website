@@ -6,7 +6,8 @@ export default function Footer({ lang, dict }) {
     <footer className="bg-black text-white pt-16 pb-8 border-t border-neutral-800">
       <div className="max-w-7xl mx-auto px-6">
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 text-sm">
+        {/* Promenjeno u md:grid-cols-2 da bi dve sekcije imale više prostora */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 text-sm">
           
           <div>
             <h3 className="font-bold mb-4">HYPERMEP DOO</h3>
@@ -16,7 +17,8 @@ export default function Footer({ lang, dict }) {
             </p>
           </div>
 
-          <div>
+          {/* Dodato md:text-right da bi kontakt otišao skroz desno */}
+          <div className="md:text-right">
             <h3 className="text-neutral-400 mb-4">{dict.contactTitle}</h3>
             <p className="leading-relaxed">
               <a href="tel:+381641187381" className="hover:text-neutral-300 transition-colors">
@@ -29,6 +31,8 @@ export default function Footer({ lang, dict }) {
             </p>
           </div>
 
+          {/* Društvene mreže su zakomentarisane za kasniju upotrebu */}
+          {/* 
           <div className="flex md:justify-end gap-6">
             <Link href="https://linkedin.com/company/hypermep" aria-label="LinkedIn" className="text-neutral-400 hover:text-white transition-colors">
               <FaLinkedin size={32} />
@@ -40,14 +44,15 @@ export default function Footer({ lang, dict }) {
               <FaFacebook size={32} />
             </Link>
           </div>
+          */}
           
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-800 text-xs text-neutral-500">
           <p>© {new Date().getFullYear()} HYPER MEP. {dict.rights}</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href={`/${lang}/privacy-policy`} className="hover:text-white transition-colors">{dict.privacy}</Link>
-            <Link href={`/${lang}/terms-of-service`} className="hover:text-white transition-colors">{dict.terms}</Link>
+            <Link href={`/${lang}/politika-privatnosti`} className="hover:text-white transition-colors">{dict.privacy}</Link>
+            <Link href={`/${lang}/uslovi-koriscenja`} className="hover:text-white transition-colors">{dict.terms}</Link>
           </div>
         </div>
 

@@ -134,7 +134,7 @@
       "alt": "Electrical MEP Installations"
     },
     "s3": {
-      "title": "Plubming Engineering",
+      "title": "Plumbing Engineering",
       "desc": "We design sustainable water distribution and management systems with maximum efficiency and standard compliance.",
       "list": [
         "Domestic water systems",
@@ -407,6 +407,24 @@
       "message": "Message*",
       "btn": "Send Message"
     },
+    "successMsg": "Message sent successfully!",
+    "errorMsg": "An error occurred. Please try again.",
     "placeholder": "[Placeholder: Office / Location Image]"
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "p1": "HyperMEP collects your personal data (name, email address, message content, CV) solely for the purpose of responding to your inquiries and for the recruitment process.",
+    "p2": "Your data will not be shared with third parties without your explicit consent.",
+    "p3": "You have the right to request access to, modification, or deletion of your personal data at any time by sending a request to our official email."
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "p1": "All texts, images, 3D BIM models, and other materials on this website are the intellectual property of HyperMEP and may not be copied, downloaded, or used without prior written permission.",
+    "p2": "The information on this website is for informational purposes only and does not constitute binding engineering advice or an official offer."
+  },
+  "cookieConsent": {
+    "text": "This website uses cookies to ensure you get the best experience and to analyze site traffic.",
+    "btnAccept": "Accept",
+    "btnDecline": "Decline"
   }
 }
