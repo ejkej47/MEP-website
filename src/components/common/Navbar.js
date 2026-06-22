@@ -100,7 +100,7 @@ export default function Navbar({ lang, dict }) {
           <Link href={`/${lang}/karijere`} onClick={() => setIsMenuOpen(false)} className="border-b border-neutral-100 pb-3">{dict.careers}</Link>
           
           <div className="flex gap-1 py-2 text-sm font-semibold tracking-widest">
-            {['sr', 'en', 'de'].map((locale, i) => (
+            {['en','de','sr'].map((locale, i) => (
               <span key={locale} className="flex items-center">
                 <Link
                   href={redirectedPathName(locale)}

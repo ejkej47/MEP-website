@@ -69,10 +69,13 @@ export default async function Home({ params }) {
             </div>
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-                {landing.statements.s1.placeholder}
-              </span>
+              <Image 
+                src="/o-nama.webp" 
+                alt={landing.statements.s2.title} 
+                fill
+                priority
+                className="object-cover"
+              />
             </div>
           </Link>
 
@@ -176,7 +179,7 @@ export default async function Home({ params }) {
             </div>
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing-karijere.jpg" 
+                src="/karijere.webp" 
                 alt={landing.statements.s5.title} 
                 fill
                 className="object-cover"

@@ -38,45 +38,64 @@ export default async function PeoplePage({ params }) {
         </div>
       </section>
 
-      {/* TIM - 2 PO 2 GRID (Dinamičko iscrtavanje) */}
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
-            
-            {/* Ovdje prolazimo kroz niz iz rečnika i za svakog iscrtavamo PersonCard */}
-            {people.team.map((person) => (
-              <PersonCard 
-                key={person.id}
-                name={person.name}
-                role={person.role}
-                imagePlaceholder={person.imagePlaceholder}
-              />
-            ))}
-
+      {/* STRANICA U IZRADI - MESSAGE */}
+      <section className="py-16 md:py-32">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <div className="inline-block border-2 border-black p-8 md:p-12 bg-neutral-50 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+            <h2 className="text-2xl md:text-4xl font-black uppercase tracking-tight mb-4 text-black">
+              Stranica je u pripremi
+            </h2>
+            <p className="text-neutral-600 font-medium text-lg">
+              Informacije o našem timu će uskoro biti dostupne.
+            </p>
           </div>
         </div>
       </section>
-      
-      {/* CTA (POZIV NA AKCIJU) - ZA STRANICU LJUDI */}
-      <section className="bg-black text-white py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
-            {people.cta.title}
-          </h2>
-          <p className="text-neutral-400 text-lg mb-10">
-            {people.cta.desc}
-          </p>
-          <Link 
-            href="/projekti" 
-            className="inline-flex bg-white text-black px-8 py-4 text-sm font-bold items-center gap-2 hover:bg-neutral-200 transition-colors"
-          >
-            {people.cta.btn}
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-          </Link>
-        </div>
-      </section>
+
+      {/* SAKRIVENI SADRŽAJ (TIM I CTA) */}
+      {false && (
+        <>
+          {/* TIM - 2 PO 2 GRID (Dinamičko iscrtavanje) */}
+          <section className="py-16 md:py-24">
+            <div className="max-w-7xl mx-auto px-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                
+                {/* Ovdje prolazimo kroz niz iz rečnika i za svakog iscrtavamo PersonCard */}
+                {people.team.map((person) => (
+                  <PersonCard 
+                    key={person.id}
+                    name={person.name}
+                    role={person.role}
+                    imagePlaceholder={person.imagePlaceholder}
+                  />
+                ))}
+
+              </div>
+            </div>
+          </section>
+          
+          {/* CTA (POZIV NA AKCIJU) - ZA STRANICU LJUDI */}
+          <section className="bg-black text-white py-24">
+            <div className="max-w-4xl mx-auto px-6 text-center">
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
+                {people.cta.title}
+              </h2>
+              <p className="text-neutral-400 text-lg mb-10">
+                {people.cta.desc}
+              </p>
+              <Link 
+                href="/projekti" 
+                className="inline-flex bg-white text-black px-8 py-4 text-sm font-bold items-center gap-2 hover:bg-neutral-200 transition-colors"
+              >
+                {people.cta.btn}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </Link>
+            </div>
+          </section>
+        </>
+      )}
     </>
   );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getDictionary } from '../../../dictionaries/getDictionary';
 
 export default async function AboutPage({ params }) {
@@ -103,10 +104,13 @@ export default async function AboutPage({ params }) {
         <div className="max-w-7xl mx-auto px-6">
           
           <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden mb-8 transition-all duration-700">
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-            <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-              {about.fieldwork.placeholder}
-            </span>
+            <Image 
+              src="/o-nama.webp" 
+              alt="Praksa na terenu" 
+              fill
+              sizes="100vw"
+              className="object-cover"
+            />
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-t border-neutral-200 pt-6">

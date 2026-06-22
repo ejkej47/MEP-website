@@ -53,12 +53,13 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="absolute top-4 right-4 z-10 bg-black text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">{services.gallery}</div>
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm text-center">
-                {services.s1.placeholder}
-              </span>
+            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+              <Image 
+                src="/MechanicalEngineering.jpeg" 
+                alt={services.s1.title} 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -84,11 +85,10 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="absolute top-4 right-4 z-10 bg-black text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">{services.gallery}</div>
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/usluge-1.jpg" 
-                alt={services.s2.alt} 
+                alt={services.s2.alt || services.s2.title} 
                 fill
                 className="object-cover"
               />
@@ -117,12 +117,13 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="absolute top-4 right-4 z-10 bg-black text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">{services.gallery}</div>
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm text-center">
-                {services.s3.placeholder}
-              </span>
+            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+              <Image 
+                src="/Plumbing.jpeg" 
+                alt={services.s3.title} 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -148,11 +149,10 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="absolute top-4 right-4 z-10 bg-black text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">{services.gallery}</div>
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/usluge-2.jpg" 
-                alt={services.s4.alt} 
+                src="/BIMModeling.jpeg" 
+                alt={services.s4.alt || services.s4.title} 
                 fill
                 className="object-cover"
               />
@@ -181,11 +181,13 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm text-center">
-                {services.s5.placeholder}
-              </span>
+            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+              <Image 
+                src="/Sustainability.jpeg" 
+                alt={services.s5.title} 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -211,11 +213,13 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm text-center">
-                {services.s6.placeholder}
-              </span>
+            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+              <Image 
+                src="/Commissioning.jpeg" 
+                alt={services.s6.title} 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -241,11 +245,13 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-              <span className="relative z-10 text-neutral-500 font-mono text-xs md:text-sm uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm text-center">
-                {services.s7.placeholder}
-              </span>
+            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+              <Image 
+                src="/ProjectManagement.jpeg" 
+                alt={services.s7.title} 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>

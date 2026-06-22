@@ -1,4 +1,3 @@
-// Ukloni 'use client' i hooks, dodaj async
 import { getDictionary } from '../../../dictionaries/getDictionary';
 import ContactForm from '../../../components/contact/ContactForm';
 
@@ -22,35 +21,53 @@ export default async function ContactPage({ params }) {
         <div className="w-full border-b-8 border-black"></div>
       </section>
 
-      <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative flex items-center justify-center">
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-            <span className="relative z-10 text-neutral-500 font-mono text-xs uppercase tracking-widest bg-white/90 px-4 py-2 border border-neutral-300 shadow-sm">
-              {dict.placeholder}
-            </span>
-          </div>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-bold uppercase text-sm tracking-widest text-neutral-400 mb-2">{dict.office}</h3>
-              <p className="text-lg font-medium">HYPERMEP DOO</p>
-              <p className="text-neutral-600">Ulica i broj, Grad, Srbija</p>
-            </div>
-            <div>
-              <h3 className="font-bold uppercase text-sm tracking-widest text-neutral-400 mb-2">{dict.contactTitle}</h3>
-              <p className="text-lg font-medium">+381 XX XXXXXXX</p>
-              <p className="text-lg font-medium">office@kompanija.com</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      {/* KONTAKT INFO I FORMA (25/75 Split) */}
       <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-2xl font-black uppercase tracking-tight mb-8">{dict.formTitle}</h2>
-          {/* Form mora biti Client Component zbog onSubmit */}
-          <ContactForm dict={dict.form} />
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-16 items-start">
+          
+          {/* LEVA STRANA: INFORMACIJE O KOMPANIJI (Zauzima 1/4 prostora na velikim ekranima) */}
+          <div className="lg:col-span-1 space-y-12">
+            <div>
+              <h3 className="font-bold uppercase text-sm tracking-widest text-neutral-400 mb-3">
+                {dict.office || "Kancelarija"}
+              </h3>
+              <p className="text-xl md:text-2xl font-black uppercase tracking-tight mb-2">
+                HYPERMEP DOO
+              </p>
+              <p className="text-neutral-600 font-medium text-base md:text-lg leading-relaxed">
+                Oslobođenja 25V/11<br />
+                26000 Pančevo, Serbia
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-bold uppercase text-sm tracking-widest text-neutral-400 mb-3">
+                {dict.contactTitle || "Kontakt podaci"}
+              </h3>
+              <div className="space-y-3">
+                <p>
+                  <a href="tel:+381641187381" className="text-base md:text-lg font-medium hover:text-neutral-500 transition-colors">
+                    +381 64 1187381
+                  </a>
+                </p>
+                <p>
+                  <a href="mailto:office@hypermep.com" className="text-base md:text-lg font-medium hover:text-neutral-500 transition-colors">
+                    office@hypermep.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* DESNA STRANA: FORMA (Zauzima 3/4 prostora na velikim ekranima) */}
+          <div className="lg:col-span-3 bg-neutral-50 p-8 md:p-10 border border-neutral-200 shadow-sm">
+            <h2 className="text-2xl font-black uppercase tracking-tight mb-8 border-b border-neutral-200 pb-4">
+              {dict.formTitle}
+            </h2>
+            {/* Form mora biti Client Component zbog onSubmit */}
+            <ContactForm dict={dict.form} />
+          </div>
+
         </div>
       </section>
     </>

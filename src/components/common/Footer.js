@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
 
-
 export default function Footer({ lang, dict }) {
   return (
     <footer className="bg-black text-white pt-16 pb-8 border-t border-neutral-800">
@@ -12,20 +11,20 @@ export default function Footer({ lang, dict }) {
           <div>
             <h3 className="font-bold mb-4">HYPERMEP DOO</h3>
             <p className="text-neutral-400 leading-relaxed">
-              [insert street and number]<br />
-              [insert postal code and city], Serbia
+              Oslobođenja 25V/11<br />
+              26000 Pančevo, Serbia
             </p>
           </div>
 
           <div>
             <h3 className="text-neutral-400 mb-4">{dict.contactTitle}</h3>
             <p className="leading-relaxed">
-              <a href="tel:[insert phone number]" className="hover:text-neutral-300 transition-colors">
-                [insert phone number]
+              <a href="tel:+381641187381" className="hover:text-neutral-300 transition-colors">
+                +381 64 1187381
               </a>
               <br />
-              <a href="mailto:[insert email address]" className="hover:text-neutral-300 transition-colors">
-                [insert email address]
+              <a href="mailto:office@hypermep.com" className="hover:text-neutral-300 transition-colors">
+                office@hypermep.com
               </a>
             </p>
           </div>
