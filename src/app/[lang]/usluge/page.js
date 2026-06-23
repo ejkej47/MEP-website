@@ -345,7 +345,7 @@ export default async function ServicesPage({ params }) {
                 <Image src="/commercial-property.webp" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g1.title}</h3>
-              <ul className="space-y-3 w-full text-neutral-600 text-sm font-medium">
+              <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
                 {services.sectors.g1.list.map((item, index) => <li key={index}>{item}</li>)}
               </ul>
             </div>
@@ -356,7 +356,7 @@ export default async function ServicesPage({ params }) {
                  <Image src="/transport.jpg" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g2.title}</h3>
-              <ul className="space-y-3 w-full text-neutral-600 text-sm font-medium">
+              <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
                 {services.sectors.g2.list.map((item, index) => <li key={index}>{item}</li>)}
               </ul>
             </div>
@@ -367,7 +367,7 @@ export default async function ServicesPage({ params }) {
                 <Image src="/facility.jpg" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g3.title}</h3>
-              <ul className="space-y-3 w-full text-neutral-600 text-sm font-medium">
+              <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
                 {services.sectors.g3.list.map((item, index) => <li key={index}>{item}</li>)}
               </ul>
             </div>

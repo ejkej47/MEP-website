@@ -209,7 +209,7 @@ export default async function Home({ params }) {
                   <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
                 </span>
               </summary>
-              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed whitespace-pre-line">
                 {landing.faq.a1}
               </div>
             </details>
@@ -223,7 +223,7 @@ export default async function Home({ params }) {
                   <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
                 </span>
               </summary>
-              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed whitespace-pre-line">
                 {landing.faq.a2}
               </div>
             </details>
@@ -237,7 +237,7 @@ export default async function Home({ params }) {
                   <svg className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="square" strokeLinejoin="miter" d="M20 12H4"/></svg>
                 </span>
               </summary>
-              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed">
+              <div className="px-6 pb-6 text-neutral-600 text-sm md:text-base leading-relaxed whitespace-pre-line">
                 {landing.faq.a3}
               </div>
             </details>

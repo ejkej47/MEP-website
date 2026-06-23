@@ -38,23 +38,8 @@ export default async function PeoplePage({ params }) {
         </div>
       </section>
 
-      {/* STRANICA U IZRADI - MESSAGE */}
-      <section className="py-16 md:py-32">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <div className="inline-block border-2 border-black p-8 md:p-12 bg-neutral-50 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-            <h2 className="text-2xl md:text-4xl font-black uppercase tracking-tight mb-4 text-black">
-              Stranica je u pripremi
-            </h2>
-            <p className="text-neutral-600 font-medium text-lg">
-              Informacije o našem timu će uskoro biti dostupne.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* SAKRIVENI SADRŽAJ (TIM I CTA) */}
-      {false && (
-        <>
           {/* TIM - 2 PO 2 GRID (Dinamičko iscrtavanje) */}
           <section className="py-16 md:py-24">
             <div className="max-w-7xl mx-auto px-6">
@@ -95,7 +80,5 @@ export default async function PeoplePage({ params }) {
             </div>
           </section>
         </>
-      )}
-    </>
   );
 }

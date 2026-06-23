@@ -4,7 +4,7 @@
     "services": "Usluge",
     "projects": "Projekti",
     "people": "Ljudi",
-    "careers": "Karijere",
+    "careers": "Karijera",
     "contact": "Kontakt"
   },
   "footer": {
@@ -16,7 +16,7 @@
   "landing": {
     "hero": {
       "title1": "Inženjerska preciznost.",
-      "title2": "Integrisano elektro-projektovanje.",
+      "title2": "Integrisano projektovanje.",
       "description": "Napredno projektovanje, BIM modelovanje i tehnička koordinacija elektroinstalacija za složene komercijalne, industrijske, obrazovne i \"Life Science\" komplekse.",
       "btnExplore": "Istraži usluge",
       "btnProjects": "Vidi projekte",
@@ -41,18 +41,18 @@
         "desc": "Stručnjaci koji razumeju širu sliku gradilišta."
       },
       "s5": {
-        "title": "Karijere",
+        "title": "Karijera",
         "desc": "Pridruži se našem timu i gradi budućnost zajedno sa nama."
       }
     },
     "faq": {
       "title": "Često postavljana pitanja (FAQ)",
       "q1": "Šta tačno obuhvata vaše MEP projektovanje?",
-      "a1": "HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija. To uključuje energetski efikasne sisteme (HVAC), kompletne instalacije jake i slabe struje, kao i održive hidrotehničke sisteme za distribuciju i upravljanje vodom.",
+      "a1": "HyperMEP pruža kompletne usluge MEP (Mechanical, Electrical & Plumbing) projektovanja, obuhvatajući sve faze razvoja tehničke dokumentacije – od idejnog rešenja i glavnog projekta do izvođačke dokumentacije i stručne podrške tokom realizacije projekta.\n\nU oblasti mašinskih instalacija projektujemo savremene HVAC sisteme (grejanje, ventilaciju i klimatizaciju) sa posebnim fokusom na energetsku efikasnost, komfor korisnika i optimizaciju operativnih troškova objekta. Naša rešenja uključuju sisteme za kontrolu kvaliteta vazduha, rekuperaciju energije, centralizovano upravljanje i integraciju sa pametnim sistemima zgrada.\n\nU segmentu elektroinstalacija razvijamo kompletna rešenja za jaku i slabu struju. To obuhvata projektovanje sistema napajanja i distribucije električne energije, rasvete, rezervnog napajanja, uzemljenja i gromobranske zaštite, kao i telekomunikacionih mreža, sistema video-nadzora, kontrole pristupa, protivprovalne zaštite, dojave požara i drugih bezbednosnih sistema.\n\nNaše hidrotehničke usluge uključuju projektovanje vodovodnih i kanalizacionih sistema, sistema za odvodnjavanje atmosferskih voda, protivpožarnih instalacija, kao i održivih rešenja za racionalno korišćenje i upravljanje vodnim resursima. Posebnu pažnju posvećujemo smanjenju potrošnje vode, ponovnoj upotrebi kišnice i usklađenosti sa savremenim ekološkim standardima.\n\nKroz multidisciplinarni pristup i primenu savremenih projektantskih alata, HyperMEP obezbeđuje tehnički usklađena, pouzdana i dugoročno održiva rešenja za stambene, poslovne, industrijske i infrastrukturne objekte svih veličina i namena.",
       "q2": "Kako koristimo BIM tehnologiju u projektima?",
-      "a2": "Koristimo alate poput Autodesk Revit i Navisworks za razvoj visoko preciznih 3D modela. Naš glavni fokus je napredna detekcija kolizija (Clash Detection) sa arhitekturom i konstrukcijom, čime rešavamo potencijalne probleme pre nego što se oni pojave na samom gradilištu.",
+      "a2": "U HyperMEP-u BIM (Building Information Modeling) tehnologiju koristimo kao centralni alat za projektovanje, koordinaciju i upravljanje tehničkim sistemima tokom celog životnog ciklusa projekta. Primenom naprednih BIM platformi, kao što su Autodesk Revit i Navisworks, kreiramo detaljne i visoko precizne 3D modele koji objedinjuju sve MEP discipline – mašinske, elektro i hidrotehničke instalacije – u jedinstvenom digitalnom okruženju.\n\nNaš proces ne podrazumeva samo izradu trodimenzionalnih modela, već i aktivnu koordinaciju sa arhitektonskim, konstruktivnim i ostalim projektantskim timovima. Kroz naprednu detekciju kolizija (Clash Detection) identifikujemo potencijalne konflikte između instalacija, konstrukcije i arhitektonskih elemenata još u fazi projektovanja. Na taj način problemi se rešavaju digitalno, pre početka izvođenja radova, čime se značajno smanjuju rizik od grešaka na gradilištu, neplanirani troškovi i kašnjenja u realizaciji projekta.\n\nBIM modeli koje razvijamo sadrže precizne tehničke podatke o svakom elementu sistema, uključujući dimenzije, tehničke karakteristike, performanse opreme i informacije potrebne za izvođenje i održavanje objekta. To omogućava investitorima, izvođačima i upravljačima objekata da imaju potpunu transparentnost i bolju kontrolu nad projektom u svim fazama njegove realizacije.\n\nKorišćenjem BIM metodologije unapređujemo komunikaciju između svih učesnika na projektu, optimizujemo procese donošenja odluka i omogućavamo efikasnije planiranje prostora, materijala i resursa. Rezultat su kvalitetnije koordinisani projekti, veća tačnost tehničke dokumentacije, brža realizacija i dugoročno održiviji objekti.\n\nNaš cilj je da BIM ne bude samo alat za modelovanje, već strateška platforma koja omogućava veću efikasnost, pouzdanost i predvidivost tokom projektovanja i izgradnje savremenih objekata.",
       "q3": "Za koje vrste objekata radite tehničku dokumentaciju?",
-      "a3": "Naše usluge pokrivaju širok spektar različith objekata. Najčešće radimo na komercijalnim poslovnim zgradama, industrijskim postrojenjima, zdravstvenim i obrazovnim ustanovama, data centrima, kao i objektima mešovite namene."
+      "a3": "HyperMEP izrađuje kompletnu tehničku dokumentaciju za širok spektar objekata različitih namena, veličina i nivoa tehničke složenosti. Naše iskustvo obuhvata projektovanje novih objekata, rekonstrukcije postojećih sistema, adaptacije prostora, kao i projekte proširenja i modernizacije infrastrukture.\n\nPosebno smo aktivni u projektima komercijalnih i poslovnih objekata, uključujući kancelarijske zgrade, poslovne centre, maloprodajne objekte, tržne centre, hotele i ugostiteljske komplekse. Za ove objekte razvijamo integrisana MEP rešenja koja obezbeđuju visok nivo komfora korisnika, energetsku efikasnost i pouzdan rad svih tehničkih sistema.\n\nU industrijskom sektoru projektujemo instalacije za proizvodne hale, logističke centre, skladišta, distributivne objekte i specijalizovana industrijska postrojenja. Ovakvi projekti zahtevaju detaljno razumevanje tehnoloških procesa, visok stepen koordinacije između različitih struka i prilagođavanje tehničkih sistema specifičnim operativnim zahtevima investitora.\n\nZnačajno iskustvo posedujemo i u projektovanju zdravstvenih ustanova, uključujući bolnice, klinike, dijagnostičke centre i laboratorije. Ovi objekti zahtevaju posebno precizno projektovanje HVAC sistema, kontrolu kvaliteta vazduha, rezervne sisteme napajanja i usklađenost sa strogim bezbednosnim i regulatornim standardima.\n\nTakođe radimo na projektima obrazovnih institucija kao što su škole, univerziteti, istraživački centri i kampusi, gde je fokus na stvaranju sigurnog, funkcionalnog i energetski efikasnog okruženja za učenike, studente i zaposlene.\n\nJedna od naših specijalnosti su data centri i objekti kritične infrastrukture, gde projektujemo visoko pouzdane sisteme napajanja, hlađenja, protivpožarne zaštite i tehničkog nadzora. Kod ovih objekata posebna pažnja posvećuje se redundansi sistema, kontinuitetu rada i maksimalnoj operativnoj sigurnosti.\n\nPored navedenih kategorija, učestvujemo i u projektima objekata mešovite namene koji kombinuju stambene, poslovne, komercijalne i javne sadržaje. Zahvaljujući multidisciplinarnom pristupu i BIM koordinaciji, uspešno odgovaramo na izazove kompleksnih projekata koji zahtevaju integraciju velikog broja tehničkih sistema i zainteresovanih strana.\n\nBez obzira na tip objekta, naš cilj je da razvijemo tehnička rešenja koja su funkcionalna, energetski efikasna, usklađena sa važećim standardima i prilagođena dugoročnim potrebama investitora i krajnjih korisnika."
     }
   },
   "about": {
@@ -338,7 +338,7 @@
     }
   },
   "careers": {
-    "title": "Karijere",
+    "title": "Karijera",
     "intro": {
       "title": "Pridružite se timu koji projektuje budućnost",
       "p1": "U HyperMEP-u verujemo da vrhunski projekti nastaju zahvaljujući vrhunskim ljudima. Zato kontinuirano ulažemo u razvoj stručnjaka koji dele našu strast prema inženjerstvu, inovacijama i kvalitetu.",
