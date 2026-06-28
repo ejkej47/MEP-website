@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import "../../styles/globals.css";
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
@@ -57,6 +58,8 @@ export default async function RootLayout({ children, params }) {
         <Footer lang={params.lang} dict={dict.footer} />
 
         <CookieBanner dict={dict.cookieConsent} />
+
+        <Analytics />
       </body>
     </html>
   );
