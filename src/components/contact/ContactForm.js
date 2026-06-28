@@ -58,8 +58,25 @@ export default function ContactForm({ dict }) {
           >
             {status === 'loading' ? '...' : dict.btn}
           </button>
+
+          {/* OVO JE NOVI DEO ZA STATUS ISPIS */}
+          {status === 'success' && (
+            <div className="flex items-center gap-2 text-green-600 font-medium animate-in fade-in duration-500">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+              <span>{dict.successMsg}</span>
+            </div>
+          )}
+
+          {status === 'error' && (
+            <div className="flex items-center gap-2 text-red-600 font-medium animate-in fade-in duration-500">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+              <span>{dict.errorMsg}</span>
+            </div>
+          )}
         </div>
       </form>
+
+      
     </>
   );
 }

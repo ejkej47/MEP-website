@@ -405,11 +405,10 @@
       "email": "Email*",
       "subject": "Subject*",
       "message": "Message*",
-      "btn": "Send Message"
-    },
-    "successMsg": "Message sent successfully!",
-    "errorMsg": "An error occurred. Please try again.",
-    "placeholder": "[Placeholder: Office / Location Image]"
+      "btn": "Send Message",
+      "successMsg": "Message sent successfully! Thank you for reaching out.",
+      "errorMsg": "An error occurred while sending. Please try again later."
+    }
   },
   "privacyPage": {
     "title": "Privacy Policy",

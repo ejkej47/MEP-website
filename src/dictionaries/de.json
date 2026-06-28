@@ -405,11 +405,10 @@
       "email": "E-Mail*",
       "subject": "Betreff*",
       "message": "Nachricht*",
-      "btn": "Nachricht senden"
-    },
-    "successMsg": "Nachricht erfolgreich gesendet!",
-    "errorMsg": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
-    "placeholder": "[Platzhalter: Büro- / Standortbild]"
+      "btn": "Nachricht senden",
+      "successMsg": "Nachricht erfolgreich gesendet! Vielen Dank für Ihre Kontaktaufnahme.",
+      "errorMsg": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal."
+    }
   },
   "privacyPage": {
     "title": "Datenschutzrichtlinie",

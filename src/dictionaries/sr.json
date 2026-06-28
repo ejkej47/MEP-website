@@ -405,11 +405,10 @@
       "email": "Email*",
       "subject": "Naslov*",
       "message": "Poruka*",
-      "btn": "Pošalji poruku"
-    },
-    "successMsg": "Poruka je uspešno poslata!",
-    "errorMsg": "Došlo je do greške. Pokušajte ponovo.",
-    "placeholder": "[Placeholder: Slika Kancelarije / Lokacije]"
+      "btn": "Pošalji poruku",
+      "successMsg": "Poruka je uspešno poslata! Hvala vam što ste nas kontaktirali.",
+      "errorMsg": "Došlo je do greške pri slanju poruke. Molimo vas, pokušajte ponovo kasnije." 
+    }
   },
   "privacyPage": {
     "title": "Politika privatnosti",
