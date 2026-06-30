@@ -71,17 +71,17 @@ export default async function RootLayout({ children, params }) {
     "@type": "EngineeringBusiness",
     "name": "EE&C MEP",
     "url": "https://eecmep.com",
-    "logo": "https://eecmep.com/logo-placeholder.png", // TODO: stavi pravi link do logotipa
-    "description": "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija.",
+    "logo": "https://eecmep.com/logo.svg",
+    "description": "Comprehensive Electrical Design, BIM modeling, and coordination.",
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "RS" // Pomaže da izlaziš lokalno za Srbiju
+      "addressCountry": "RS" // Ostavljamo RS da bi te Gugl i dalje pronalazio klijentima koji traže firme u Srbiji
     },
     "knowsAbout": [
       "Electrical Design",
       "BIM Modeling",
       "MEP Engineering",
-      "Elektro projektovanje"
+      "Electrical Engineering"
     ]
   };
 
