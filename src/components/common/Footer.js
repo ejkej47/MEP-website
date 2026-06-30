@@ -10,7 +10,7 @@ export default function Footer({ lang, dict }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 text-sm">
           
           <div>
-            <h3 className="font-bold mb-4">HYPERMEP DOO</h3>
+            <h3 className="font-bold mb-4">EE&C MEP</h3>
             <p className="text-neutral-400 leading-relaxed">
               Oslobođenja 25V/11<br />
               26000 Pančevo, Serbia
@@ -25,8 +25,8 @@ export default function Footer({ lang, dict }) {
                 +381 64 1187381
               </a>
               <br />
-              <a href="mailto:office@hypermep.com" className="hover:text-neutral-300 transition-colors">
-                office@hypermep.com
+              <a href="mailto:office@eecmep.com" className="hover:text-neutral-300 transition-colors">
+                office@eecmep.com
               </a>
             </p>
           </div>
@@ -34,13 +34,13 @@ export default function Footer({ lang, dict }) {
           {/* Društvene mreže su zakomentarisane za kasniju upotrebu */}
           {/* 
           <div className="flex md:justify-end gap-6">
-            <Link href="https://linkedin.com/company/hypermep" aria-label="LinkedIn" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://linkedin.com/company/eecmep" aria-label="LinkedIn" className="text-neutral-400 hover:text-white transition-colors">
               <FaLinkedin size={32} />
             </Link>
-            <Link href="https://instagram.com/hypermep" aria-label="Instagram" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://instagram.com/eecmep" aria-label="Instagram" className="text-neutral-400 hover:text-white transition-colors">
               <FaInstagram size={32} />
             </Link>
-            <Link href="https://facebook.com/hypermep" aria-label="Facebook" className="text-neutral-400 hover:text-white transition-colors">
+            <Link href="https://facebook.com/eecmep" aria-label="Facebook" className="text-neutral-400 hover:text-white transition-colors">
               <FaFacebook size={32} />
             </Link>
           </div>
@@ -49,7 +49,7 @@ export default function Footer({ lang, dict }) {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-800 text-xs text-neutral-500">
-          <p>© {new Date().getFullYear()} HYPER MEP. {dict.rights}</p>
+          <p>© {new Date().getFullYear()} EE&C MEP. {dict.rights}</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href={`/${lang}/politika-privatnosti`} className="hover:text-white transition-colors">{dict.privacy}</Link>
             <Link href={`/${lang}/uslovi-koriscenja`} className="hover:text-white transition-colors">{dict.terms}</Link>

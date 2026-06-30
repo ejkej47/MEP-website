@@ -32,7 +32,7 @@ export default async function ContactPage({ params }) {
                 {dict.office || "Kancelarija"}
               </h3>
               <p className="text-xl md:text-2xl font-black uppercase tracking-tight mb-2">
-                HYPERMEP
+                EE&CMEP
               </p>
               <p className="text-neutral-600 font-medium text-base md:text-lg leading-relaxed">
                 Oslobođenja 25V/11<br />
@@ -51,8 +51,8 @@ export default async function ContactPage({ params }) {
                   </a>
                 </p>
                 <p>
-                  <a href="mailto:office@hypermep.com" className="text-base md:text-lg font-medium hover:text-neutral-500 transition-colors">
-                    office@hypermep.com
+                  <a href="mailto:office@eecmep.com" className="text-base md:text-lg font-medium hover:text-neutral-500 transition-colors">
+                    office@eecmep.com
                   </a>
                 </p>
               </div>

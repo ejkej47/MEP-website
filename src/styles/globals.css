@@ -14,7 +14,6 @@
     @apply bg-secondary text-primary font-sans antialiased selection:bg-black selection:text-white;
   }
 
-  /* Svi elementi po defaultu gube zaobljenje ivica za "Hyper" efekat */
   *, *::before, *::after {
     border-radius: 0px !important;
   }

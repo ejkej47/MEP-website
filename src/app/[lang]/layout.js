@@ -14,20 +14,20 @@ export async function generateMetadata({ params }) {
 
   return {
     title: {
-      default: "HYPER MEP",
-      template: "%s | HYPER MEP"
+      default: "EE&C MEP",
+      template: "%s | EE&C MEP"
     },
     description: "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
     keywords: ["electrical design", "elektro projektovanje", "BIM modeling", "MEP engineering", "projekti", "Srbija"],
-    authors: [{ name: "HYPER MEP" }],
-    creator: "HYPER MEP",
+    authors: [{ name: "EE&C MEP" }],
+    creator: "EE&C MEP",
     openGraph: {
       type: "website",
       locale: localeMap[params.lang] ?? "sr_RS",
       url: `https://mep-website-delta.vercel.app/${params.lang}`,
-      title: "HYPER MEP | Electrical Design & BIM Modeling",
+      title: "EE&C MEP | Electrical Design & BIM Modeling",
       description: "Integrisano elektro-projektovanje i inženjering sa fokusom na preciznost i BIM koordinaciju.",
-      siteName: "HYPER MEP",
+      siteName: "EE&C MEP",
     },
     alternates: {
       canonical: `https://mep-website-delta.vercel.app/${params.lang}`,

@@ -8,7 +8,7 @@
     "contact": "Kontakt"
   },
   "footer": {
-    "contactTitle": "Kontaktirajte Hyper:",
+    "contactTitle": "Kontaktirajte EE&C MEP:",
     "rights": "Sva prava zadržana.",
     "privacy": "Politika privatnosti",
     "terms": "Uslovi korišćenja"
@@ -48,18 +48,18 @@
     "faq": {
       "title": "Često postavljana pitanja (FAQ)",
       "q1": "Šta tačno obuhvata vaše MEP projektovanje?",
-      "a1": "HyperMEP pruža kompletne usluge MEP (Mechanical, Electrical & Plumbing) projektovanja, obuhvatajući sve faze razvoja tehničke dokumentacije – od idejnog rešenja i glavnog projekta do izvođačke dokumentacije i stručne podrške tokom realizacije projekta.\n\nU oblasti mašinskih instalacija projektujemo savremene HVAC sisteme (grejanje, ventilaciju i klimatizaciju) sa posebnim fokusom na energetsku efikasnost, komfor korisnika i optimizaciju operativnih troškova objekta. Naša rešenja uključuju sisteme za kontrolu kvaliteta vazduha, rekuperaciju energije, centralizovano upravljanje i integraciju sa pametnim sistemima zgrada.\n\nU segmentu elektroinstalacija razvijamo kompletna rešenja za jaku i slabu struju. To obuhvata projektovanje sistema napajanja i distribucije električne energije, rasvete, rezervnog napajanja, uzemljenja i gromobranske zaštite, kao i telekomunikacionih mreža, sistema video-nadzora, kontrole pristupa, protivprovalne zaštite, dojave požara i drugih bezbednosnih sistema.\n\nNaše hidrotehničke usluge uključuju projektovanje vodovodnih i kanalizacionih sistema, sistema za odvodnjavanje atmosferskih voda, protivpožarnih instalacija, kao i održivih rešenja za racionalno korišćenje i upravljanje vodnim resursima. Posebnu pažnju posvećujemo smanjenju potrošnje vode, ponovnoj upotrebi kišnice i usklađenosti sa savremenim ekološkim standardima.\n\nKroz multidisciplinarni pristup i primenu savremenih projektantskih alata, HyperMEP obezbeđuje tehnički usklađena, pouzdana i dugoročno održiva rešenja za stambene, poslovne, industrijske i infrastrukturne objekte svih veličina i namena.",
+      "a1": "EE&C MEP pruža kompletne usluge MEP (Mechanical, Electrical & Plumbing) projektovanja, obuhvatajući sve faze razvoja tehničke dokumentacije – od idejnog rešenja i glavnog projekta do izvođačke dokumentacije i stručne podrške tokom realizacije projekta.\n\nU oblasti mašinskih instalacija projektujemo savremene HVAC sisteme (grejanje, ventilaciju i klimatizaciju) sa posebnim fokusom na energetsku efikasnost, komfor korisnika i optimizaciju operativnih troškova objekta. Naša rešenja uključuju sisteme za kontrolu kvaliteta vazduha, rekuperaciju energije, centralizovano upravljanje i integraciju sa pametnim sistemima zgrada.\n\nU segmentu elektroinstalacija razvijamo kompletna rešenja za jaku i slabu struju. To obuhvata projektovanje sistema napajanja i distribucije električne energije, rasvete, rezervnog napajanja, uzemljenja i gromobranske zaštite, kao i telekomunikacionih mreža, sistema video-nadzora, kontrole pristupa, protivprovalne zaštite, dojave požara i drugih bezbednosnih sistema.\n\nNaše hidrotehničke usluge uključuju projektovanje vodovodnih i kanalizacionih sistema, sistema za odvodnjavanje atmosferskih voda, protivpožarnih instalacija, kao i održivih rešenja za racionalno korišćenje i upravljanje vodnim resursima. Posebnu pažnju posvećujemo smanjenju potrošnje vode, ponovnoj upotrebi kišnice i usklađenosti sa savremenim ekološkim standardima.\n\nKroz multidisciplinarni pristup i primenu savremenih projektantskih alata, EE&C MEP obezbeđuje tehnički usklađena, pouzdana i dugoročno održiva rešenja za stambene, poslovne, industrijske i infrastrukturne objekte svih veličina i namena.",
       "q2": "Kako koristimo BIM tehnologiju u projektima?",
-      "a2": "U HyperMEP-u BIM (Building Information Modeling) tehnologiju koristimo kao centralni alat za projektovanje, koordinaciju i upravljanje tehničkim sistemima tokom celog životnog ciklusa projekta. Primenom naprednih BIM platformi, kao što su Autodesk Revit i Navisworks, kreiramo detaljne i visoko precizne 3D modele koji objedinjuju sve MEP discipline – mašinske, elektro i hidrotehničke instalacije – u jedinstvenom digitalnom okruženju.\n\nNaš proces ne podrazumeva samo izradu trodimenzionalnih modela, već i aktivnu koordinaciju sa arhitektonskim, konstruktivnim i ostalim projektantskim timovima. Kroz naprednu detekciju kolizija (Clash Detection) identifikujemo potencijalne konflikte između instalacija, konstrukcije i arhitektonskih elemenata još u fazi projektovanja. Na taj način problemi se rešavaju digitalno, pre početka izvođenja radova, čime se značajno smanjuju rizik od grešaka na gradilištu, neplanirani troškovi i kašnjenja u realizaciji projekta.\n\nBIM modeli koje razvijamo sadrže precizne tehničke podatke o svakom elementu sistema, uključujući dimenzije, tehničke karakteristike, performanse opreme i informacije potrebne za izvođenje i održavanje objekta. To omogućava investitorima, izvođačima i upravljačima objekata da imaju potpunu transparentnost i bolju kontrolu nad projektom u svim fazama njegove realizacije.\n\nKorišćenjem BIM metodologije unapređujemo komunikaciju između svih učesnika na projektu, optimizujemo procese donošenja odluka i omogućavamo efikasnije planiranje prostora, materijala i resursa. Rezultat su kvalitetnije koordinisani projekti, veća tačnost tehničke dokumentacije, brža realizacija i dugoročno održiviji objekti.\n\nNaš cilj je da BIM ne bude samo alat za modelovanje, već strateška platforma koja omogućava veću efikasnost, pouzdanost i predvidivost tokom projektovanja i izgradnje savremenih objekata.",
+      "a2": "U EE&C MEP-u BIM (Building Information Modeling) tehnologiju koristimo kao centralni alat za projektovanje, koordinaciju i upravljanje tehničkim sistemima tokom celog životnog ciklusa projekta. Primenom naprednih BIM platformi, kao što su Autodesk Revit i Navisworks, kreiramo detaljne i visoko precizne 3D modele koji objedinjuju sve MEP discipline – mašinske, elektro i hidrotehničke instalacije – u jedinstvenom digitalnom okruženju.\n\nNaš proces ne podrazumeva samo izradu trodimenzionalnih modela, već i aktivnu koordinaciju sa arhitektonskim, konstruktivnim i ostalim projektantskim timovima. Kroz naprednu detekciju kolizija (Clash Detection) identifikujemo potencijalne konflikte između instalacija, konstrukcije i arhitektonskih elemenata još u fazi projektovanja. Na taj način problemi se rešavaju digitalno, pre početka izvođenja radova, čime se značajno smanjuju rizik od grešaka na gradilištu, neplanirani troškovi i kašnjenja u realizaciji projekta.\n\nBIM modeli koje razvijamo sadrže precizne tehničke podatke o svakom elementu sistema, uključujući dimenzije, tehničke karakteristike, performanse opreme i informacije potrebne za izvođenje i održavanje objekta. To omogućava investitorima, izvođačima i upravljačima objekata da imaju potpunu transparentnost i bolju kontrolu nad projektom u svim fazama njegove realizacije.\n\nKorišćenjem BIM metodologije unapređujemo komunikaciju između svih učesnika na projektu, optimizujemo procese donošenja odluka i omogućavamo efikasnije planiranje prostora, materijala i resursa. Rezultat su kvalitetnije koordinisani projekti, veća tačnost tehničke dokumentacije, brža realizacija i dugoročno održiviji objekti.\n\nNaš cilj je da BIM ne bude samo alat za modelovanje, već strateška platforma koja omogućava veću efikasnost, pouzdanost i predvidivost tokom projektovanja i izgradnje savremenih objekata.",
       "q3": "Za koje vrste objekata radite tehničku dokumentaciju?",
-      "a3": "HyperMEP izrađuje kompletnu tehničku dokumentaciju za širok spektar objekata različitih namena, veličina i nivoa tehničke složenosti. Naše iskustvo obuhvata projektovanje novih objekata, rekonstrukcije postojećih sistema, adaptacije prostora, kao i projekte proširenja i modernizacije infrastrukture.\n\nPosebno smo aktivni u projektima komercijalnih i poslovnih objekata, uključujući kancelarijske zgrade, poslovne centre, maloprodajne objekte, tržne centre, hotele i ugostiteljske komplekse. Za ove objekte razvijamo integrisana MEP rešenja koja obezbeđuju visok nivo komfora korisnika, energetsku efikasnost i pouzdan rad svih tehničkih sistema.\n\nU industrijskom sektoru projektujemo instalacije za proizvodne hale, logističke centre, skladišta, distributivne objekte i specijalizovana industrijska postrojenja. Ovakvi projekti zahtevaju detaljno razumevanje tehnoloških procesa, visok stepen koordinacije između različitih struka i prilagođavanje tehničkih sistema specifičnim operativnim zahtevima investitora.\n\nZnačajno iskustvo posedujemo i u projektovanju zdravstvenih ustanova, uključujući bolnice, klinike, dijagnostičke centre i laboratorije. Ovi objekti zahtevaju posebno precizno projektovanje HVAC sistema, kontrolu kvaliteta vazduha, rezervne sisteme napajanja i usklađenost sa strogim bezbednosnim i regulatornim standardima.\n\nTakođe radimo na projektima obrazovnih institucija kao što su škole, univerziteti, istraživački centri i kampusi, gde je fokus na stvaranju sigurnog, funkcionalnog i energetski efikasnog okruženja za učenike, studente i zaposlene.\n\nJedna od naših specijalnosti su data centri i objekti kritične infrastrukture, gde projektujemo visoko pouzdane sisteme napajanja, hlađenja, protivpožarne zaštite i tehničkog nadzora. Kod ovih objekata posebna pažnja posvećuje se redundansi sistema, kontinuitetu rada i maksimalnoj operativnoj sigurnosti.\n\nPored navedenih kategorija, učestvujemo i u projektima objekata mešovite namene koji kombinuju stambene, poslovne, komercijalne i javne sadržaje. Zahvaljujući multidisciplinarnom pristupu i BIM koordinaciji, uspešno odgovaramo na izazove kompleksnih projekata koji zahtevaju integraciju velikog broja tehničkih sistema i zainteresovanih strana.\n\nBez obzira na tip objekta, naš cilj je da razvijemo tehnička rešenja koja su funkcionalna, energetski efikasna, usklađena sa važećim standardima i prilagođena dugoročnim potrebama investitora i krajnjih korisnika."
+      "a3": "EE&C MEP izrađuje kompletnu tehničku dokumentaciju za širok spektar objekata različitih namena, veličina i nivoa tehničke složenosti. Naše iskustvo obuhvata projektovanje novih objekata, rekonstrukcije postojećih sistema, adaptacije prostora, kao i projekte proširenja i modernizacije infrastrukture.\n\nPosebno smo aktivni u projektima komercijalnih i poslovnih objekata, uključujući kancelarijske zgrade, poslovne centre, maloprodajne objekte, tržne centre, hotele i ugostiteljske komplekse. Za ove objekte razvijamo integrisana MEP rešenja koja obezbeđuju visok nivo komfora korisnika, energetsku efikasnost i pouzdan rad svih tehničkih sistema.\n\nU industrijskom sektoru projektujemo instalacije za proizvodne hale, logističke centre, skladišta, distributivne objekte i specijalizovana industrijska postrojenja. Ovakvi projekti zahtevaju detaljno razumevanje tehnoloških procesa, visok stepen koordinacije između različitih struka i prilagođavanje tehničkih sistema specifičnim operativnim zahtevima investitora.\n\nZnačajno iskustvo posedujemo i u projektovanju zdravstvenih ustanova, uključujući bolnice, klinike, dijagnostičke centre i laboratorije. Ovi objekti zahtevaju posebno precizno projektovanje HVAC sistema, kontrolu kvaliteta vazduha, rezervne sisteme napajanja i usklađenost sa strogim bezbednosnim i regulatornim standardima.\n\nTakođe radimo na projektima obrazovnih institucija kao što su škole, univerziteti, istraživački centri i kampusi, gde je fokus na stvaranju sigurnog, funkcionalnog i energetski efikasnog okruženja za učenike, studente i zaposlene.\n\nJedna od naših specijalnosti su data centri i objekti kritične infrastrukture, gde projektujemo visoko pouzdane sisteme napajanja, hlađenja, protivpožarne zaštite i tehničkog nadzora. Kod ovih objekata posebna pažnja posvećuje se redundansi sistema, kontinuitetu rada i maksimalnoj operativnoj sigurnosti.\n\nPored navedenih kategorija, učestvujemo i u projektima objekata mešovite namene koji kombinuju stambene, poslovne, komercijalne i javne sadržaje. Zahvaljujući multidisciplinarnom pristupu i BIM koordinaciji, uspešno odgovaramo na izazove kompleksnih projekata koji zahtevaju integraciju velikog broja tehničkih sistema i zainteresovanih strana.\n\nBez obzira na tip objekta, naš cilj je da razvijemo tehnička rešenja koja su funkcionalna, energetski efikasna, usklađena sa važećim standardima i prilagođena dugoročnim potrebama investitora i krajnjih korisnika."
     }
   },
   "about": {
     "title": "O nama",
     "company": {
       "title": "O kompaniji",
-      "p1": "HyperMEP je nezavisna inženjerska konsultantska kompanija specijalizovana za projektovanje MEP sistema (Mechanical, Electrical & Plumbing Engineering), BIM modelovanje i multidisciplinarnu tehničku koordinaciju.",
+      "p1": "EE&C MEP je nezavisna inženjerska konsultantska kompanija specijalizovana za projektovanje MEP sistema (Mechanical, Electrical & Plumbing Engineering), BIM modelovanje i multidisciplinarnu tehničku koordinaciju.",
       "p2": "Osnovana 2023. godine u Pančevu, kompanija je nastala sa ciljem da objedini savremeno inženjerstvo, digitalne tehnologije i visok nivo tehničke ekspertize kako bi klijentima pružila pouzdana, održiva i efikasna projektantska rešenja.",
       "p3": "Kompaniju je osnovao Uroš Milenković, vođen vizijom da kreira inženjerski biro sposoban da odgovori na izazove savremenog građevinskog sektora kroz integrisani pristup projektovanju, BIM koordinaciji i optimizaciji performansi objekata."
     },
@@ -89,11 +89,11 @@
       "title": "Praksa na terenu",
       "link": "Pogledajte naše izvedene objekte ➔"
     },
-    "quote": "\"HyperMEP spaja inženjersko znanje, BIM tehnologiju i strateško razmišljanje kako bi svaki projekat bio realizovan sa maksimalnom efikasnošću, pouzdanošću i kvalitetom.\""
+    "quote": "\"EE&C MEP spaja inženjersko znanje, BIM tehnologiju i strateško razmišljanje kako bi svaki projekat bio realizovan sa maksimalnom efikasnošću, pouzdanošću i kvalitetom.\""
   },
   "services": {
     "title": "Usluge",
-    "intro": "HyperMEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija, kombinujući tehničku ekspertizu, BIM metodologiju i praktična inženjerska rešenja. Naš cilj je razvoj efikasnih, održivih i pouzdanih sistema koji zadovoljavaju najviše tehničke i regulatorne standarde.",
+    "intro": "EE&C MEP pruža sveobuhvatne usluge projektovanja elektro, mašinskih i hidrotehničkih instalacija, kombinujući tehničku ekspertizu, BIM metodologiju i praktična inženjerska rešenja. Naš cilj je razvoj efikasnih, održivih i pouzdanih sistema koji zadovoljavaju najviše tehničke i regulatorne standarde.",
     "gallery": "Galerija",
     "s1": {
       "title": "Mašinske instalacije (Mechanical Engineering)",
@@ -297,14 +297,14 @@
       }
     },
     "cta": {
-    "title": "Spremni za tehničku razradu vašeg projekta?",
-    "desc": "Kontaktirajte nas za konsultacije u vezi sa vašim sledećim komercijalnim ili industrijskim objektom.",
-    "btn": "Kontaktirajte nas"
+      "title": "Spremni za tehničku razradu vašeg projekta?",
+      "desc": "Kontaktirajte nas za konsultacije u vezi sa vašim sledećim komercijalnim ili industrijskim objektom.",
+      "btn": "Kontaktirajte nas"
     }
   },
   "people": {
     "title": "Ljudi",
-    "imgAlt": "Tim kompanije HyperMEP",
+    "imgAlt": "Tim kompanije EE&C MEP",
     "team": [
       {
         "id": 1,
@@ -332,16 +332,16 @@
       }
     ],
     "cta": {
-    "title": "Pogledajte šta je naš tim izgradio.",
-    "desc": "Istražite naš portfolio i uverite se u inženjersku preciznost kroz uspešno realizovane komercijalne i industrijske objekte.",
-    "btn": "Istražite projekte"
+      "title": "Pogledajte šta je naš tim izgradio.",
+      "desc": "Istražite naš portfolio i uverite se u inženjersku preciznost kroz uspešno realizovane komercijalne i industrijske objekte.",
+      "btn": "Istražite projekte"
     }
   },
   "careers": {
     "title": "Karijera",
     "intro": {
       "title": "Pridružite se timu koji projektuje budućnost",
-      "p1": "U HyperMEP-u verujemo da vrhunski projekti nastaju zahvaljujući vrhunskim ljudima. Zato kontinuirano ulažemo u razvoj stručnjaka koji dele našu strast prema inženjerstvu, inovacijama i kvalitetu.",
+      "p1": "U EE&C MEP-u verujemo da vrhunski projekti nastaju zahvaljujući vrhunskim ljudima. Zato kontinuirano ulažemo u razvoj stručnjaka koji dele našu strast prema inženjerstvu, inovacijama i kvalitetu.",
       "p2": "Tražimo ambiciozne i posvećene profesionalce koji žele da rade na izazovnim projektima, usavršavaju svoje veštine i budu deo modernog inženjerskog okruženja zasnovanog na saradnji, znanju i tehnologiji."
     },
     "positions": {
@@ -384,15 +384,15 @@
       ]
     },
     "whyUs": {
-      "title": "Zašto HyperMEP?",
+      "title": "Zašto EE&C MEP?",
       "p1": "Kod nas nećete biti samo deo tima – bićete deo kompanije koja raste, razvija se i gradi reputaciju kroz kvalitet svog rada.",
       "p2": "Tražimo ljude koji žele da preuzmu odgovornost, razvijaju svoje znanje i ostave trag na projektima koji oblikuju prostor u kome živimo i radimo.",
-      "p3": "Ako želite da radite u okruženju koje vrednuje stručnost, inicijativu i profesionalni razvoj, HyperMEP je pravo mesto za vas."
+      "p3": "Ako želite da radite u okruženju koje vrednuje stručnost, inicijativu i profesionalni razvoj, EE&C MEP je pravo mesto za vas."
     },
     "apply": {
       "title": "Prijavite se",
       "desc": "Pošaljite svoj CV i kratko predstavljanje na:",
-      "email": "karijera@hypermep.com"
+      "email": "karijera@eecmep.com"
     }
   },
   "contact": {
@@ -407,18 +407,18 @@
       "message": "Poruka*",
       "btn": "Pošalji poruku",
       "successMsg": "Poruka je uspešno poslata! Hvala vam što ste nas kontaktirali.",
-      "errorMsg": "Došlo je do greške pri slanju poruke. Molimo vas, pokušajte ponovo kasnije." 
+      "errorMsg": "Došlo je do greške pri slanju poruke. Molimo vas, pokušajte ponovo kasnije."
     }
   },
   "privacyPage": {
     "title": "Politika privatnosti",
-    "p1": "Kompanija HyperMEP prikuplja vaše podatke (ime, email adresa, sadržaj poruke, CV) isključivo u svrhu odgovora na vaše upite i procesa selekcije kandidata za posao.",
+    "p1": "Kompanija EE&C MEP prikuplja vaše podatke (ime, email adresa, sadržaj poruke, CV) isključivo u svrhu odgovora na vaše upite i procesa selekcije kandidata za posao.",
     "p2": "Vaši podaci se neće deliti sa trećim licima bez vašeg izričitog pristanka.",
     "p3": "Imate pravo da u svakom trenutku zatražite uvid, izmenu ili brisanje vaših ličnih podataka slanjem zahteva na naš zvanični email."
   },
   "termsPage": {
     "title": "Uslovi korišćenja",
-    "p1": "Svi tekstovi, slike, 3D BIM modeli i ostali materijali na ovom sajtu su intelektualna svojina kompanije HyperMEP i ne smeju se kopirati, preuzimati ili koristiti bez prethodnog pismenog odobrenja.",
+    "p1": "Svi tekstovi, slike, 3D BIM modeli i ostali materijali na ovom sajtu su intelektualna svojina kompanije EE&C MEP i ne smeju se kopirati, preuzimati ili koristiti bez prethodnog pismenog odobrenja.",
     "p2": "Informacije na sajtu su isključivo informativnog karaktera i ne predstavljaju obavezujući inženjerski savet ili zvaničnu ponudu."
   },
   "cookieConsent": {

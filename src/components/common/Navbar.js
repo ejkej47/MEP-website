@@ -25,7 +25,7 @@ export default function Navbar({ lang, dict }) {
         
         <div className="flex-shrink-0">
           <Link href={`/${lang}`} className="text-xl tracking-tighter" onClick={() => setIsMenuOpen(false)}>
-            HYPER<span className="font-extrabold ml-1">MEP</span>
+            EE&C<span className="font-extrabold ml-1">MEP</span>
           </Link>
         </div>
 
