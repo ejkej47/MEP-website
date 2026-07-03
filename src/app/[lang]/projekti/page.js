@@ -83,7 +83,7 @@ export default async function ProjectsPage({ params }) {
         </div>
       </section>
 
-      {/* CTA (POZIV NA AKCIJU) */}
+      {/* CTA (POZIV NA AKCIJU) 
       <section className="bg-black text-white py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
@@ -102,7 +102,7 @@ export default async function ProjectsPage({ params }) {
             </svg>
           </Link>
         </div>
-      </section>
+      </section>*/}
     </>
   );
 }

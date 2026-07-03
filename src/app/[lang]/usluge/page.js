@@ -376,7 +376,7 @@ export default async function ServicesPage({ params }) {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA 
       <section className="bg-black text-white py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
@@ -395,7 +395,7 @@ export default async function ServicesPage({ params }) {
             </svg>
           </Link>
         </div>
-      </section>
+      </section>*/}
     </>
   );
 }

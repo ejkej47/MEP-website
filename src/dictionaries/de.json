@@ -11,7 +11,12 @@
     "contactTitle": "Kontakt EE&C MEP:",
     "rights": "Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen"
+    "terms": "Nutzungsbedingungen",
+    "cta": {
+      "title": "Haben Sie ein Projekt im Sinn?",
+      "desc": "Wir sind hier, um Ihre Ideen in die Realität umzusetzen. Kontaktieren Sie uns und lassen Sie uns die Zusammenarbeit beginnen.",
+      "btn": "Kontaktieren Sie uns"
+    }
   },
   "landing": {
     "hero": {

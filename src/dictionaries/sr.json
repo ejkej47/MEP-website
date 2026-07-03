@@ -11,7 +11,12 @@
     "contactTitle": "Kontaktirajte EE&C MEP:",
     "rights": "Sva prava zadržana.",
     "privacy": "Politika privatnosti",
-    "terms": "Uslovi korišćenja"
+    "terms": "Uslovi korišćenja",
+    "cta": {
+      "title": "Imate projekat na umu?",
+      "desc": "Tu smo da vaše ideje pretvorimo u stvarnost. Kontaktirajte nas i započnimo saradnju.",
+      "btn": "Kontaktirajte nas"
+    }
   },
   "landing": {
     "hero": {

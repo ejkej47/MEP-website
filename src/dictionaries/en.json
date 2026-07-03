@@ -11,7 +11,12 @@
     "contactTitle": "Contact EE&C MEP:",
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "cta": {
+      "title": "Have a project in mind?",
+      "desc": "We are here to turn your ideas into reality. Contact us and let's start collaborating.",
+      "btn": "Contact Us"
+    }
   },
   "landing": {
     "hero": {
