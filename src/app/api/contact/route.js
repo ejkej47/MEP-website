@@ -7,8 +7,8 @@ export async function POST(req) {
 
   try {
     await resend.emails.send({
-      from: 'Kontakt Sajt <contact@eecmep.com>',  // Zvanična adresa pošiljaoca (tvoj novi domen)
-      to: 'contact@eecmep.com',                   // Adresa na koju klijent prima upite sa sajta
+      from: 'Kontakt Sajt <office@eecmep.com>',  // Zvanična adresa pošiljaoca (tvoj novi domen)
+      to: 'office@eecmep.com',                   // Adresa na koju klijent prima upite sa sajta
       subject: `Novi upit: ${subject}`,
       html: `
         <p><strong>Ime:</strong> ${name}</p>
