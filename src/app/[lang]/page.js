@@ -11,39 +11,44 @@ export default async function Home({ params }) {
   return (
     <>
       {/* HERO SEKCIJA */}
-      <section className="relative pt-8 pb-16 md:pt-24 md:pb-24 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="max-w-4xl mb-16">
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[1.1] mb-6">
-              {landing.hero.title1}<br />
-              <span className="text-neutral-500">{landing.hero.title2}</span>
-            </h1>
-            <p className="text-lg md:text-xl text-neutral-600 max-w-2xl leading-relaxed mb-10 font-medium">
-              {landing.hero.description}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href={`/${lang}/usluge`} className="bg-black text-white px-8 py-4 text-sm font-bold flex justify-center items-center gap-2 hover:bg-neutral-800 transition-colors">
-                {landing.hero.btnExplore}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-              </Link>
-              <Link href={`/${lang}/projekti`} className="bg-white text-black px-8 py-4 text-sm font-bold flex justify-center items-center border-2 border-black hover:bg-neutral-50 transition-colors">
-                {landing.hero.btnProjects}
-              </Link>
-            </div>
-          </div>
+      <section className="relative pt-16 pb-24 md:pt-32 md:pb-32 overflow-hidden min-h-[80vh] flex items-center">
+        
+        {/* Pozadinska slika na nivou cele sekcije */}
+        <Image 
+          src="/hero-slika-v3.jpg" 
+          alt={landing.hero.imageAlt}
+          fill
+          priority
+          className="object-cover -z-20"
+        />
+        
+        {/* Blagi tamni sloj (overlay) preko slike da bi se sve bolje uklopilo */}
+        <div className="absolute inset-0 bg-black/20 -z-10"></div>
 
-          {/* Vizuelni Blok Placeholder */}
-          <div className="w-full aspect-video border border-neutral-200 relative overflow-hidden bg-neutral-100">
-            <Image 
-              src="/hero-slika-v3.jpg" 
-              alt={landing.hero.imageAlt}
-              fill
-              priority
-              className="object-cover"
-            />
-          </div>
+        <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
+          
+          <div className="w-full xl:w-fit max-w-full bg-white/90 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-2xl">
+  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[1.1] mb-6 flex flex-col">
+    <span className="md:whitespace-nowrap">{landing.hero.title1}</span>
+    <span className="text-neutral-500 md:whitespace-nowrap">{landing.hero.title2}</span>
+  </h1>
+  <p className="text-lg md:text-xl text-neutral-600 max-w-2xl leading-relaxed mb-10 font-medium">
+    {landing.hero.description}
+  </p>
+  
+  <div className="flex flex-col sm:flex-row gap-4">
+    <Link href={`/${lang}/usluge`} className="bg-black text-white px-8 py-4 text-sm font-bold flex justify-center items-center gap-2 hover:bg-neutral-800 transition-colors w-full sm:w-auto">
+      {landing.hero.btnExplore}
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </Link>
+    <Link href={`/${lang}/projekti`} className="bg-white text-black px-8 py-4 text-sm font-bold flex justify-center items-center border-2 border-black hover:bg-neutral-50 transition-colors w-full sm:w-auto">
+      {landing.hero.btnProjects}
+    </Link>
+  </div>
+</div>
+
         </div>
       </section>
 
@@ -126,7 +131,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing-projekti.jpg" 
+                src="/landing-projekti-nova.jpg" 
                 alt={landing.statements.s3.title} 
                 fill
                 className="object-cover"

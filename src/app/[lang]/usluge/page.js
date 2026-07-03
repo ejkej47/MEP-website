@@ -35,7 +35,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 1. MAŠINSKE INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div>
             <span className="text-neutral-300 font-mono text-lg block mb-4">/01</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -67,7 +67,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 2. ELEKTRO INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="lg:order-2">
             <span className="text-neutral-300 font-mono text-lg block mb-4">/02</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -99,7 +99,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 3. HIDROTEHNIČKE INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div>
             <span className="text-neutral-300 font-mono text-lg block mb-4">/03</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -131,7 +131,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 4. BIM MODELOVANJE I KOORDINACIJA */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="lg:order-2">
             <span className="text-neutral-300 font-mono text-lg block mb-4">/04</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -163,7 +163,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 5. ODRŽIVOST */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div>
             <span className="text-neutral-300 font-mono text-lg block mb-4">/05</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -195,7 +195,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 6. COMMISSIONING */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="lg:order-2">
             <span className="text-neutral-300 font-mono text-lg block mb-4">/06</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
@@ -227,7 +227,7 @@ export default async function ServicesPage({ params }) {
 
       {/* 7. PROJEKTNI MENADŽMENT */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div>
             <span className="text-neutral-300 font-mono text-lg block mb-4">/07</span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">

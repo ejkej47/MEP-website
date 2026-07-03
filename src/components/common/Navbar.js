@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
+
 
 export default function Navbar({ lang, dict }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,8 +26,14 @@ export default function Navbar({ lang, dict }) {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between relative bg-white z-20">
         
         <div className="flex-shrink-0">
-          <Link href={`/${lang}`} className="text-xl tracking-tighter" onClick={() => setIsMenuOpen(false)}>
-            EE&C<span className="font-extrabold ml-1">MEP</span>
+          <Link href={`/${lang}`} onClick={() => setIsMenuOpen(false)}>
+            <Image 
+              src="/logo.png" 
+              alt="EE&C MEP Logo" 
+              width={150} 
+              height={50} 
+              className="w-auto h-16" /* Prilagodi visinu (h-10) po potrebi */
+            />
           </Link>
         </div>
 
