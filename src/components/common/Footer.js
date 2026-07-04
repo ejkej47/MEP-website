@@ -81,7 +81,7 @@ export default function Footer({ lang, dict }) {
               <Link href="https://instagram.com/eecmep" aria-label="Instagram" className="bg-neutral-900 p-4 rounded-full text-neutral-400 hover:text-white hover:bg-neutral-800 transition-all">
                 <FaInstagram size={22} />
               </Link>
-              <Link href="https://tiktok.com/eecmep" aria-label="TikTok" className="bg-neutral-900 p-4 rounded-full text-neutral-400 hover:text-white hover:bg-neutral-800 transition-all">
+              <Link href="https://tiktok.com/@eecmep" aria-label="TikTok" className="bg-neutral-900 p-4 rounded-full text-neutral-400 hover:text-white hover:bg-neutral-800 transition-all">
                 <FaTiktok size={22} />
               </Link>
             </div>

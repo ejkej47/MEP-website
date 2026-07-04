@@ -28,7 +28,7 @@ export default async function PeoplePage({ params }) {
       {/* TIM - 2 PO 2 GRID (Slika je sada samo pozadina ove sekcije) */}
       <section className="py-16 md:py-24 relative z-10 overflow-hidden">
         
-        {/* POZADINSKA SLIKA SEKCIJE */}
+        {/* POZADINSKA SLIKA SEKCIJE 
         <div className="absolute inset-0 -z-10 w-full h-full">
           <Image 
             src="/featured-ljudi.jpg" 
@@ -37,9 +37,8 @@ export default async function PeoplePage({ params }) {
             className="object-cover"
             quality={100}
           />
-          {/* Bijeli premaz (overlay) - 50% */}
           <div className="absolute inset-0 bg-white/50"></div>
-        </div>
+        </div>*/}
 
         {/* SADRŽAJ (KARTICE) */}
         <div className="max-w-7xl mx-auto px-6 relative z-10">
