@@ -40,7 +40,7 @@ export default async function PeoplePage({ params }) {
           <div className="absolute inset-0 bg-white/50"></div>
         </div>*/}
 
-        {/* SADRŽAJ (KARTICE) */}
+        {/* SADRŽAJ (KARTICE) iz tvog fajla[cite: 1] */}
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
             
@@ -50,6 +50,7 @@ export default async function PeoplePage({ params }) {
                   name={person.name}
                   role={person.role}
                   imagePlaceholder={person.imagePlaceholder}
+                  image={person.image} // <-- SAMO DODAJ OVU LINIJU
                 />
               </div>
             ))}

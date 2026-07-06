@@ -313,27 +313,52 @@
     "team": [
       {
         "id": 1,
-        "name": "[Ime Prezime 1]",
-        "role": "Leitender TGA-Ingenieur",
-        "imagePlaceholder": "[Bild: Person 1]"
+        "name": "Uroš Milenković",
+        "role": "CEO & Senior Elektroplaner",
+        "imagePlaceholder": "UROS",
+        "image": "/001-Uros-Milenkovic.jpg"
       },
       {
         "id": 2,
-        "name": "[Ime Prezime 2]",
-        "role": "BIM-Manager",
-        "imagePlaceholder": "[Bild: Person 2]"
+        "name": "Aleksa Ninić",
+        "role": "Elektro-Modellierer",
+        "imagePlaceholder": "ALEKSA",
+        "image": "/002-Aleksa-Ninic.jpg"
       },
       {
         "id": 3,
-        "name": "[Ime Prezime 3]",
-        "role": "Senior Elektroingenieur",
-        "imagePlaceholder": "[Bild: Person 3]"
+        "name": "Damjan Mučibabić",
+        "role": "Elektroplaner",
+        "imagePlaceholder": "DAMJAN",
+        "image": "/003-Damjan-Mucibabic.jpg"
       },
       {
         "id": 4,
-        "name": "[Ime Prezime 4]",
-        "role": "Elektroingenieur",
-        "imagePlaceholder": "[Bild: Person 4]"
+        "name": "Mateja Stanković",
+        "role": "",
+        "imagePlaceholder": "MATEJA",
+        "image": "/004-Mateja-Stankovic.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Nemanja Simić",
+        "role": "",
+        "imagePlaceholder": "NEMANJA",
+        "image": "/005-Nemanja-Simic.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Nikola Raketić",
+        "role": "HKLS-Modellierer",
+        "imagePlaceholder": "NIKOLA",
+        "image": "/006-Nikola-Raketic.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Ognjen Jelić",
+        "role": "Elektroplaner",
+        "imagePlaceholder": "OGNJEN",
+        "image": "/007-Ognjen-Jelic.jpg"
       }
     ],
     "cta": {
