@@ -151,7 +151,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/BIMModeling.jpeg" 
+                src="/BIMModeling1.jpg" 
                 alt={services.s4.alt || services.s4.title} 
                 fill
                 className="object-cover"

@@ -320,45 +320,52 @@
       },
       {
         "id": 2,
-        "name": "Aleksa Ninić",
-        "role": "Elektro modelar",
-        "imagePlaceholder": "ALEKSA",
-        "image": "/002-Aleksa-Ninic.jpg"
+        "name": "Ognjen Jelić",
+        "role": "Vođa projekta",
+        "imagePlaceholder": "OGNJEN",
+        "image": "/007-Ognjen-Jelic.jpg"
       },
       {
         "id": 3,
         "name": "Damjan Mučibabić",
-        "role": "Elektro projektant",
+        "role": "Vođa projekta",
         "imagePlaceholder": "DAMJAN",
         "image": "/003-Damjan-Mucibabic.jpg"
       },
       {
         "id": 4,
-        "name": "Mateja Stanković",
-        "role": "",
-        "imagePlaceholder": "MATEJA",
-        "image": "/004-Mateja-Stankovic.jpg"
-      },
-      {
-        "id": 5,
         "name": "Nemanja Simić",
-        "role": "",
+        "role": "Elektro projektant",
         "imagePlaceholder": "NEMANJA",
         "image": "/005-Nemanja-Simic.jpg"
       },
       {
+        "id": 5,
+        "name": "Aleksa Ninić",
+        "role": "Elektro projektant",
+        "imagePlaceholder": "ALEKSA",
+        "image": "/002-Aleksa-Ninic.jpg"
+      },
+      {
         "id": 6,
+        "name": "Mateja Stanković",
+        "role": "Elektro projektant",
+        "imagePlaceholder": "MATEJA",
+        "image": "/004-Mateja-Stankovic.jpg"
+      },
+      {
+        "id": 7,
         "name": "Nikola Raketić",
-        "role": "HVAC modelar",
+        "role": "Elektro projektant",
         "imagePlaceholder": "NIKOLA",
         "image": "/006-Nikola-Raketic.jpg"
       },
       {
-        "id": 7,
-        "name": "Ognjen Jelić",
+        "id": 8,
+        "name": "Denis Rakić",
         "role": "Elektro projektant",
-        "imagePlaceholder": "OGNJEN",
-        "image": "/007-Ognjen-Jelic.jpg"
+        "imagePlaceholder": "DENIS",
+        "image": "/008-Denis-Rakic.jpg"
       }
     ],
     "cta": {
