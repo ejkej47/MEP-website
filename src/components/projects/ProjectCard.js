@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ProjectCard({ project, labels }) {
   return (
     <div className="flex flex-col">
-      <div className="w-full aspect-[4/3] bg-neutral-200 relative mb-6 flex items-center justify-center border border-neutral-300 overflow-hidden group">
+      <div className="w-full aspect-[4/4] bg-neutral-200 relative mb-6 flex items-center justify-center border border-neutral-300 overflow-hidden group">
         {project.image ? (
           <Image 
             src={project.image} 

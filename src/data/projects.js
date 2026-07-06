@@ -2,7 +2,7 @@ const rawProjectsData = [
   {
     id: 19,
     year: '2024–2026',
-    image: '/image19.jpeg',
+    image: '/hypermep-projects-001.jpg',
     title: {
       en: 'Multi-Storey Car Park Renovation – Wetzlar',
       sr: 'Renoviranje višeetažne garaže – Veclar',
@@ -22,7 +22,7 @@ const rawProjectsData = [
   {
     id: 20,
     year: '2024–2026',
-    image: '/image20.jpeg',
+    image: '/hypermep-projects-002.jpg',
     title: {
       en: 'Schloss Altenstein Castle – Interior Fit-out',
       sr: 'Dvorac Altenštajn – Unutrašnje uređenje',
@@ -42,7 +42,7 @@ const rawProjectsData = [
   {
     id: 21,
     year: '2024–2026',
-    image: '/image21.jpeg',
+    image: '/hypermep-projects-003.jpg',
     title: {
       en: 'Airport Terminal Building – Braunschweig-Wolfsburg',
       sr: 'Zgrada aerodromskog terminala – Braunšvajg-Volfsburg',
@@ -62,7 +62,7 @@ const rawProjectsData = [
   {
     id: 24,
     year: '2024–2026',
-    image: '/image24.jpeg',
+    image: '/hypermep-projects-004.jpg',
     title: {
       en: 'Sugar Storage Silo, Lage',
       sr: 'Silos za skladištenje šećera, Lage',
@@ -82,7 +82,7 @@ const rawProjectsData = [
   {
     id: 25,
     year: '2024–2026',
-    image: '/image25.jpeg',
+    image: '/hypermep-projects-005.jpg',
     title: {
       en: 'Louis Scheuch GmbH, Kassel',
       sr: 'Louis Scheuch GmbH, Kasel',
@@ -102,7 +102,7 @@ const rawProjectsData = [
   {
     id: 26,
     year: '2024–2026',
-    image: '/image26.jpeg',
+    image: '/hypermep-projects-006.jpg',
     title: {
       en: 'JLU Veterinary Clinic, Gießen',
       sr: 'JLU Veterinarska klinika, Gisen',
@@ -122,7 +122,7 @@ const rawProjectsData = [
   {
     id: 27,
     year: '2024–2026',
-    image: '/image27.jpeg',
+    image: '/hypermep-projects-007.jpg',
     title: {
       en: 'Gotisches Haus Museum, Bad Homburg',
       sr: 'Muzej Gotisches Haus, Bad Homburg',
@@ -142,7 +142,7 @@ const rawProjectsData = [
   {
     id: 28,
     year: '2024–2026',
-    image: '/image28.jpeg',
+    image: '/hypermep-projects-008.jpg',
     title: {
       en: 'Office and Administrative Building, Hofgeismar',
       sr: 'Poslovna i administrativna zgrada, Hofgajsmar',
@@ -162,7 +162,7 @@ const rawProjectsData = [
   {
     id: 29,
     year: '2024–2026',
-    image: '/image29.jpeg',
+    image: '/hypermep-projects-009.jpg',
     title: {
       en: 'Höchster Tennis and Hockey Club, Frankfurt',
       sr: 'Teniski i hokejaški klub Höchster, Frankfurt',
@@ -182,7 +182,7 @@ const rawProjectsData = [
   {
     id: 30,
     year: '2024–2026',
-    image: '/image30.jpeg',
+    image: '/hypermep-projects-010.jpg',
     title: {
       en: 'Social Welfare Center, Homberg-Efze',
       sr: 'Centar za socijalni rad, Homberg-Efca',
@@ -202,7 +202,7 @@ const rawProjectsData = [
   {
     id: 31,
     year: '2024–2026',
-    image: '/image31.jpeg',
+    image: '/hypermep-projects-011.jpg',
     title: {
       en: 'Murhard Library, Kassel',
       sr: 'Biblioteka Murhard, Kasel',
@@ -222,7 +222,7 @@ const rawProjectsData = [
   {
     id: 32,
     year: '2024–2026',
-    image: '/image32.jpeg',
+    image: '/hypermep-projects-012.jpg',
     title: {
       en: 'Kassel Education Center – Canteen Modernization',
       sr: 'Obrazovni centar Kasel – Modernizacija kantine',
@@ -242,7 +242,7 @@ const rawProjectsData = [
   {
     id: 33,
     year: '2024–2026',
-    image: '/image33.jpeg',
+    image: '/hypermep-projects-013.jpg',
     title: {
       en: 'Comprehensive School, Melsungen',
       sr: 'Sveobuhvatna škola, Melzungen',
@@ -382,7 +382,7 @@ const rawProjectsData = [
   {
     id: 13,
     year: '2024–2025',
-    image: '/image13.jpeg',
+    image: '/hypermep-projects-014.jpg',
     title: {
       en: 'Putzerei 4 & Kernmacherei 19 Shop Expansions',
       sr: 'Proširenje pogona Putzerei 4 i Kernmacherei 19',
@@ -402,7 +402,7 @@ const rawProjectsData = [
   {
     id: 14,
     year: '2024–2025',
-    image: '/image14.jpeg',
+    image: '/hypermep-projects-015.jpg',
     title: {
       en: 'Production Facility Expansion (Phase 1) – SÄLZER GmbH',
       sr: 'Proširenje proizvodnog pogona (Faza 1) – SÄLZER GmbH',
@@ -422,7 +422,7 @@ const rawProjectsData = [
   {
     id: 15,
     year: '2024–2025',
-    image: '/image15.jpeg',
+    image: '/hypermep-projects-016.jpg',
     title: {
       en: 'Bergzeit Otterfing Commercial Facility',
       sr: 'Komercijalni objekat Bergzeit Oterfing',
@@ -442,7 +442,7 @@ const rawProjectsData = [
   {
     id: 18,
     year: '2024–2025',
-    image: '/image18.jpeg',
+    image: '/hypermep-projects-017.jpg',
     title: {
       en: 'Singbergschule Wölfersheim School Complex',
       sr: 'Školski kompleks Singbergschule Velfershajm',
@@ -462,7 +462,7 @@ const rawProjectsData = [
   {
     id: 22,
     year: '2024–2025',
-    image: '/image22.jpeg',
+    image: '/hypermep-projects-018.jpg',
     title: {
       en: 'Osthessen Police Headquarters',
       sr: 'Sedište policije Istočni Hesen',
@@ -482,7 +482,7 @@ const rawProjectsData = [
   {
     id: 3,
     year: '2023–2025',
-    image: '/image3.jpeg',
+    image: '/hypermep-projects-019.jpg',
     title: {
       en: 'Haus für Kinder Unnützstraße Daycare Center',
       sr: 'Dečiji vrtić Haus für Kinder Unnützstraße',
@@ -502,7 +502,7 @@ const rawProjectsData = [
   {
     id: 6,
     year: '2023–2025',
-    image: '/image6.jpeg',
+    image: '/hypermep-projects-020.jpg',
     title: {
       en: 'Staatspark Hanau-Wilhelmsbad Historic Park',
       sr: 'Istorijski park Staatspark Hanau-Wilhelmsbad',
@@ -522,7 +522,7 @@ const rawProjectsData = [
   {
     id: 8,
     year: '2023–2025',
-    image: '/image8.jpeg',
+    image: '/hypermep-projects-021.jpg',
     title: {
       en: 'Radko-Stöckl-Schule Vocational School',
       sr: 'Stručna škola Radko-Stöckl-Schule',
@@ -542,7 +542,7 @@ const rawProjectsData = [
   {
     id: 10,
     year: '2023–2025',
-    image: '/image10.jpeg',
+    image: '/hypermep-projects-022.jpg',
     title: {
       en: 'DHL Köngen Multi-Storey Car Park',
       sr: 'DHL Kengen višeetažna garaža',
@@ -562,7 +562,7 @@ const rawProjectsData = [
   {
     id: 11,
     year: '2023–2025',
-    image: '/image11.jpeg',
+    image: '/hypermep-projects-023.jpg',
     title: {
       en: 'Deutsche Oper Berlin (DOB) Opera House',
       sr: 'Zgrada opere Deutsche Oper Berlin (DOB)',
@@ -582,7 +582,7 @@ const rawProjectsData = [
   {
     id: 12,
     year: '2023–2025',
-    image: '/image12.jpeg',
+    image: '/hypermep-projects-024.jpg',
     title: {
       en: 'Gerhart-Hauptmann-Schule School',
       sr: 'Škola Gerhart-Hauptmann-Schule',
@@ -602,7 +602,7 @@ const rawProjectsData = [
   {
     id: 16,
     year: '2023–2025',
-    image: '/image16.jpeg',
+    image: '/hypermep-projects-025.jpg',
     title: {
       en: 'IGS Lindenfeld Integrated Comprehensive School',
       sr: 'Integrisana škola IGS Lindenfeld',
@@ -622,7 +622,7 @@ const rawProjectsData = [
   {
     id: 23,
     year: '2023–2025',
-    image: '/image23.jpeg',
+    image: '/hypermep-projects-026.jpg',
     title: {
       en: 'SMA Solar Technology – Fuldabrück',
       sr: 'SMA Solar Technology – Fuldabrik',
@@ -642,7 +642,7 @@ const rawProjectsData = [
   {
     id: 2,
     year: '2024',
-    image: '/image2.jpeg',
+    image: '/hypermep-projects-027.jpg',
     title: {
       en: 'Benedictus Krankenhaus Tutzing (Hospital)',
       sr: 'Bolnica Benedictus Krankenhaus Tucing',
@@ -682,7 +682,7 @@ const rawProjectsData = [
   {
     id: 17,
     year: '2023–2024',
-    image: '/image17.jpeg',
+    image: '/hypermep-projects-028.jpg',
     title: {
       en: 'Scandic Frankfurt Hafenpark Quartier (HPQ) Hotel',
       sr: 'Hotel Scandic Frankfurt Hafenpark Quartier (HPQ)',
@@ -702,7 +702,7 @@ const rawProjectsData = [
   {
     id: 5,
     year: '2022–2024',
-    image: '/image5.jpeg',
+    image: '/hypermep-projects-029.jpg',
     title: {
       en: 'Feuerwehrstützpunkt Frankenberg (Eder) Fire Station',
       sr: 'Vatrogasna stanica Frankenberg (Eder)',
@@ -742,7 +742,7 @@ const rawProjectsData = [
   {
     id: 9,
     year: '2023',
-    image: '/image9.jpeg',
+    image: '/hypermep-projects-031.jpg',
     title: {
       en: 'DHL Köln-Eifeltor Multi-Storey Car Park',
       sr: 'DHL Keln-Eifeltor višeetažna garaža',
@@ -782,7 +782,7 @@ const rawProjectsData = [
   {
     id: 4,
     year: '2021–2023',
-    image: '/image4.jpeg',
+    image: '/hypermep-projects-032.jpg',
     title: {
       en: 'Hermann-Schafft-Schule Special Education School',
       sr: 'Specijalna škola Hermann-Schafft-Schule',
