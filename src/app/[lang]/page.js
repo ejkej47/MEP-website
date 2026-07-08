@@ -15,7 +15,7 @@ export default async function Home({ params }) {
         
         {/* Pozadinska slika na nivou cele sekcije */}
         <Image 
-          src="/hero-slika-v3.jpg" 
+          src="/landing/hero-slika-v3.jpg" 
           alt={landing.hero.imageAlt}
           fill
           priority
@@ -26,28 +26,27 @@ export default async function Home({ params }) {
         <div className="absolute inset-0 bg-black/20 -z-10"></div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
-          
           <div className="w-full xl:w-fit max-w-full bg-white/90 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-2xl">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[1.1] mb-6 flex flex-col">
-    <span className="md:whitespace-nowrap">{landing.hero.title1}</span>
-    <span className="text-neutral-500 md:whitespace-nowrap">{landing.hero.title2}</span>
-  </h1>
-  <p className="text-lg md:text-xl text-neutral-600 max-w-2xl leading-relaxed mb-10 font-medium">
-    {landing.hero.description}
-  </p>
-  
-  <div className="flex flex-col sm:flex-row gap-4">
-    <Link href={`/${lang}/usluge`} className="bg-black text-white px-8 py-4 text-sm font-bold flex justify-center items-center gap-2 hover:bg-neutral-800 transition-colors w-full sm:w-auto">
-      {landing.hero.btnExplore}
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M5 12h14M12 5l7 7-7 7"/>
-      </svg>
-    </Link>
-    <Link href={`/${lang}/projekti`} className="bg-white text-black px-8 py-4 text-sm font-bold flex justify-center items-center border-2 border-black hover:bg-neutral-50 transition-colors w-full sm:w-auto">
-      {landing.hero.btnProjects}
-    </Link>
-  </div>
-</div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter leading-[1.1] mb-6 flex flex-col">
+              <span className="md:whitespace-nowrap">{landing.hero.title1}</span>
+              <span className="text-neutral-500 md:whitespace-nowrap">{landing.hero.title2}</span>
+            </h1>
+            <p className="text-lg md:text-xl text-neutral-600 max-w-2xl leading-relaxed mb-10 font-medium">
+              {landing.hero.description}
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href={`/${lang}/usluge`} className="bg-black text-white px-8 py-4 text-sm font-bold flex justify-center items-center gap-2 hover:bg-neutral-800 transition-colors w-full sm:w-auto">
+                {landing.hero.btnExplore}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </Link>
+              <Link href={`/${lang}/projekti`} className="bg-white text-black px-8 py-4 text-sm font-bold flex justify-center items-center border-2 border-black hover:bg-neutral-50 transition-colors w-full sm:w-auto">
+                {landing.hero.btnProjects}
+              </Link>
+            </div>
+          </div>
 
         </div>
       </section>
@@ -75,7 +74,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/ljudi.png" 
+                src="/landing/ljudi.png" 
                 alt={landing.statements.s2.title} 
                 fill
                 priority
@@ -103,7 +102,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing-usluge-v2.png" 
+                src="/landing/landing-usluge-v2.png" 
                 alt={landing.statements.s2.title} 
                 fill
                 priority
@@ -131,7 +130,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing-projekti-nova.jpg" 
+                src="/landing/landing-projekti.png" 
                 alt={landing.statements.s3.title} 
                 fill
                 className="object-cover"
@@ -158,7 +157,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/featured-ljudi.png" 
+                src="/landing/featured-ljudi.png" 
                 alt={landing.statements.s4.title} 
                 fill
                 className="object-cover"
@@ -184,7 +183,7 @@ export default async function Home({ params }) {
             </div>
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/karijere.png" 
+                src="/landing/karijere.png" 
                 alt={landing.statements.s5.title} 
                 fill
                 className="object-cover"
@@ -256,22 +255,26 @@ export default async function Home({ params }) {
         <div className="relative w-full flex overflow-x-hidden">
           <div className="animate-marquee flex items-center gap-16 px-8 whitespace-nowrap">
             {/* Originalni set logoa */}
-            <Image src="/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-12 w-auto" />
 
             {/* Duplicirani set logoa za beskonacan loop */}
-            <Image src="/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-12 w-auto" />
 
           </div>
         </div>

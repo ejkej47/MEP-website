@@ -314,35 +314,35 @@
       "elektro": {
         "title": "Elektro struka",
         "members": [
-          { "id": 1, "name": "Uroš Milenković", "role": "CEO", "imagePlaceholder": "UROS", "image": "/001-Uros-Milenkovic.jpg" },
-          { "id": 2, "name": "Ognjen Jelić", "role": "Vođa projekta", "imagePlaceholder": "OGNJEN", "image": "/007-Ognjen-Jelic.jpg" },
-          { "id": 3, "name": "Damjan Mučibabić", "role": "Vođa projekta", "imagePlaceholder": "DAMJAN", "image": "/003-Damjan-Mucibabic.jpg" },
-          { "id": 4, "name": "Nemanja Simić", "role": "Elektro projektant", "imagePlaceholder": "NEMANJA", "image": "/005-Nemanja-Simic.jpg" },
-          { "id": 5, "name": "Aleksa Ninić", "role": "Elektro projektant", "imagePlaceholder": "ALEKSA", "image": "/002-Aleksa-Ninic.jpg" },
-          { "id": 6, "name": "Mateja Stanković", "role": "Elektro projektant", "imagePlaceholder": "MATEJA", "image": "/004-Mateja-Stankovic.jpg" },
-          { "id": 8, "name": "Denis Rakić", "role": "Elektro projektant", "imagePlaceholder": "DENIS", "image": "/008-Denis-Rakic.jpg" }
+          { "id": 1, "name": "Uroš Milenković", "role": "CEO", "imagePlaceholder": "UROS", "image": "/people/001-Uros-Milenkovic.jpg" },
+          { "id": 2, "name": "Ognjen Jelić", "role": "Vođa projekta", "imagePlaceholder": "OGNJEN", "image": "/people/007-Ognjen-Jelic.jpg" },
+          { "id": 3, "name": "Damjan Mučibabić", "role": "Vođa projekta", "imagePlaceholder": "DAMJAN", "image": "/people/003-Damjan-Mucibabic.jpg" },
+          { "id": 4, "name": "Nemanja Simić", "role": "Elektro projektant", "imagePlaceholder": "NEMANJA", "image": "/people/005-Nemanja-Simic.jpg" },
+          { "id": 5, "name": "Aleksa Ninić", "role": "Elektro projektant", "imagePlaceholder": "ALEKSA", "image": "/people/002-Aleksa-Ninic.jpg" },
+          { "id": 6, "name": "Mateja Stanković", "role": "Elektro projektant", "imagePlaceholder": "MATEJA", "image": "/people/004-Mateja-Stankovic.jpg" },
+          { "id": 8, "name": "Denis Rakić", "role": "Elektro projektant", "imagePlaceholder": "DENIS", "image": "/people/008-Denis-Rakic.jpg" }
         ]
       },
       "masinska": {
         "title": "Mašinska struka",
         "members": [
-          { "id": 9, "name": "Vladan Mučibabić", "role": "Vođa projekta", "imagePlaceholder": "VLADAN", "image": "/default-avatar.png" },
-          { "id": 10, "name": "Strahinja Stojiljković", "role": "Mašinski projektant", "imagePlaceholder": "STRAHINJA", "image": "/009_Strahinja_Stojiljkovic.jpg" },
-          { "id": 7, "name": "Nikola Raketić", "role": "Mašinski projektant", "imagePlaceholder": "NIKOLA", "image": "/006-Nikola-Raketic.jpg" }
+          { "id": 9, "name": "Vladan Mučibabić", "role": "Vođa projekta", "imagePlaceholder": "VLADAN", "image": "/people/default-avatar.png" },
+          { "id": 10, "name": "Strahinja Stojiljković", "role": "Mašinski projektant", "imagePlaceholder": "STRAHINJA", "image": "/people/009_Strahinja_Stojiljkovic.jpg" },
+          { "id": 7, "name": "Nikola Raketić", "role": "Mašinski projektant", "imagePlaceholder": "NIKOLA", "image": "/people/006-Nikola-Raketic.jpg" }
         ]
       },
       "statika": {
         "title": "Statika",
         "members": [
-          { "id": 11, "name": "Igor Uon", "role": "Vođa projekta", "imagePlaceholder": "IGOR", "image": "/default-avatar.png" },
-          { "id": 12, "name": "Marko Radić", "role": "Građevinski inženjer", "imagePlaceholder": "MARKO", "image": "/default-avatar.png" },
-          { "id": 13, "name": "Adam Ramoul", "role": "Građevinski inženjer", "imagePlaceholder": "ADAM", "image": "/default-avatar.png" }
+          { "id": 11, "name": "Igor Uon", "role": "Vođa projekta", "imagePlaceholder": "IGOR", "image": "/people/default-avatar.png" },
+          { "id": 12, "name": "Marko Radić", "role": "Građevinski inženjer", "imagePlaceholder": "MARKO", "image": "/people/default-avatar.png" },
+          { "id": 13, "name": "Adam Ramoul", "role": "Građevinski inženjer", "imagePlaceholder": "ADAM", "image": "/people/default-avatar.png" }
         ]
       },
       "marketing": {
         "title": "Marketing",
         "members": [
-          { "id": 14, "name": "Iva Milenković", "role": "Marketing Manager", "imagePlaceholder": "IVA", "image": "/010_Iva_Milenkovic.jpg" }
+          { "id": 14, "name": "Iva Milenković", "role": "Marketing Manager", "imagePlaceholder": "IVA", "image": "/people/010_Iva_Milenkovic.jpg" }
         ]
       }
     }

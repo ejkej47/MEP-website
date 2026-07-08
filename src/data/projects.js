@@ -1,8 +1,331 @@
+// Ažuriran fajl sa starim podacima iz kojih su zamenjene .jpg u .png ekstenzije (osim 025), i dodati su potpuno novi projekti iz novog foldera sortirani po godinama od 2026 nadole.[cite: 1]
+
 const rawProjectsData = [
+  // --- 2026 & NOVI PROJEKTI BEZ GODINE (postavljeno na vrh) ---
+  {
+    id: 41,
+    year: '2026',
+    image: '/projects/ESMC Dresden 2026.png',
+    title: {
+      en: 'ESMC Dresden',
+      sr: 'ESMC Drezden',
+      de: 'ESMC Dresden'
+    },
+    location: {
+      en: 'Dresden, Germany',
+      sr: 'Drezden, Nemačka',
+      de: 'Dresden, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 42,
+    year: '2026',
+    image: '/projects/Porodicna kuca - 2026.png',
+    title: {
+      en: 'Family House',
+      sr: 'Porodična kuća',
+      de: 'Einfamilienhaus'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 43,
+    year: '2026',
+    image: '/projects/Porodicna kuca 2.png',
+    title: {
+      en: 'Family House 2',
+      sr: 'Porodična kuća 2',
+      de: 'Einfamilienhaus 2'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 44,
+    year: '2026',
+    image: '/projects/Porodicna kuca 3.png',
+    title: {
+      en: 'Family House 3',
+      sr: 'Porodična kuća 3',
+      de: 'Einfamilienhaus 3'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 45,
+    year: '2026',
+    image: '/projects/Porodicna kuca 4.png',
+    title: {
+      en: 'Family House 4',
+      sr: 'Porodična kuća 4',
+      de: 'Einfamilienhaus 4'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 46,
+    year: '2026',
+    image: '/projects/Kompetentni centar za visoku bezbednost.png',
+    title: {
+      en: 'High Security Competence Center',
+      sr: 'Kompetentni centar za visoku bezbednost',
+      de: 'Kompetenzzentrum für Hochsicherheit'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 47,
+    year: '2026',
+    image: '/projects/Osnovna škola Heusenstamm.png',
+    title: {
+      en: 'Primary School Heusenstamm',
+      sr: 'Osnovna škola Heusenstamm',
+      de: 'Grundschule Heusenstamm'
+    },
+    location: {
+      en: 'Heusenstamm, Germany',
+      sr: 'Hojzenštam, Nemačka',
+      de: 'Heusenstamm, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 48,
+    year: '2026',
+    image: '/projects/Poslovni prostor Homberg.png',
+    title: {
+      en: 'Commercial Space Homberg',
+      sr: 'Poslovni prostor Homberg',
+      de: 'Geschäftsräume Homberg'
+    },
+    location: {
+      en: 'Homberg, Germany',
+      sr: 'Homberg, Nemačka',
+      de: 'Homberg, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 49,
+    year: '2026',
+    image: '/projects/Schloss Wilhelmsburg.png',
+    title: {
+      en: 'Wilhelmsburg Castle',
+      sr: 'Dvorac Wilhelmsburg',
+      de: 'Schloss Wilhelmsburg'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 50,
+    year: '2026',
+    image: '/projects/SMA Fabrika.png',
+    title: {
+      en: 'SMA Factory',
+      sr: 'SMA Fabrika',
+      de: 'SMA Fabrik'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 51,
+    year: '2026',
+    image: '/projects/Stambeni objekat ulica Oslobodjenja.png',
+    title: {
+      en: 'Residential Building Oslobođenja Street',
+      sr: 'Stambeni objekat Ulica Oslobođenja',
+      de: 'Wohngebäude Oslobođenja Straße'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 52,
+    year: '2026',
+    image: '/projects/Tržni centar Dizeldorf.png',
+    title: {
+      en: 'Shopping Mall Düsseldorf',
+      sr: 'Tržni centar Dizeldorf',
+      de: 'Einkaufszentrum Düsseldorf'
+    },
+    location: {
+      en: 'Düsseldorf, Germany',
+      sr: 'Dizeldorf, Nemačka',
+      de: 'Düsseldorf, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 53,
+    year: '2026',
+    image: '/projects/Vatrogasna stanica Mörfelden.png',
+    title: {
+      en: 'Fire Station Mörfelden',
+      sr: 'Vatrogasna stanica Mörfelden',
+      de: 'Feuerwehrwache Mörfelden'
+    },
+    location: {
+      en: 'Mörfelden, Germany',
+      sr: 'Merfelden, Nemačka',
+      de: 'Mörfelden, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 54,
+    year: '2026',
+    image: '/projects/Vitos Haina.png',
+    title: {
+      en: 'Vitos Haina',
+      sr: 'Vitos Haina',
+      de: 'Vitos Haina'
+    },
+    location: {
+      en: 'Haina, Germany',
+      sr: 'Hajna, Nemačka',
+      de: 'Haina, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 55,
+    year: '2026',
+    image: '/projects/Višenamenska zgrada Degerfeld.png',
+    title: {
+      en: 'Multipurpose Building Degerfeld',
+      sr: 'Višenamenska zgrada Degerfeld',
+      de: 'Mehrzweckgebäude Degerfeld'
+    },
+    location: {
+      en: 'Degerfeld, Germany',
+      sr: 'Degerfeld, Nemačka',
+      de: 'Degerfeld, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 56,
+    year: '2026',
+    image: '/projects/Fritz Winter.png',
+    title: {
+      en: 'Fritz Winter',
+      sr: 'Fritz Winter',
+      de: 'Fritz Winter'
+    },
+    location: {
+      en: 'Location TBD',
+      sr: 'Lokacija TBD',
+      de: 'Ort TBD'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
   {
     id: 19,
     year: '2024–2026',
-    image: '/hypermep-projects-001.jpg',
+    image: '/projects/hypermep-projects-001.png',
     title: {
       en: 'Multi-Storey Car Park Renovation – Wetzlar',
       sr: 'Renoviranje višeetažne garaže – Veclar',
@@ -22,7 +345,7 @@ const rawProjectsData = [
   {
     id: 20,
     year: '2024–2026',
-    image: '/hypermep-projects-002.jpg',
+    image: '/projects/hypermep-projects-002.png',
     title: {
       en: 'Schloss Altenstein Castle – Interior Fit-out',
       sr: 'Dvorac Altenštajn – Unutrašnje uređenje',
@@ -42,7 +365,7 @@ const rawProjectsData = [
   {
     id: 21,
     year: '2024–2026',
-    image: '/hypermep-projects-003.jpg',
+    image: '/projects/hypermep-projects-003.png',
     title: {
       en: 'Airport Terminal Building – Braunschweig-Wolfsburg',
       sr: 'Zgrada aerodromskog terminala – Braunšvajg-Volfsburg',
@@ -62,7 +385,7 @@ const rawProjectsData = [
   {
     id: 24,
     year: '2024–2026',
-    image: '/hypermep-projects-004.jpg',
+    image: '/projects/hypermep-projects-004.png',
     title: {
       en: 'Sugar Storage Silo, Lage',
       sr: 'Silos za skladištenje šećera, Lage',
@@ -82,7 +405,7 @@ const rawProjectsData = [
   {
     id: 25,
     year: '2024–2026',
-    image: '/hypermep-projects-005.jpg',
+    image: '/projects/hypermep-projects-005.png',
     title: {
       en: 'Louis Scheuch GmbH, Kassel',
       sr: 'Louis Scheuch GmbH, Kasel',
@@ -102,7 +425,7 @@ const rawProjectsData = [
   {
     id: 26,
     year: '2024–2026',
-    image: '/hypermep-projects-006.jpg',
+    image: '/projects/hypermep-projects-006.png',
     title: {
       en: 'JLU Veterinary Clinic, Gießen',
       sr: 'JLU Veterinarska klinika, Gisen',
@@ -122,7 +445,7 @@ const rawProjectsData = [
   {
     id: 27,
     year: '2024–2026',
-    image: '/hypermep-projects-007.jpg',
+    image: '/projects/hypermep-projects-007.png',
     title: {
       en: 'Gotisches Haus Museum, Bad Homburg',
       sr: 'Muzej Gotisches Haus, Bad Homburg',
@@ -142,7 +465,7 @@ const rawProjectsData = [
   {
     id: 28,
     year: '2024–2026',
-    image: '/hypermep-projects-008.jpg',
+    image: '/projects/hypermep-projects-008.png',
     title: {
       en: 'Office and Administrative Building, Hofgeismar',
       sr: 'Poslovna i administrativna zgrada, Hofgajsmar',
@@ -162,7 +485,7 @@ const rawProjectsData = [
   {
     id: 29,
     year: '2024–2026',
-    image: '/hypermep-projects-009.jpg',
+    image: '/projects/hypermep-projects-009.png',
     title: {
       en: 'Höchster Tennis and Hockey Club, Frankfurt',
       sr: 'Teniski i hokejaški klub Höchster, Frankfurt',
@@ -182,7 +505,7 @@ const rawProjectsData = [
   {
     id: 30,
     year: '2024–2026',
-    image: '/hypermep-projects-010.jpg',
+    image: '/projects/hypermep-projects-010.png',
     title: {
       en: 'Social Welfare Center, Homberg-Efze',
       sr: 'Centar za socijalni rad, Homberg-Efca',
@@ -202,7 +525,7 @@ const rawProjectsData = [
   {
     id: 31,
     year: '2024–2026',
-    image: '/hypermep-projects-011.jpg',
+    image: '/projects/hypermep-projects-011.png',
     title: {
       en: 'Murhard Library, Kassel',
       sr: 'Biblioteka Murhard, Kasel',
@@ -222,7 +545,7 @@ const rawProjectsData = [
   {
     id: 32,
     year: '2024–2026',
-    image: '/hypermep-projects-012.jpg',
+    image: '/projects/hypermep-projects-012.png',
     title: {
       en: 'Kassel Education Center – Canteen Modernization',
       sr: 'Obrazovni centar Kasel – Modernizacija kantine',
@@ -242,7 +565,7 @@ const rawProjectsData = [
   {
     id: 33,
     year: '2024–2026',
-    image: '/hypermep-projects-013.jpg',
+    image: '/projects/hypermep-projects-013.png',
     title: {
       en: 'Comprehensive School, Melsungen',
       sr: 'Sveobuhvatna škola, Melzungen',
@@ -259,10 +582,12 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
+
+  // --- 2025 (i periodi do 2025) ---
   {
     id: 34,
     year: '2025',
-    image: '/image34.jpeg',
+    image: '/projects/image34.jpeg',
     title: {
       en: 'Self-Service Royal Car Wash, Vrsac',
       sr: 'Samouslužna autoperionica Royal, Vršac',
@@ -282,7 +607,7 @@ const rawProjectsData = [
   {
     id: 35,
     year: '2025',
-    image: '/image35.jpeg',
+    image: '/projects/image35.jpeg',
     title: {
       en: 'Tip-Top Car Wash, Plandiste',
       sr: 'Autoperionica Tip-Top, Plandište',
@@ -302,7 +627,7 @@ const rawProjectsData = [
   {
     id: 37,
     year: '2025',
-    image: '/image37.jpeg',
+    image: '/projects/image37.jpeg',
     title: {
       en: 'Residential and Commercial Building in Pancevo',
       sr: 'Stambeno-poslovni objekat u Pančevu',
@@ -322,7 +647,7 @@ const rawProjectsData = [
   {
     id: 39,
     year: '2025',
-    image: '/image39.jpeg',
+    image: '/projects/image39.jpeg',
     title: {
       en: 'Stela Car Wash, Kovacica',
       sr: 'Autoperionica Stela, Kovačica',
@@ -342,7 +667,7 @@ const rawProjectsData = [
   {
     id: 40,
     year: '2025',
-    image: '/image40.jpeg',
+    image: '/projects/image40.jpeg',
     title: {
       en: 'Kovac Residence, Zrenjanin',
       sr: 'Rezidencija Kovač, Zrenjanin',
@@ -362,7 +687,7 @@ const rawProjectsData = [
   {
     id: 1,
     year: '2024-2025',
-    image: '/image1.jpeg',
+    image: '/projects/image1.jpeg',
     title: {
       en: 'Kinderkrippe Josef-Wirth-Weg (Nursery School)',
       sr: 'Dečiji vrtić Josef-Wirth-Weg',
@@ -382,7 +707,7 @@ const rawProjectsData = [
   {
     id: 13,
     year: '2024–2025',
-    image: '/hypermep-projects-014.jpg',
+    image: '/projects/hypermep-projects-014.png',
     title: {
       en: 'Putzerei 4 & Kernmacherei 19 Shop Expansions',
       sr: 'Proširenje pogona Putzerei 4 i Kernmacherei 19',
@@ -402,7 +727,7 @@ const rawProjectsData = [
   {
     id: 14,
     year: '2024–2025',
-    image: '/hypermep-projects-015.jpg',
+    image: '/projects/hypermep-projects-015.png',
     title: {
       en: 'Production Facility Expansion (Phase 1) – SÄLZER GmbH',
       sr: 'Proširenje proizvodnog pogona (Faza 1) – SÄLZER GmbH',
@@ -422,7 +747,7 @@ const rawProjectsData = [
   {
     id: 15,
     year: '2024–2025',
-    image: '/hypermep-projects-016.jpg',
+    image: '/projects/hypermep-projects-016.png',
     title: {
       en: 'Bergzeit Otterfing Commercial Facility',
       sr: 'Komercijalni objekat Bergzeit Oterfing',
@@ -442,7 +767,7 @@ const rawProjectsData = [
   {
     id: 18,
     year: '2024–2025',
-    image: '/hypermep-projects-017.jpg',
+    image: '/projects/hypermep-projects-017.png',
     title: {
       en: 'Singbergschule Wölfersheim School Complex',
       sr: 'Školski kompleks Singbergschule Velfershajm',
@@ -462,7 +787,7 @@ const rawProjectsData = [
   {
     id: 22,
     year: '2024–2025',
-    image: '/hypermep-projects-018.jpg',
+    image: '/projects/hypermep-projects-018.png',
     title: {
       en: 'Osthessen Police Headquarters',
       sr: 'Sedište policije Istočni Hesen',
@@ -482,7 +807,7 @@ const rawProjectsData = [
   {
     id: 3,
     year: '2023–2025',
-    image: '/hypermep-projects-019.jpg',
+    image: '/projects/hypermep-projects-019.png',
     title: {
       en: 'Haus für Kinder Unnützstraße Daycare Center',
       sr: 'Dečiji vrtić Haus für Kinder Unnützstraße',
@@ -502,7 +827,7 @@ const rawProjectsData = [
   {
     id: 6,
     year: '2023–2025',
-    image: '/hypermep-projects-020.jpg',
+    image: '/projects/hypermep-projects-020.png',
     title: {
       en: 'Staatspark Hanau-Wilhelmsbad Historic Park',
       sr: 'Istorijski park Staatspark Hanau-Wilhelmsbad',
@@ -522,7 +847,7 @@ const rawProjectsData = [
   {
     id: 8,
     year: '2023–2025',
-    image: '/hypermep-projects-021.jpg',
+    image: '/projects/hypermep-projects-021.png',
     title: {
       en: 'Radko-Stöckl-Schule Vocational School',
       sr: 'Stručna škola Radko-Stöckl-Schule',
@@ -542,7 +867,7 @@ const rawProjectsData = [
   {
     id: 10,
     year: '2023–2025',
-    image: '/hypermep-projects-022.jpg',
+    image: '/projects/hypermep-projects-022.png',
     title: {
       en: 'DHL Köngen Multi-Storey Car Park',
       sr: 'DHL Kengen višeetažna garaža',
@@ -562,7 +887,7 @@ const rawProjectsData = [
   {
     id: 11,
     year: '2023–2025',
-    image: '/hypermep-projects-023.jpg',
+    image: '/projects/hypermep-projects-023.png',
     title: {
       en: 'Deutsche Oper Berlin (DOB) Opera House',
       sr: 'Zgrada opere Deutsche Oper Berlin (DOB)',
@@ -582,7 +907,7 @@ const rawProjectsData = [
   {
     id: 12,
     year: '2023–2025',
-    image: '/hypermep-projects-024.jpg',
+    image: '/projects/hypermep-projects-024.png',
     title: {
       en: 'Gerhart-Hauptmann-Schule School',
       sr: 'Škola Gerhart-Hauptmann-Schule',
@@ -602,7 +927,8 @@ const rawProjectsData = [
   {
     id: 16,
     year: '2023–2025',
-    image: '/hypermep-projects-025.jpg',
+    // 025 Nije bio u novom folderu, pa ostavljamo staru ekstenziju .jpg kako si i izlistao!
+    image: '/projects/hypermep-projects-025.jpg',
     title: {
       en: 'IGS Lindenfeld Integrated Comprehensive School',
       sr: 'Integrisana škola IGS Lindenfeld',
@@ -622,7 +948,7 @@ const rawProjectsData = [
   {
     id: 23,
     year: '2023–2025',
-    image: '/hypermep-projects-026.jpg',
+    image: '/projects/hypermep-projects-026.png',
     title: {
       en: 'SMA Solar Technology – Fuldabrück',
       sr: 'SMA Solar Technology – Fuldabrik',
@@ -639,10 +965,32 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
+
+  // --- 2024 (i periodi do 2024) ---
+  {
+    id: 57,
+    year: '2024',
+    image: '/projects/Werner-von-Siemens Schule, Dammstraße 62, 35584 Wetzlar; Umbau, Sanierung & Erweiterung (8. BA) 2024.png',
+    title: {
+      en: 'Werner-von-Siemens Schule (Renovation & Expansion)',
+      sr: 'Škola Werner-von-Siemens (Renoviranje i proširenje)',
+      de: 'Werner-von-Siemens Schule (Umbau, Sanierung & Erweiterung)'
+    },
+    location: {
+      en: 'Wetzlar, Germany',
+      sr: 'Veclar, Nemačka',
+      de: 'Wetzlar, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
   {
     id: 2,
     year: '2024',
-    image: '/hypermep-projects-027.jpg',
+    image: '/projects/hypermep-projects-027.png',
     title: {
       en: 'Benedictus Krankenhaus Tutzing (Hospital)',
       sr: 'Bolnica Benedictus Krankenhaus Tucing',
@@ -662,7 +1010,7 @@ const rawProjectsData = [
   {
     id: 36,
     year: '2024',
-    image: '/image36.jpeg',
+    image: '/projects/image36.jpeg',
     title: {
       en: 'Apartment Unit, Pozeska 31, Belgrade',
       sr: 'Stambena jedinica, Požeška 31, Beograd',
@@ -682,7 +1030,7 @@ const rawProjectsData = [
   {
     id: 17,
     year: '2023–2024',
-    image: '/hypermep-projects-028.jpg',
+    image: '/projects/hypermep-projects-028.png',
     title: {
       en: 'Scandic Frankfurt Hafenpark Quartier (HPQ) Hotel',
       sr: 'Hotel Scandic Frankfurt Hafenpark Quartier (HPQ)',
@@ -702,7 +1050,7 @@ const rawProjectsData = [
   {
     id: 5,
     year: '2022–2024',
-    image: '/hypermep-projects-029.jpg',
+    image: '/projects/hypermep-projects-029.png',
     title: {
       en: 'Feuerwehrstützpunkt Frankenberg (Eder) Fire Station',
       sr: 'Vatrogasna stanica Frankenberg (Eder)',
@@ -722,7 +1070,7 @@ const rawProjectsData = [
   {
     id: 7,
     year: '2022–2024',
-    image: '/image7.jpeg',
+    image: '/projects/image7.jpeg',
     title: {
       en: 'Gesamtschule Melsungen Secondary School',
       sr: 'Srednja škola Gesamtschule Melzungen',
@@ -739,10 +1087,12 @@ const rawProjectsData = [
       de: 'Entwurfs- und Ausführungsplanung (LPH 3 & LPH 5) von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
+
+  // --- 2023 ---
   {
     id: 9,
     year: '2023',
-    image: '/hypermep-projects-031.jpg',
+    image: '/projects/hypermep-projects-031.png',
     title: {
       en: 'DHL Köln-Eifeltor Multi-Storey Car Park',
       sr: 'DHL Keln-Eifeltor višeetažna garaža',
@@ -762,7 +1112,7 @@ const rawProjectsData = [
   {
     id: 38,
     year: '2023',
-    image: '/image38.jpeg',
+    image: '/projects/image38.jpeg',
     title: {
       en: 'Glamour Event Center, Kovacica',
       sr: 'Event centar Glamour, Kovačica',
@@ -782,7 +1132,7 @@ const rawProjectsData = [
   {
     id: 4,
     year: '2021–2023',
-    image: '/hypermep-projects-032.jpg',
+    image: '/projects/hypermep-projects-032.png',
     title: {
       en: 'Hermann-Schafft-Schule Special Education School',
       sr: 'Specijalna škola Hermann-Schafft-Schule',
@@ -798,10 +1148,397 @@ const rawProjectsData = [
       sr: 'Izvođački projekat (LP5) instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
       de: 'Ausführungsplanung (LPH 5) von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
+  },
+
+  // --- 2022 ---
+  {
+    id: 58,
+    year: '2022',
+    image: '/projects/Adam-von-Trott-Schule, Jahnstraße 16-20, 36205 Sontra, Umsetzung DigitalPakt - 2022.png',
+    title: {
+      en: 'Adam-von-Trott-Schule, DigitalPakt Implementation',
+      sr: 'Škola Adam-von-Trott, Implementacija DigitalPakt-a',
+      de: 'Adam-von-Trott-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Sontra, Germany',
+      sr: 'Zontra, Nemačka',
+      de: 'Sontra, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 59,
+    year: '2022',
+    image: '/projects/Anne-Frank-Schule, Fliederweg 3, 37269 Eschwege, Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'Anne-Frank-Schule, DigitalPakt Implementation',
+      sr: 'Škola Anne-Frank, Implementacija DigitalPakt-a',
+      de: 'Anne-Frank-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Eschwege, Germany',
+      sr: 'Ešvege, Nemačka',
+      de: 'Eschwege, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 60,
+    year: '2022',
+    image: '/projects/Berufliche Schulen Witzenhausen, Südbahnhofstr. 33, 37213 Witzenhausen; Umsetzung DigitalPakt - 2022.png',
+    title: {
+      en: 'Vocational Schools Witzenhausen, DigitalPakt Implementation',
+      sr: 'Stručne škole Vicenhauzen, Implementacija DigitalPakt-a',
+      de: 'Berufliche Schulen Witzenhausen, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Witzenhausen, Germany',
+      sr: 'Vicenhauzen, Nemačka',
+      de: 'Witzenhausen, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 61,
+    year: '2022',
+    image: '/projects/Brüder-Grimm-Schule (Gesamtschule), Dünzebacher Str. 21, 37263 Eschwege 2022.png',
+    title: {
+      en: 'Brüder-Grimm-Schule (Comprehensive School)',
+      sr: 'Škola Brüder-Grimm (Sveobuhvatna škola)',
+      de: 'Brüder-Grimm-Schule (Gesamtschule)'
+    },
+    location: {
+      en: 'Eschwege, Germany',
+      sr: 'Ešvege, Nemačka',
+      de: 'Eschwege, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 62,
+    year: '2022',
+    image: '/projects/Freiherr-vom-Stein-Schule, Freiherr-vom-Stein-Str. 10, 37235 Hessisch Lichtenau; Umsetzung DigitalPakt - 2022.png',
+    title: {
+      en: 'Freiherr-vom-Stein-Schule, DigitalPakt Implementation',
+      sr: 'Škola Freiherr-vom-Stein, Implementacija DigitalPakt-a',
+      de: 'Freiherr-vom-Stein-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Hessisch Lichtenau, Germany',
+      sr: 'Hesiš Lihtenau, Nemačka',
+      de: 'Hessisch Lichtenau, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 63,
+    year: '2022',
+    image: '/projects/Friedrich-Wilhelm-Schule, Friedrich-Wilhelm-Straße 52, 37269 Eschwege, Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'Friedrich-Wilhelm-Schule, DigitalPakt Implementation',
+      sr: 'Škola Friedrich-Wilhelm, Implementacija DigitalPakt-a',
+      de: 'Friedrich-Wilhelm-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Eschwege, Germany',
+      sr: 'Ešvege, Nemačka',
+      de: 'Eschwege, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 64,
+    year: '2022',
+    image: '/projects/Grundschule Hessisch Lichtenau, Heinrichstraße 20-22, 37235 Hessisch Lichtenau; Umsetzung DigitalPakt - 2022.png',
+    title: {
+      en: 'Primary School Hessisch Lichtenau, DigitalPakt Implementation',
+      sr: 'Osnovna škola Hesiš Lihtenau, Implementacija DigitalPakt-a',
+      de: 'Grundschule Hessisch Lichtenau, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Hessisch Lichtenau, Germany',
+      sr: 'Hesiš Lihtenau, Nemačka',
+      de: 'Hessisch Lichtenau, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 65,
+    year: '2022',
+    image: '/projects/Johannisberg-Schule, Geschwister-Scholl-Straße 10, 37213 Witzenhausen; Umsetzung DigitalPakt - 2022.png',
+    title: {
+      en: 'Johannisberg-Schule, DigitalPakt Implementation',
+      sr: 'Škola Johannisberg, Implementacija DigitalPakt-a',
+      de: 'Johannisberg-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Witzenhausen, Germany',
+      sr: 'Vicenhauzen, Nemačka',
+      de: 'Witzenhausen, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 66,
+    year: '2022',
+    image: '/projects/Kleeblattschule Wehretal, Friedrich-Ebert-Straße 14 a, 37287 Wehretal, Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'Kleeblattschule Wehretal, DigitalPakt Implementation',
+      sr: 'Škola Kleeblatt Veretal, Implementacija DigitalPakt-a',
+      de: 'Kleeblattschule Wehretal, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Wehretal, Germany',
+      sr: 'Veretal, Nemačka',
+      de: 'Wehretal, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 67,
+    year: '2022',
+    image: '/projects/Oberstufengymnasium Eschwege, Südring 37, 37269 Eschwege; Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'High School Eschwege, DigitalPakt Implementation',
+      sr: 'Gimnazija Ešvege, Implementacija DigitalPakt-a',
+      de: 'Oberstufengymnasium Eschwege, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Eschwege, Germany',
+      sr: 'Ešvege, Nemačka',
+      de: 'Eschwege, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 68,
+    year: '2022',
+    image: '/projects/Paul-Moor-Schule, Langenhainer Str. 19, 37287 Wehretal 2022.png',
+    title: {
+      en: 'Paul-Moor-Schule',
+      sr: 'Škola Paul-Moor',
+      de: 'Paul-Moor-Schule'
+    },
+    location: {
+      en: 'Wehretal, Germany',
+      sr: 'Veretal, Nemačka',
+      de: 'Wehretal, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 69,
+    year: '2022',
+    image: '/projects/Rhenanus-Schule - Partnerschule des Leistungssports, Huhngraben 2, 37242 Bad Sooden-Allendorf, Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'Rhenanus-Schule, DigitalPakt Implementation',
+      sr: 'Škola Rhenanus, Implementacija DigitalPakt-a',
+      de: 'Rhenanus-Schule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Bad Sooden-Allendorf, Germany',
+      sr: 'Bad Zoden-Alendorf, Nemačka',
+      de: 'Bad Sooden-Allendorf, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 70,
+    year: '2022',
+    image: '/projects/Steinwaldschule Neukirchen, Reißmannweg 7, 34626 Neukirchen; Sanierung - 2022.png',
+    title: {
+      en: 'Steinwaldschule Neukirchen (Renovation)',
+      sr: 'Škola Steinwald Nojkirhen (Renoviranje)',
+      de: 'Steinwaldschule Neukirchen (Sanierung)'
+    },
+    location: {
+      en: 'Neukirchen, Germany',
+      sr: 'Nojkirhen, Nemačka',
+      de: 'Neukirchen, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 71,
+    year: '2022',
+    image: '/projects/Struthschule, Beethovenstraße 2, 37269 Eschwege, Umsetzung DigitalPakt 2022.png',
+    title: {
+      en: 'Struthschule, DigitalPakt Implementation',
+      sr: 'Škola Struth, Implementacija DigitalPakt-a',
+      de: 'Struthschule, Umsetzung DigitalPakt'
+    },
+    location: {
+      en: 'Eschwege, Germany',
+      sr: 'Ešvege, Nemačka',
+      de: 'Eschwege, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 72,
+    year: '2022',
+    image: '/projects/Südringgauschule, (Grund-, Haupt- und Realschule), Schulstraße 16, 37293 Herleshausen 2022.png',
+    title: {
+      en: 'Südringgauschule',
+      sr: 'Škola Südringgau',
+      de: 'Südringgauschule'
+    },
+    location: {
+      en: 'Herleshausen, Germany',
+      sr: 'Herleshauzen, Nemačka',
+      de: 'Herleshausen, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+
+  // --- 2021 ---
+  {
+    id: 73,
+    year: '2021',
+    image: '/projects/HEAE Lern- und Erinnerungsort Notaufnahmelager, Meisenbornweg 23-27, 35398 Gießen; Haus 1, 6, 7, 9 - 2021.png',
+    title: {
+      en: 'HEAE Emergency Reception Camp Memorial',
+      sr: 'HEAE Memorijalni centar prihvatnog logora',
+      de: 'HEAE Lern- und Erinnerungsort Notaufnahmelager'
+    },
+    location: {
+      en: 'Gießen, Germany',
+      sr: 'Gisen, Nemačka',
+      de: 'Gießen, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+
+  // --- 2020 ---
+  {
+    id: 74,
+    year: '2020',
+    image: '/projects/Alte Mühle An der Alten Mühle, 65760 Eschborn - 2020.png',
+    title: {
+      en: 'Alte Mühle (Old Mill)',
+      sr: 'Alte Mühle (Stari mlin)',
+      de: 'Alte Mühle'
+    },
+    location: {
+      en: 'Eschborn, Germany',
+      sr: 'Ešborn, Nemačka',
+      de: 'Eschborn, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+  {
+    id: 75,
+    year: '2020',
+    image: '/projects/IGS-LINDENFELDSCHULE Friedensstraße, 81, 63071 Offenbach - 2020.png',
+    title: {
+      en: 'IGS Lindenfeld School',
+      sr: 'Škola IGS Lindenfeld',
+      de: 'IGS-Lindenfeldschule'
+    },
+    location: {
+      en: 'Offenbach, Germany',
+      sr: 'Ofenbah, Nemačka',
+      de: 'Offenbach, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
+  },
+
+  // --- 2019 ---
+  {
+    id: 76,
+    year: '2019',
+    image: '/projects/Trauerzentrum Mühlheimer Straße 425, 63075 Offenbach am Main - 2019.png',
+    title: {
+      en: 'Grief Center Offenbach',
+      sr: 'Centar za žalost Ofenbah',
+      de: 'Trauerzentrum Offenbach'
+    },
+    location: {
+      en: 'Offenbach am Main, Germany',
+      sr: 'Ofenbah na Majni, Nemačka',
+      de: 'Offenbach am Main, Deutschland'
+    },
+    tasks: {
+      en: 'Detailed tasks to be added.',
+      sr: 'Detaljan opis zadataka biće dodat naknadno.',
+      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+    }
   }
 ];
 
-// Ovu funkciju izvozimo da bi stranica zatražila prave podatke
 export const getProjectsData = (lang) => {
   const validLang = ['en', 'sr', 'de'].includes(lang) ? lang : 'en';
 
