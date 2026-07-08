@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"; 
 import "../../styles/globals.css";
 import Navbar from "../../components/common/Navbar";
 import Footer from "../../components/common/Footer";
@@ -103,6 +104,11 @@ export default async function RootLayout({ children, params }) {
         <Footer lang={params.lang} dict={dict.footer} />
         <CookieBanner dict={dict.cookieConsent} />
         <Analytics />
+        <Script 
+          src="https://cloud.umami.is/script.js" 
+          data-website-id="1c3218bb-6c96-46f8-98bf-57764abaaf5f" 
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
