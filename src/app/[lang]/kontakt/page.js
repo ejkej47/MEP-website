@@ -32,7 +32,7 @@ export default async function ContactPage({ params }) {
                 {dict.office || "Kancelarija"}
               </h3>
               <p className="text-xl md:text-2xl font-black uppercase tracking-tight mb-2">
-                EE&CMEP
+                EE&C MEP
               </p>
               <p className="text-neutral-600 font-medium text-base md:text-lg leading-relaxed">
                 Oslobođenja 25V/11<br />

@@ -55,7 +55,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/MechanicalEngineering.jpeg" 
+                src="/MechanicalEngineering.png" 
                 alt={services.s1.title} 
                 fill
                 className="object-cover"
@@ -87,7 +87,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/usluge-1.jpg" 
+                src="/usluge.png" 
                 alt={services.s2.alt || services.s2.title} 
                 fill
                 className="object-cover"
@@ -119,7 +119,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/Plumbing.jpeg" 
+                src="/plumbing.png" 
                 alt={services.s3.title} 
                 fill
                 className="object-cover"
@@ -151,7 +151,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/BIMModeling1.jpg" 
+                src="/BIMModeling.png" 
                 alt={services.s4.alt || services.s4.title} 
                 fill
                 className="object-cover"
@@ -183,7 +183,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/Sustainability.jpeg" 
+                src="/Sustainability.png" 
                 alt={services.s5.title} 
                 fill
                 className="object-cover"
@@ -215,7 +215,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/Commissioning.jpeg" 
+                src="/Commissioning.png" 
                 alt={services.s6.title} 
                 fill
                 className="object-cover"
@@ -247,7 +247,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/ProjectManagement.jpeg" 
+                src="/ProjectManagement.png" 
                 alt={services.s7.title} 
                 fill
                 className="object-cover"

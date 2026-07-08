@@ -75,7 +75,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/o-nama.webp" 
+                src="/ljudi.png" 
                 alt={landing.statements.s2.title} 
                 fill
                 priority
@@ -103,7 +103,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing-usluge-v2.jpg" 
+                src="/landing-usluge-v2.png" 
                 alt={landing.statements.s2.title} 
                 fill
                 priority
@@ -158,7 +158,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/featured-ljudi.jpg" 
+                src="/featured-ljudi.png" 
                 alt={landing.statements.s4.title} 
                 fill
                 className="object-cover"
@@ -184,7 +184,7 @@ export default async function Home({ params }) {
             </div>
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/karijere.webp" 
+                src="/karijere.png" 
                 alt={landing.statements.s5.title} 
                 fill
                 className="object-cover"
@@ -248,6 +248,45 @@ export default async function Home({ params }) {
             </details>
           </div>
         </div>
+      </section>
+
+
+      {/* PARTNER LOGO MARQUEE SEKCIJA */}
+      <section className="py-16 border-b border-neutral-200 overflow-hidden bg-white">
+        <div className="relative w-full flex overflow-x-hidden">
+          <div className="animate-marquee flex items-center gap-16 px-8 whitespace-nowrap">
+            {/* Originalni set logoa */}
+            <Image src="/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+
+            {/* Duplicirani set logoa za beskonacan loop */}
+            <Image src="/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
+
+          </div>
+        </div>
+
+        {/* CSS za animaciju u liniji */}
+        <style>{`
+          @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+          }
+          .animate-marquee {
+            animation: marquee 25s linear infinite;
+            width: max-content;
+          }
+        `}</style>
       </section>
     </>
   );

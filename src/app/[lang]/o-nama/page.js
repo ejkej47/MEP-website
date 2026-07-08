@@ -105,7 +105,7 @@ export default async function AboutPage({ params }) {
           
           <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden mb-8 transition-all duration-700">
             <Image 
-              src="/o-nama.webp" 
+              src="/ljudi.png" 
               alt="Praksa na terenu" 
               fill
               sizes="100vw"

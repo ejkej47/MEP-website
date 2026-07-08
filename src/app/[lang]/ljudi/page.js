@@ -1,16 +1,17 @@
 import PersonCard from '../../../components/ljudi/PersonCard';
-import Image from 'next/image';
 import { getDictionary } from '../../../dictionaries/getDictionary';
-import Link from 'next/link';
 
 export default async function PeoplePage({ params }) {
   const dict = await getDictionary(params.lang);
   const { people } = dict;
 
+  // Koristimo novu strukturu iz JSON-a
+  const departments = people.departments || {};
+
   return (
     <div className="bg-white min-h-screen">
       
-      {/* BRUTALIST GEOMETRIC HEADER (Sada s čistom bijelom pozadinom) */}
+      {/* BRUTALIST GEOMETRIC HEADER */}
       <section className="bg-white pt-8 md:pt-12 relative z-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center gap-4 mb-4 md:mb-6">
@@ -25,60 +26,37 @@ export default async function PeoplePage({ params }) {
         <div className="w-full border-b-8 border-black"></div>
       </section>
 
-      {/* TIM - 2 PO 2 GRID (Slika je sada samo pozadina ove sekcije) */}
+      {/* TIM PO SEKTORIMA */}
       <section className="py-16 md:py-24 relative z-10 overflow-hidden">
-        
-        {/* POZADINSKA SLIKA SEKCIJE 
-        <div className="absolute inset-0 -z-10 w-full h-full">
-          <Image 
-            src="/featured-ljudi.jpg" 
-            alt={people.imgAlt} 
-            fill
-            className="object-cover"
-            quality={100}
-          />
-          <div className="absolute inset-0 bg-white/50"></div>
-        </div>*/}
-
-        {/* SADRŽAJ (KARTICE) iz tvog fajla[cite: 1] */}
         <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
-            
-            {people.team.map((person) => (
-              <div key={person.id} className="bg-white/90 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-neutral-200 shadow-xl">
-                <PersonCard 
-                  name={person.name}
-                  role={person.role}
-                  imagePlaceholder={person.imagePlaceholder}
-                  image={person.image} // <-- SAMO DODAJ OVU LINIJU
-                />
+          
+          {Object.entries(departments).map(([key, dept]) => (
+            <div key={key} className="mb-24 last:mb-0">
+              
+              {/* Naslov Sekcije (npr. Elektro struka) */}
+              <h2 className="text-3xl md:text-4xl font-black uppercase tracking-tight mb-10 border-b-2 border-neutral-200 pb-4 inline-block">
+                {dept.title}
+              </h2>
+              
+              {/* Grid za kartice tima */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+                {dept.members.map((person) => (
+                  <div key={person.id} className="bg-white/90 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-neutral-200 shadow-xl">
+                    <PersonCard 
+                      name={person.name}
+                      role={person.role}
+                      imagePlaceholder={person.imagePlaceholder}
+                      image={person.image} 
+                    />
+                  </div>
+                ))}
               </div>
-            ))}
+              
+            </div>
+          ))}
 
-          </div>
         </div>
       </section>
-      
-      {/* CTA (POZIV NA AKCIJU) 
-      <section className="bg-black text-white py-24 relative z-10">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
-            {people.cta.title}
-          </h2>
-          <p className="text-neutral-400 text-lg mb-10">
-            {people.cta.desc}
-          </p>
-          <Link 
-            href="/projekti" 
-            className="inline-flex bg-white text-black px-8 py-4 text-sm font-bold items-center gap-2 hover:bg-neutral-200 transition-colors"
-          >
-            {people.cta.btn}
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-          </Link>
-        </div>
-      </section>*/}
       
     </div>
   );

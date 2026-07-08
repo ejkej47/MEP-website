@@ -310,68 +310,41 @@
   "people": {
     "title": "People",
     "imgAlt": "EE&C MEP Team",
-    "team": [
-      {
-        "id": 1,
-        "name": "Uroš Milenković",
-        "role": "CEO & Senior ELT Planner",
-        "imagePlaceholder": "UROS",
-        "image": "/001-Uros-Milenkovic.jpg"
+    "departments": {
+      "elektro": {
+        "title": "Electrical Engineering",
+        "members": [
+          { "id": 1, "name": "Uroš Milenković", "role": "CEO", "imagePlaceholder": "UROS", "image": "/001-Uros-Milenkovic.jpg" },
+          { "id": 2, "name": "Ognjen Jelić", "role": "Project Manager", "imagePlaceholder": "OGNJEN", "image": "/007-Ognjen-Jelic.jpg" },
+          { "id": 3, "name": "Damjan Mučibabić", "role": "Project Manager", "imagePlaceholder": "DAMJAN", "image": "/003-Damjan-Mucibabic.jpg" },
+          { "id": 4, "name": "Nemanja Simić", "role": "Electrical Designer", "imagePlaceholder": "NEMANJA", "image": "/005-Nemanja-Simic.jpg" },
+          { "id": 5, "name": "Aleksa Ninić", "role": "Electrical Designer", "imagePlaceholder": "ALEKSA", "image": "/002-Aleksa-Ninic.jpg" },
+          { "id": 6, "name": "Mateja Stanković", "role": "Electrical Designer", "imagePlaceholder": "MATEJA", "image": "/004-Mateja-Stankovic.jpg" },
+          { "id": 8, "name": "Denis Rakić", "role": "Electrical Designer", "imagePlaceholder": "DENIS", "image": "/008-Denis-Rakic.jpg" }
+        ]
       },
-      {
-        "id": 2,
-        "name": "Ognjen Jelić",
-        "role": "Project Lead",
-        "imagePlaceholder": "OGNJEN",
-        "image": "/007-Ognjen-Jelic.jpg"
+      "masinska": {
+        "title": "Mechanical Engineering",
+        "members": [
+          { "id": 9, "name": "Vladan Mučibabić", "role": "Project Manager", "imagePlaceholder": "VLADAN", "image": "/default-avatar.png" },
+          { "id": 10, "name": "Strahinja Stojiljković", "role": "Mechanical Designer", "imagePlaceholder": "STRAHINJA", "image": "/009_Strahinja_Stojiljkovic.jpg" },
+          { "id": 7, "name": "Nikola Raketić", "role": "Mechanical Designer", "imagePlaceholder": "NIKOLA", "image": "/006-Nikola-Raketic.jpg" }
+        ]
       },
-      {
-        "id": 3,
-        "name": "Damjan Mučibabić",
-        "role": "Project Lead",
-        "imagePlaceholder": "DAMJAN",
-        "image": "/003-Damjan-Mucibabic.jpg"
+      "statika": {
+        "title": "Structural Engineering",
+        "members": [
+          { "id": 11, "name": "Igor Uon", "role": "Project Manager", "imagePlaceholder": "IGOR", "image": "/default-avatar.png" },
+          { "id": 12, "name": "Marko Radić", "role": "Civil Engineer", "imagePlaceholder": "MARKO", "image": "/default-avatar.png" },
+          { "id": 13, "name": "Adam Ramoul", "role": "Civil Engineer", "imagePlaceholder": "ADAM", "image": "/default-avatar.png" }
+        ]
       },
-      {
-        "id": 4,
-        "name": "Nemanja Simić",
-        "role": "ELT Planner",
-        "imagePlaceholder": "NEMANJA",
-        "image": "/005-Nemanja-Simic.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Aleksa Ninić",
-        "role": "ELT Planner",
-        "imagePlaceholder": "ALEKSA",
-        "image": "/002-Aleksa-Ninic.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Mateja Stanković",
-        "role": "ELT Planner",
-        "imagePlaceholder": "MATEJA",
-        "image": "/004-Mateja-Stankovic.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Nikola Raketić",
-        "role": "ELT Planner",
-        "imagePlaceholder": "NIKOLA",
-        "image": "/006-Nikola-Raketic.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Denis Rakić",
-        "role": "ELT Planner",
-        "imagePlaceholder": "DENIS",
-        "image": "/008-Denis-Rakic.jpg"
+      "marketing": {
+        "title": "Marketing",
+        "members": [
+          { "id": 14, "name": "Iva Milenković", "role": "Marketing Manager", "imagePlaceholder": "IVA", "image": "/010_Iva_Milenkovic.jpg" }
+        ]
       }
-    ],
-    "cta": {
-      "title": "See what our team has built.",
-      "desc": "Explore our portfolio and witness engineering precision through successfully realized commercial and industrial facilities.",
-      "btn": "Explore Projects"
     }
   },
   "careers": {
