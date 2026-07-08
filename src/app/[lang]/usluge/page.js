@@ -35,9 +35,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 1. MAŠINSKE INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div>
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/01</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /01
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s1.title}
             </h2>
@@ -53,7 +55,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/MechanicalEngineering.png" 
                 alt={services.s1.title} 
@@ -67,9 +69,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 2. ELEKTRO INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div className="lg:order-2">
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/02</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="lg:order-2 relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /02
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s2.title}
             </h2>
@@ -85,7 +89,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/usluge.png" 
                 alt={services.s2.alt || services.s2.title} 
@@ -99,9 +103,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 3. HIDROTEHNIČKE INSTALACIJE */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div>
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/03</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /03
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s3.title}
             </h2>
@@ -117,7 +123,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/plumbing.png" 
                 alt={services.s3.title} 
@@ -131,9 +137,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 4. BIM MODELOVANJE I KOORDINACIJA */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div className="lg:order-2">
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/04</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="lg:order-2 relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /04
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s4.title}
             </h2>
@@ -149,7 +157,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/BIMModeling.png" 
                 alt={services.s4.alt || services.s4.title} 
@@ -163,9 +171,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 5. ODRŽIVOST */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div>
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/05</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /05
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s5.title}
             </h2>
@@ -181,7 +191,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/Sustainability.png" 
                 alt={services.s5.title} 
@@ -195,9 +205,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 6. COMMISSIONING */}
       <section className="py-16 md:py-24 border-b border-neutral-200 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div className="lg:order-2">
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/06</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="lg:order-2 relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /06
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s6.title}
             </h2>
@@ -213,7 +225,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group lg:order-1">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/Commissioning.png" 
                 alt={services.s6.title} 
@@ -227,9 +239,11 @@ export default async function ServicesPage({ params }) {
 
       {/* 7. PROJEKTNI MENADŽMENT */}
       <section className="py-16 md:py-24 border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          <div>
-            <span className="text-neutral-300 font-mono text-lg block mb-4">/07</span>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
+          <div className="relative">
+            <span className="text-neutral-300 font-mono text-lg block mb-4 lg:absolute lg:mb-0 lg:-top-10 lg:left-0">
+              /07
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-6 uppercase text-black">
               {services.s7.title}
             </h2>
@@ -245,7 +259,7 @@ export default async function ServicesPage({ params }) {
             </ul>
           </div>
           <div className="relative group">
-            <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
+            <div className="w-full h-full min-h-[300px] bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
                 src="/services/ProjectManagement.png" 
                 alt={services.s7.title} 
@@ -375,27 +389,6 @@ export default async function ServicesPage({ params }) {
           </div>
         </div>
       </section>
-
-      {/* CTA 
-      <section className="bg-black text-white py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">
-            {services.cta.title}
-          </h2>
-          <p className="text-neutral-400 text-lg mb-10">
-            {services.cta.desc}
-          </p>
-          <Link 
-            href={`/${lang}/kontakt`} 
-            className="inline-flex bg-white text-black px-8 py-4 text-sm font-bold items-center gap-2 hover:bg-neutral-200 transition-colors"
-          >
-            {services.cta.btn}
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" strokeLinejoin="miter">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-          </Link>
-        </div>
-      </section>*/}
     </>
   );
 }
