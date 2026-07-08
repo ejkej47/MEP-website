@@ -362,26 +362,6 @@ const rawProjectsData = [
     }
   },
   {
-    id: 37,
-    year: '2025',
-    image: '/projects/image37.jpeg',
-    title: {
-      en: 'Residential and Commercial Building in Pančevo',
-      sr: 'Stambeno-poslovni objekat u Pančevu',
-      de: 'Wohn- und Geschäftshaus in Pančevo'
-    },
-    location: {
-      en: 'Oslobođenja Street, Pančevo, Serbia',
-      sr: 'Ulica Oslobođenja, Pančevo, Srbija',
-      de: 'Oslobođenja Straße, Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Execution Design for electrical building services of a multi-family residential and commercial complex (B+G+4+Attic), including internal low-voltage power distribution, main switchboards and residential metering cabinets, structured cabling, intercom systems, and fully coordinated indoor and outdoor functional lighting.',
-      sr: 'Izvođački projekat elektroinstalacija za višeporodični stambeno-poslovni kompleks (Po+Pr+4+Pk), uključujući unutrašnji razvod niskog napona, glavne i merne razvodne ormane, strukturno kabliranje, interfonske sisteme i potpuno koordinisano unutrašnje i spoljašnje funkcionalno osvetljenje.',
-      de: 'Ausführungsplanung der elektrotechnischen Gebäudeausrüstung für einen Wohn- und Geschäftskomplex (UG+EG+4+DG), einschließlich interner Niederspannungsverteilung, Haupt- und Zählerschränken, strukturierter Verkabelung, Sprechanlagen sowie vollständig koordinierter Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
     id: 39,
     year: '2025',
     image: '/projects/image39.jpeg',
@@ -719,26 +699,6 @@ const rawProjectsData = [
       en: 'Execution design (LP5) of high and low voltage installations, including detailed lighting calculations.',
       sr: 'Izvođački projekat (LP5) instalacija jake i slabe struje, uključujući detaljne proračune osvetljenja.',
       de: 'Ausführungsplanung (LPH 5) von Stark- und Schwachstromanlagen, einschließlich detaillierter Beleuchtungsberechnungen.'
-    }
-  },
-  {
-    id: 23,
-    year: '2023–2025',
-    image: '/projects/hypermep-projects-026.png',
-    title: {
-      en: 'SMA Solar Technology – Fuldabrück',
-      sr: 'SMA Solar Technology – Fuldabrik',
-      de: 'SMA Solar Technology – Fuldabrück'
-    },
-    location: {
-      en: 'Fuldabrück, Germany',
-      sr: 'Fuldabrik, Nemačka',
-      de: 'Fuldabrück, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {

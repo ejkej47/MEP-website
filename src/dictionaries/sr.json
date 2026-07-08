@@ -279,11 +279,11 @@
     "archive": {
       "imgPlaceholder": "[Slika Projekta 4:3]",
       "labels": {
-        "location": "Location:",
-        "year": "Year:",
-        "client": "Client:",
+        "location": "Lokacija:",
+        "year": "Godina:",
+        "client": "Klijent:",
         "systems": "Sistemi:",
-        "scope": "MEP Scope:"
+        "scope": "Obim MEP projekta:"
       },
       "p1": {
         "title": "Alpha kompleks",
