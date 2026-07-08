@@ -1,7 +1,6 @@
-// Ažuriran fajl sa starim podacima iz kojih su zamenjene .jpg u .png ekstenzije (osim 025), i dodati su potpuno novi projekti iz novog foldera sortirani po godinama od 2026 nadole.
+// Sortirano po godini, od najnovijih (2026) ka najstarijim.
 
 const rawProjectsData = [
-  // --- 2026 & NOVI PROJEKTI BEZ GODINE (postavljeno na vrh) ---
   {
     id: 41,
     year: '2026',
@@ -23,186 +22,6 @@ const rawProjectsData = [
     }
   },
   {
-    id: 42,
-    year: '2024-2025',
-    image: '/projects/Porodicna kuca - 2026.png',
-    title: {
-      en: 'Family House',
-      sr: 'Porodična kuća',
-      de: 'Einfamilienhaus'
-    },
-    location: {
-      en: 'Pančevo, Serbia',
-      sr: 'Pančevo, Srbija',
-      de: 'Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 43,
-    year: '2023-2025',
-    image: '/projects/Porodicna kuca 2.png',
-    title: {
-      en: 'Family House 2',
-      sr: 'Porodična kuća 2',
-      de: 'Einfamilienhaus 2'
-    },
-    location: {
-      en: 'Pančevo, Serbia',
-      sr: 'Pančevo, Srbija',
-      de: 'Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 44,
-    year: '2024-2025',
-    image: '/projects/Porodicna kuca 3.png',
-    title: {
-      en: 'Family House 3',
-      sr: 'Porodična kuća 3',
-      de: 'Einfamilienhaus 3'
-    },
-    location: {
-      en: 'Pančevo, Serbia',
-      sr: 'Pančevo, Srbija',
-      de: 'Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 45,
-    year: '2024-2025',
-    image: '/projects/Porodicna kuca 4.png',
-    title: {
-      en: 'Family House 4',
-      sr: 'Porodična kuća 4',
-      de: 'Einfamilienhaus 4'
-    },
-    location: {
-      en: 'Pančevo, Serbia',
-      sr: 'Pančevo, Srbija',
-      de: 'Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 46,
-    year: '2022-2024',
-    image: '/projects/Kompetentni centar za visoku bezbednost.png',
-    title: {
-      en: 'High Security Competence Center',
-      sr: 'Kompetentni centar za visoku bezbednost',
-      de: 'Kompetenzzentrum für Hochsicherheit'
-    },
-    location: {
-      en: 'Marburg, Germany',
-      sr: 'Marburg, Nemačka',
-      de: 'Marburg, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 47,
-    year: '2023-2025',
-    image: '/projects/Osnovna škola Heusenstamm.png',
-    title: {
-      en: 'Primary School Heusenstamm',
-      sr: 'Osnovna škola Heusenstamm',
-      de: 'Grundschule Heusenstamm'
-    },
-    location: {
-      en: 'Heusenstamm, Germany',
-      sr: 'Hojzenštam, Nemačka',
-      de: 'Heusenstamm, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 48,
-    year: '2023-2025',
-    image: '/projects/Poslovni prostor Homberg.png',
-    title: {
-      en: 'Commercial Space Homberg',
-      sr: 'Poslovni prostor Homberg',
-      de: 'Geschäftsräume Homberg'
-    },
-    location: {
-      en: 'Homberg, Germany',
-      sr: 'Homberg, Nemačka',
-      de: 'Homberg, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 49,
-    year: '2023-2025',
-    image: '/projects/Schloss Wilhelmsburg.png',
-    title: {
-      en: 'Wilhelmsburg Castle',
-      sr: 'Dvorac Wilhelmsburg',
-      de: 'Schloss Wilhelmsburg'
-    },
-    location: {
-      en: 'Wilhelmsburg, Germany',
-      sr: 'Vilhelmsburg, Nemačka',
-      de: 'Wilhelmsburg, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 50,
-    year: '2023-2025',
-    image: '/projects/SMA Fabrika.png',
-    title: {
-      en: 'SMA Factory',
-      sr: 'SMA Fabrika',
-      de: 'SMA Fabrik'
-    },
-    location: {
-      en: 'Fuldabrück, Germany',
-      sr: 'Fuldabrik, Nemačka',
-      de: 'Fuldabrück, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
     id: 51,
     year: '2025-2026',
     image: '/projects/Stambeni objekat ulica Oslobodjenja.png',
@@ -215,106 +34,6 @@ const rawProjectsData = [
       en: 'Pančevo, Serbia',
       sr: 'Pančevo, Srbija',
       de: 'Pančevo, Serbien'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 52,
-    year: '2022-2024',
-    image: '/projects/Tržni centar Dizeldorf.png',
-    title: {
-      en: 'Shopping Mall Düsseldorf',
-      sr: 'Tržni centar Dizeldorf',
-      de: 'Einkaufszentrum Düsseldorf'
-    },
-    location: {
-      en: 'Düsseldorf, Germany',
-      sr: 'Dizeldorf, Nemačka',
-      de: 'Düsseldorf, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 53,
-    year: '2022-2024',
-    image: '/projects/Vatrogasna stanica Mörfelden.png',
-    title: {
-      en: 'Fire Station Mörfelden',
-      sr: 'Vatrogasna stanica Mörfelden',
-      de: 'Feuerwehrwache Mörfelden'
-    },
-    location: {
-      en: 'Mörfelden, Germany',
-      sr: 'Merfelden, Nemačka',
-      de: 'Mörfelden, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 54,
-    year: '2022-2024',
-    image: '/projects/Vitos Haina.png',
-    title: {
-      en: 'Vitos Haina',
-      sr: 'Vitos Haina',
-      de: 'Vitos Haina'
-    },
-    location: {
-      en: 'Haina, Germany',
-      sr: 'Hajna, Nemačka',
-      de: 'Haina, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 55,
-    year: '2023-2025',
-    image: '/projects/Višenamenska zgrada Degerfeld.png',
-    title: {
-      en: 'Multipurpose Building Degerfeld',
-      sr: 'Višenamenska zgrada Degerfeld',
-      de: 'Mehrzweckgebäude Degerfeld'
-    },
-    location: {
-      en: 'Degerfeld, Germany',
-      sr: 'Degerfeld, Nemačka',
-      de: 'Degerfeld, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 56,
-    year: '2023-2026',
-    image: '/projects/Fritz Winter.png',
-    title: {
-      en: 'Fritz Winter',
-      sr: 'Fritz Winter',
-      de: 'Fritz Winter'
-    },
-    location: {
-      en: 'Stadtallendorf, Germany',
-      sr: 'Štatendorf, Nemačka',
-      de: 'Stadtallendorf, Deutschland'
     },
     tasks: {
       en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
@@ -582,8 +301,26 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2025 (i periodi do 2025) ---
+  {
+    id: 56,
+    year: '2023-2026',
+    image: '/projects/Fritz Winter.png',
+    title: {
+      en: 'Fritz Winter',
+      sr: 'Fritz Winter',
+      de: 'Fritz Winter'
+    },
+    location: {
+      en: 'Stadtallendorf, Germany',
+      sr: 'Štatendorf, Nemačka',
+      de: 'Stadtallendorf, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
   {
     id: 34,
     year: '2025',
@@ -785,6 +522,66 @@ const rawProjectsData = [
     }
   },
   {
+    id: 42,
+    year: '2024-2025',
+    image: '/projects/Porodicna kuca - 2026.png',
+    title: {
+      en: 'Family House',
+      sr: 'Porodična kuća',
+      de: 'Einfamilienhaus'
+    },
+    location: {
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 44,
+    year: '2024-2025',
+    image: '/projects/Porodicna kuca 3.png',
+    title: {
+      en: 'Family House 3',
+      sr: 'Porodična kuća 3',
+      de: 'Einfamilienhaus 3'
+    },
+    location: {
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 45,
+    year: '2024-2025',
+    image: '/projects/Porodicna kuca 4.png',
+    title: {
+      en: 'Family House 4',
+      sr: 'Porodična kuća 4',
+      de: 'Einfamilienhaus 4'
+    },
+    location: {
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
     id: 3,
     year: '2023–2025',
     image: '/projects/hypermep-projects-019.png',
@@ -907,7 +704,6 @@ const rawProjectsData = [
   {
     id: 16,
     year: '2023–2025',
-    // 025 Nije bio u novom folderu, pa ostavljamo staru ekstenziju .jpg kako si i izlistao!
     image: '/projects/hypermep-projects-025.jpg',
     title: {
       en: 'IGS Lindenfeld Integrated Comprehensive School',
@@ -945,21 +741,119 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2024 (i periodi do 2024) ---
   {
-    id: 57,
-    year: '2024',
-    image: '/projects/Werner-von-Siemens Schule, Dammstraße 62, 35584 Wetzlar; Umbau, Sanierung & Erweiterung (8. BA) 2024.png',
+    id: 43,
+    year: '2023-2025',
+    image: '/projects/Porodicna kuca 2.png',
     title: {
-      en: 'Werner-von-Siemens Schule (Renovation & Expansion)',
-      sr: 'Škola Werner-von-Siemens (Renoviranje i proširenje)',
-      de: 'Werner-von-Siemens Schule (Umbau, Sanierung & Erweiterung)'
+      en: 'Family House 2',
+      sr: 'Porodična kuća 2',
+      de: 'Einfamilienhaus 2'
     },
     location: {
-      en: 'Wetzlar, Germany',
-      sr: 'Veclar, Nemačka',
-      de: 'Wetzlar, Deutschland'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 47,
+    year: '2023-2025',
+    image: '/projects/Osnovna škola Heusenstamm.png',
+    title: {
+      en: 'Primary School Heusenstamm',
+      sr: 'Osnovna škola Heusenstamm',
+      de: 'Grundschule Heusenstamm'
+    },
+    location: {
+      en: 'Heusenstamm, Germany',
+      sr: 'Hojzenštam, Nemačka',
+      de: 'Heusenstamm, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 48,
+    year: '2023-2025',
+    image: '/projects/Poslovni prostor Homberg.png',
+    title: {
+      en: 'Commercial Space Homberg',
+      sr: 'Poslovni prostor Homberg',
+      de: 'Geschäftsräume Homberg'
+    },
+    location: {
+      en: 'Homberg, Germany',
+      sr: 'Homberg, Nemačka',
+      de: 'Homberg, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 49,
+    year: '2023-2025',
+    image: '/projects/Schloss Wilhelmsburg.png',
+    title: {
+      en: 'Wilhelmsburg Castle',
+      sr: 'Dvorac Wilhelmsburg',
+      de: 'Schloss Wilhelmsburg'
+    },
+    location: {
+      en: 'Wilhelmsburg, Germany',
+      sr: 'Vilhelmsburg, Nemačka',
+      de: 'Wilhelmsburg, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 50,
+    year: '2023-2025',
+    image: '/projects/SMA Fabrika.png',
+    title: {
+      en: 'SMA Factory',
+      sr: 'SMA Fabrika',
+      de: 'SMA Fabrik'
+    },
+    location: {
+      en: 'Fuldabrück, Germany',
+      sr: 'Fuldabrik, Nemačka',
+      de: 'Fuldabrück, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 55,
+    year: '2023-2025',
+    image: '/projects/Višenamenska zgrada Degerfeld.png',
+    title: {
+      en: 'Multipurpose Building Degerfeld',
+      sr: 'Višenamenska zgrada Degerfeld',
+      de: 'Mehrzweckgebäude Degerfeld'
+    },
+    location: {
+      en: 'Degerfeld, Germany',
+      sr: 'Degerfeld, Nemačka',
+      de: 'Degerfeld, Deutschland'
     },
     tasks: {
       en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
@@ -1005,6 +899,26 @@ const rawProjectsData = [
       en: 'Execution Design for residential electrical installations, including premium indoor lighting layouts, customized power socket positioning, smart home/automation readiness, and low-voltage distribution board design tailored for modern residential living.',
       sr: 'Izvođački projekat elektroinstalacija za stambeni prostor, uključujući raspored premium unutrašnjeg osvetljenja, prilagođeno pozicioniranje priključnica, pripremu za pametnu kuću (smart home) i dizajn niskonaponskih razvodnih tabli prilagođenih modernom stanovanju.',
       de: 'Ausführungsplanung für Wohngebäudeelektrik, einschließlich Premium-Innenbeleuchtungskonzepten, maßgeschneiderter Steckdosenplatzierung, Smart-Home-Vorbereitung und Planung von Niederspannungsverteilern für modernes Wohnen.'
+    }
+  },
+  {
+    id: 57,
+    year: '2024',
+    image: '/projects/Werner-von-Siemens Schule, Dammstraße 62, 35584 Wetzlar; Umbau, Sanierung & Erweiterung (8. BA) 2024.png',
+    title: {
+      en: 'Werner-von-Siemens Schule (Renovation & Expansion)',
+      sr: 'Škola Werner-von-Siemens (Renoviranje i proširenje)',
+      de: 'Werner-von-Siemens Schule (Umbau, Sanierung & Erweiterung)'
+    },
+    location: {
+      en: 'Wetzlar, Germany',
+      sr: 'Veclar, Nemačka',
+      de: 'Wetzlar, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1067,8 +981,86 @@ const rawProjectsData = [
       de: 'Entwurfs- und Ausführungsplanung (LPH 3 & LPH 5) von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2023 ---
+  {
+    id: 46,
+    year: '2022-2024',
+    image: '/projects/Kompetentni centar za visoku bezbednost.png',
+    title: {
+      en: 'High Security Competence Center',
+      sr: 'Kompetentni centar za visoku bezbednost',
+      de: 'Kompetenzzentrum für Hochsicherheit'
+    },
+    location: {
+      en: 'Marburg, Germany',
+      sr: 'Marburg, Nemačka',
+      de: 'Marburg, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 52,
+    year: '2022-2024',
+    image: '/projects/Tržni centar Dizeldorf.png',
+    title: {
+      en: 'Shopping Mall Düsseldorf',
+      sr: 'Tržni centar Dizeldorf',
+      de: 'Einkaufszentrum Düsseldorf'
+    },
+    location: {
+      en: 'Düsseldorf, Germany',
+      sr: 'Dizeldorf, Nemačka',
+      de: 'Düsseldorf, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 53,
+    year: '2022-2024',
+    image: '/projects/Vatrogasna stanica Mörfelden.png',
+    title: {
+      en: 'Fire Station Mörfelden',
+      sr: 'Vatrogasna stanica Mörfelden',
+      de: 'Feuerwehrwache Mörfelden'
+    },
+    location: {
+      en: 'Mörfelden, Germany',
+      sr: 'Merfelden, Nemačka',
+      de: 'Mörfelden, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
+  {
+    id: 54,
+    year: '2022-2024',
+    image: '/projects/Vitos Haina.png',
+    title: {
+      en: 'Vitos Haina',
+      sr: 'Vitos Haina',
+      de: 'Vitos Haina'
+    },
+    location: {
+      en: 'Haina, Germany',
+      sr: 'Hajna, Nemačka',
+      de: 'Haina, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
   {
     id: 9,
     year: '2023',
@@ -1129,8 +1121,6 @@ const rawProjectsData = [
       de: 'Ausführungsplanung (LPH 5) von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2022 ---
   {
     id: 58,
     year: '2022',
@@ -1431,8 +1421,6 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2021 ---
   {
     id: 73,
     year: '2021',
@@ -1453,8 +1441,6 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2020 ---
   {
     id: 74,
     year: '2020',
@@ -1495,8 +1481,6 @@ const rawProjectsData = [
       de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
-
-  // --- 2019 ---
   {
     id: 76,
     year: '2019',
