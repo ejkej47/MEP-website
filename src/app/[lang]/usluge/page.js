@@ -55,7 +55,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/MechanicalEngineering.png" 
+                src="/services/MechanicalEngineering.png" 
                 alt={services.s1.title} 
                 fill
                 className="object-cover"
@@ -87,7 +87,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/usluge.png" 
+                src="/services/usluge.png" 
                 alt={services.s2.alt || services.s2.title} 
                 fill
                 className="object-cover"
@@ -119,7 +119,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/plumbing.png" 
+                src="/services/plumbing.png" 
                 alt={services.s3.title} 
                 fill
                 className="object-cover"
@@ -151,7 +151,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/BIMModeling.png" 
+                src="/services/BIMModeling.png" 
                 alt={services.s4.alt || services.s4.title} 
                 fill
                 className="object-cover"
@@ -183,7 +183,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/Sustainability.png" 
+                src="/services/Sustainability.png" 
                 alt={services.s5.title} 
                 fill
                 className="object-cover"
@@ -215,7 +215,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group lg:order-1">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/Commissioning.png" 
+                src="/services/Commissioning.png" 
                 alt={services.s6.title} 
                 fill
                 className="object-cover"
@@ -247,7 +247,7 @@ export default async function ServicesPage({ params }) {
           <div className="relative group">
             <div className="w-full aspect-video bg-neutral-200 border border-neutral-300 relative overflow-hidden">
               <Image 
-                src="/ProjectManagement.png" 
+                src="/services/ProjectManagement.png" 
                 alt={services.s7.title} 
                 fill
                 className="object-cover"
@@ -265,7 +265,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 1 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                  <Image src="/autocad.webp" alt="AutoCAD" width={56} height={56} className="object-contain" />
+                  <Image src="/services/autocad.webp" alt="AutoCAD" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t1}</span>
             </div>
@@ -273,7 +273,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 2 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/navisworks.jpg" alt="Navisworks" width={56} height={56} className="object-contain" />
+                <Image src="/services/navisworks.jpg" alt="Navisworks" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t2}</span>
             </div>
@@ -281,7 +281,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 3 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/revit.jpg" alt="Revit" width={56} height={56} className="object-contain" />
+                <Image src="/services/revit.jpg" alt="Revit" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t3}</span>
             </div>
@@ -289,7 +289,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 4 */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/tools.jpg" alt="Tools" width={56} height={56} className="object-contain" />
+                <Image src="/services/tools.jpg" alt="Tools" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t4}</span>
             </div>
@@ -297,7 +297,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 5: PV Sol */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/pvsol.png" alt="PV Sol" width={56} height={56} className="object-contain" />
+                <Image src="/services/pvsol.png" alt="PV Sol" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t5}</span>
             </div>
@@ -305,7 +305,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 6: HagerCAD */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/hagercad.png" alt="HagerCAD" width={56} height={56} className="object-contain" />
+                <Image src="/services/hagercad.png" alt="HagerCAD" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t6}</span>
             </div>
@@ -313,7 +313,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 7: Relux */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/relux.png" alt="Relux" width={56} height={56} className="object-contain" />
+                <Image src="/services/relux.png" alt="Relux" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t7}</span>
             </div>
@@ -321,7 +321,7 @@ export default async function ServicesPage({ params }) {
             {/* Alat 8: Dialux */}
             <div className="flex flex-col items-center gap-4 p-6 border border-neutral-200 bg-neutral-50 hover:bg-neutral-100 transition-colors">
               <div className="w-16 h-16 flex items-center justify-center text-xs text-neutral-500 font-mono">
-                <Image src="/dialux.png" alt="Dialux" width={56} height={56} className="object-contain" />
+                <Image src="/services/dialux.png" alt="Dialux" width={56} height={56} className="object-contain" />
               </div>
               <span className="font-bold uppercase tracking-wider text-sm">{services.tools.t8}</span>
             </div>
@@ -342,7 +342,7 @@ export default async function ServicesPage({ params }) {
             {/* Grupa 1 */}
             <div className="bg-white border border-neutral-200 p-8 flex flex-col items-start text-left shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-neutral-200 mb-6 flex items-center justify-center text-[10px] text-neutral-500 font-mono">
-                <Image src="/commercial-property.webp" alt="" width={48} height={48} className="object-contain" />
+                <Image src="/services/commercial-property.webp" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g1.title}</h3>
               <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
@@ -353,7 +353,7 @@ export default async function ServicesPage({ params }) {
             {/* Grupa 2 */}
             <div className="bg-white border border-neutral-200 p-8 flex flex-col items-start text-left shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-neutral-200 mb-6 flex items-center justify-center text-[10px] text-neutral-500 font-mono">
-                 <Image src="/transport.jpg" alt="" width={48} height={48} className="object-contain" />
+                 <Image src="/services/transport.jpg" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g2.title}</h3>
               <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
@@ -364,7 +364,7 @@ export default async function ServicesPage({ params }) {
             {/* Grupa 3 */}
             <div className="bg-white border border-neutral-200 p-8 flex flex-col items-start text-left shadow-sm hover:shadow-md transition-shadow">
               <div className="w-12 h-12 bg-neutral-200 mb-6 flex items-center justify-center text-[10px] text-neutral-500 font-mono">
-                <Image src="/facility.jpg" alt="" width={48} height={48} className="object-contain" />
+                <Image src="/services/facility.jpg" alt="" width={48} height={48} className="object-contain" />
               </div>
               <h3 className="font-black uppercase text-xl mb-4 border-b border-neutral-100 w-full pb-2">{services.sectors.g3.title}</h3>
               <ul className="list-disc pl-5 space-y-3 w-full text-neutral-600 text-sm font-medium">
