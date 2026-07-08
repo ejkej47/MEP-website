@@ -194,8 +194,8 @@ export default async function Home({ params }) {
         </div>
       </section>
 
-      {/* FAQ SEKCIJA */}
-      <section className="py-24 border-b border-black">
+      {/* FAQ SEKCIJA (UKLONJEN border-b border-black) */}
+      <section className="py-24">
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex items-center gap-4 mb-12">
             <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight">
@@ -249,37 +249,48 @@ export default async function Home({ params }) {
         </div>
       </section>
 
-
       {/* PARTNER LOGO MARQUEE SEKCIJA */}
-      <section className="py-16 border-b border-neutral-200 overflow-hidden bg-white">
+      <section className="py-16 overflow-hidden bg-white">
+      
+        {/* Tekst iznad logoa usklađen sa dizajnom, vuče iz JSON-a */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-3xl font-extrabold tracking-tight text-neutral-900">
+            {landing.partnersTitle}
+          </h2>
+        </div>
+
         <div className="relative w-full flex overflow-x-hidden">
+          {/* Jači Fade efekat - Leva ivica */}
+          <div className="absolute top-0 left-0 w-48 md:w-64 h-full bg-gradient-to-r from-white via-white/90 to-transparent z-10 pointer-events-none" />
+          
+          {/* Jači Fade efekat - Desna ivica */}
+          <div className="absolute top-0 right-0 w-48 md:w-64 h-full bg-gradient-to-l from-white via-white/90 to-transparent z-10 pointer-events-none" />
+
           <div className="animate-marquee flex items-center gap-16 px-8 whitespace-nowrap">
             {/* Originalni set logoa */}
-            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-20 w-auto grayscale" />
+            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-6 w-auto grayscale" />
+            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
+            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
+            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
 
-            {/* Duplicirani set logoa za beskonacan loop */}
-            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-12 w-auto" />
-            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-12 w-auto" />
+            <Image src="/landing/elektroplan.jpg" alt="Elektroplan" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/jd.svg" alt="JD" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/mega_modulor.jpg" alt="Mega Modulor" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/archiplan.png" alt="Archiplan" width={180} height={80} className="object-contain h-20 w-auto grayscale" />
+            <Image src="/landing/go4energy.png" alt="Go4Energy" width={180} height={80} className="object-contain h-12 w-auto grayscale" />
+            <Image src="/landing/hyper_facade.webp" alt="Hyper Facade" width={180} height={80} className="object-contain h-6 w-auto grayscale" />
+            <Image src="/landing/tensor.png" alt="Tensor" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
+            <Image src="/landing/divaro.png" alt="Divaro" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
+            <Image src="/landing/elektrobull.png" alt="Elektro bull" width={180} height={80} className="object-contain h-16 w-auto grayscale" />
 
           </div>
         </div>
 
-        {/* CSS za animaciju u liniji */}
         <style>{`
           @keyframes marquee {
             0% { transform: translateX(0%); }

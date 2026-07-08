@@ -1,4 +1,4 @@
-// Ažuriran fajl sa starim podacima iz kojih su zamenjene .jpg u .png ekstenzije (osim 025), i dodati su potpuno novi projekti iz novog foldera sortirani po godinama od 2026 nadole.[cite: 1]
+// Ažuriran fajl sa starim podacima iz kojih su zamenjene .jpg u .png ekstenzije (osim 025), i dodati su potpuno novi projekti iz novog foldera sortirani po godinama od 2026 nadole.
 
 const rawProjectsData = [
   // --- 2026 & NOVI PROJEKTI BEZ GODINE (postavljeno na vrh) ---
@@ -17,14 +17,14 @@ const rawProjectsData = [
       de: 'Dresden, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 42,
-    year: '2026',
+    year: '2024-2025',
     image: '/projects/Porodicna kuca - 2026.png',
     title: {
       en: 'Family House',
@@ -32,19 +32,19 @@ const rawProjectsData = [
       de: 'Einfamilienhaus'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 43,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/Porodicna kuca 2.png',
     title: {
       en: 'Family House 2',
@@ -52,19 +52,19 @@ const rawProjectsData = [
       de: 'Einfamilienhaus 2'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 44,
-    year: '2026',
+    year: '2024-2025',
     image: '/projects/Porodicna kuca 3.png',
     title: {
       en: 'Family House 3',
@@ -72,19 +72,19 @@ const rawProjectsData = [
       de: 'Einfamilienhaus 3'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 45,
-    year: '2026',
+    year: '2024-2025',
     image: '/projects/Porodicna kuca 4.png',
     title: {
       en: 'Family House 4',
@@ -92,19 +92,19 @@ const rawProjectsData = [
       de: 'Einfamilienhaus 4'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 46,
-    year: '2026',
+    year: '2022-2024',
     image: '/projects/Kompetentni centar za visoku bezbednost.png',
     title: {
       en: 'High Security Competence Center',
@@ -112,19 +112,19 @@ const rawProjectsData = [
       de: 'Kompetenzzentrum für Hochsicherheit'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Marburg, Germany',
+      sr: 'Marburg, Nemačka',
+      de: 'Marburg, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 47,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/Osnovna škola Heusenstamm.png',
     title: {
       en: 'Primary School Heusenstamm',
@@ -137,14 +137,14 @@ const rawProjectsData = [
       de: 'Heusenstamm, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 48,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/Poslovni prostor Homberg.png',
     title: {
       en: 'Commercial Space Homberg',
@@ -157,14 +157,14 @@ const rawProjectsData = [
       de: 'Homberg, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 49,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/Schloss Wilhelmsburg.png',
     title: {
       en: 'Wilhelmsburg Castle',
@@ -172,19 +172,19 @@ const rawProjectsData = [
       de: 'Schloss Wilhelmsburg'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Wilhelmsburg, Germany',
+      sr: 'Vilhelmsburg, Nemačka',
+      de: 'Wilhelmsburg, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 50,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/SMA Fabrika.png',
     title: {
       en: 'SMA Factory',
@@ -192,19 +192,19 @@ const rawProjectsData = [
       de: 'SMA Fabrik'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Fuldabrück, Germany',
+      sr: 'Fuldabrik, Nemačka',
+      de: 'Fuldabrück, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 51,
-    year: '2026',
+    year: '2025-2026',
     image: '/projects/Stambeni objekat ulica Oslobodjenja.png',
     title: {
       en: 'Residential Building Oslobođenja Street',
@@ -212,19 +212,19 @@ const rawProjectsData = [
       de: 'Wohngebäude Oslobođenja Straße'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Pančevo, Serbia',
+      sr: 'Pančevo, Srbija',
+      de: 'Pančevo, Serbien'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 52,
-    year: '2026',
+    year: '2022-2024',
     image: '/projects/Tržni centar Dizeldorf.png',
     title: {
       en: 'Shopping Mall Düsseldorf',
@@ -237,14 +237,14 @@ const rawProjectsData = [
       de: 'Düsseldorf, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 53,
-    year: '2026',
+    year: '2022-2024',
     image: '/projects/Vatrogasna stanica Mörfelden.png',
     title: {
       en: 'Fire Station Mörfelden',
@@ -257,14 +257,14 @@ const rawProjectsData = [
       de: 'Mörfelden, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 54,
-    year: '2026',
+    year: '2022-2024',
     image: '/projects/Vitos Haina.png',
     title: {
       en: 'Vitos Haina',
@@ -277,14 +277,14 @@ const rawProjectsData = [
       de: 'Haina, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 55,
-    year: '2026',
+    year: '2023-2025',
     image: '/projects/Višenamenska zgrada Degerfeld.png',
     title: {
       en: 'Multipurpose Building Degerfeld',
@@ -297,14 +297,14 @@ const rawProjectsData = [
       de: 'Degerfeld, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
     id: 56,
-    year: '2026',
+    year: '2023-2026',
     image: '/projects/Fritz Winter.png',
     title: {
       en: 'Fritz Winter',
@@ -312,14 +312,14 @@ const rawProjectsData = [
       de: 'Fritz Winter'
     },
     location: {
-      en: 'Location TBD',
-      sr: 'Lokacija TBD',
-      de: 'Ort TBD'
+      en: 'Stadtallendorf, Germany',
+      sr: 'Štatendorf, Nemačka',
+      de: 'Stadtallendorf, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -589,14 +589,14 @@ const rawProjectsData = [
     year: '2025',
     image: '/projects/image34.jpeg',
     title: {
-      en: 'Self-Service Royal Car Wash, Vrsac',
+      en: 'Self-Service Royal Car Wash, Vršac',
       sr: 'Samouslužna autoperionica Royal, Vršac',
       de: 'SB-Waschanlage Royal, Vršac'
     },
     location: {
-      en: 'Guduricki put BB, Vrsac, Serbia',
+      en: 'Gudurički put BB, Vršac, Serbia',
       sr: 'Gudurički put BB, Vršac, Srbija',
-      de: 'Guduricki put BB, Vršac, Serbien'
+      de: 'Gudurički put BB, Vršac, Serbien'
     },
     tasks: {
       en: 'Execution Design for electrical power installations of a self-service car wash, including power supply links for specialized washing equipment, cable routing layouts, and main distribution boards.',
@@ -609,12 +609,12 @@ const rawProjectsData = [
     year: '2025',
     image: '/projects/image35.jpeg',
     title: {
-      en: 'Tip-Top Car Wash, Plandiste',
+      en: 'Tip-Top Car Wash, Plandište',
       sr: 'Autoperionica Tip-Top, Plandište',
       de: 'Waschanlage Tip-Top, Plandište'
     },
     location: {
-      en: 'Plandiste, Serbia',
+      en: 'Plandište, Serbia',
       sr: 'Plandište, Srbija',
       de: 'Plandište, Serbien'
     },
@@ -629,12 +629,12 @@ const rawProjectsData = [
     year: '2025',
     image: '/projects/image37.jpeg',
     title: {
-      en: 'Residential and Commercial Building in Pancevo',
+      en: 'Residential and Commercial Building in Pančevo',
       sr: 'Stambeno-poslovni objekat u Pančevu',
       de: 'Wohn- und Geschäftshaus in Pančevo'
     },
     location: {
-      en: 'Oslobođenja Street, Pancevo, Serbia',
+      en: 'Oslobođenja Street, Pančevo, Serbia',
       sr: 'Ulica Oslobođenja, Pančevo, Srbija',
       de: 'Oslobođenja Straße, Pančevo, Serbien'
     },
@@ -649,12 +649,12 @@ const rawProjectsData = [
     year: '2025',
     image: '/projects/image39.jpeg',
     title: {
-      en: 'Stela Car Wash, Kovacica',
+      en: 'Stela Car Wash, Kovačica',
       sr: 'Autoperionica Stela, Kovačica',
       de: 'Waschanlage Stela, Kovačica'
     },
     location: {
-      en: 'Kovacica, Serbia',
+      en: 'Kovačica, Serbia',
       sr: 'Kovačica, Srbija',
       de: 'Kovačica, Serbien'
     },
@@ -669,7 +669,7 @@ const rawProjectsData = [
     year: '2025',
     image: '/projects/image40.jpeg',
     title: {
-      en: 'Kovac Residence, Zrenjanin',
+      en: 'Kovač Residence, Zrenjanin',
       sr: 'Rezidencija Kovač, Zrenjanin',
       de: 'Residenz Kovač, Zrenjanin'
     },
@@ -717,26 +717,6 @@ const rawProjectsData = [
       en: 'Stadtallendorf, Germany',
       sr: 'Štatendorf, Nemačka',
       de: 'Stadtallendorf, Deutschland'
-    },
-    tasks: {
-      en: 'Conceptual and execution design (LP3 & LP5) of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Idejni i izvođački projekat (LP3 i LP5) instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Entwurfs- und Ausführungsplanung (LPH 3 & LPH 5) von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 14,
-    year: '2024–2025',
-    image: '/projects/hypermep-projects-015.png',
-    title: {
-      en: 'Production Facility Expansion (Phase 1) – SÄLZER GmbH',
-      sr: 'Proširenje proizvodnog pogona (Faza 1) – SÄLZER GmbH',
-      de: 'Erweiterung der Produktionsstätte (Phase 1) – SÄLZER GmbH'
-    },
-    location: {
-      en: 'Marburg, Germany',
-      sr: 'Marburg, Nemačka',
-      de: 'Marburg, Deutschland'
     },
     tasks: {
       en: 'Conceptual and execution design (LP3 & LP5) of high and low voltage installations, as well as indoor and outdoor lighting.',
@@ -982,9 +962,9 @@ const rawProjectsData = [
       de: 'Wetzlar, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1012,14 +992,14 @@ const rawProjectsData = [
     year: '2024',
     image: '/projects/image36.jpeg',
     title: {
-      en: 'Apartment Unit, Pozeska 31, Belgrade',
+      en: 'Apartment Unit, Požeška 31, Belgrade',
       sr: 'Stambena jedinica, Požeška 31, Beograd',
-      de: 'Wohneinheit, Pozeska 31, Belgrad'
+      de: 'Wohneinheit, Požeška 31, Belgrad'
     },
     location: {
-      en: 'Pozeska 31, Belgrade, Serbia',
+      en: 'Požeška 31, Belgrade, Serbia',
       sr: 'Požeška 31, Beograd, Srbija',
-      de: 'Pozeska 31, Belgrad, Serbien'
+      de: 'Požeška 31, Belgrad, Serbien'
     },
     tasks: {
       en: 'Execution Design for residential electrical installations, including premium indoor lighting layouts, customized power socket positioning, smart home/automation readiness, and low-voltage distribution board design tailored for modern residential living.',
@@ -1114,12 +1094,12 @@ const rawProjectsData = [
     year: '2023',
     image: '/projects/image38.jpeg',
     title: {
-      en: 'Glamour Event Center, Kovacica',
+      en: 'Glamour Event Center, Kovačica',
       sr: 'Event centar Glamour, Kovačica',
       de: 'Veranstaltungszentrum Glamour, Kovačica'
     },
     location: {
-      en: 'Kovacica, Serbia',
+      en: 'Kovačica, Serbia',
       sr: 'Kovačica, Srbija',
       de: 'Kovačica, Serbien'
     },
@@ -1166,9 +1146,9 @@ const rawProjectsData = [
       de: 'Sontra, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1186,9 +1166,9 @@ const rawProjectsData = [
       de: 'Eschwege, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1206,9 +1186,9 @@ const rawProjectsData = [
       de: 'Witzenhausen, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1226,9 +1206,9 @@ const rawProjectsData = [
       de: 'Eschwege, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1246,9 +1226,9 @@ const rawProjectsData = [
       de: 'Hessisch Lichtenau, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1266,9 +1246,9 @@ const rawProjectsData = [
       de: 'Eschwege, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1286,9 +1266,9 @@ const rawProjectsData = [
       de: 'Hessisch Lichtenau, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1306,9 +1286,9 @@ const rawProjectsData = [
       de: 'Witzenhausen, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1326,9 +1306,9 @@ const rawProjectsData = [
       de: 'Wehretal, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1346,9 +1326,9 @@ const rawProjectsData = [
       de: 'Eschwege, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1366,9 +1346,9 @@ const rawProjectsData = [
       de: 'Wehretal, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1386,9 +1366,9 @@ const rawProjectsData = [
       de: 'Bad Sooden-Allendorf, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1406,9 +1386,9 @@ const rawProjectsData = [
       de: 'Neukirchen, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1426,9 +1406,9 @@ const rawProjectsData = [
       de: 'Eschwege, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1446,9 +1426,9 @@ const rawProjectsData = [
       de: 'Herleshausen, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
 
@@ -1468,9 +1448,9 @@ const rawProjectsData = [
       de: 'Gießen, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
 
@@ -1490,9 +1470,9 @@ const rawProjectsData = [
       de: 'Eschborn, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
   {
@@ -1510,9 +1490,9 @@ const rawProjectsData = [
       de: 'Offenbach, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   },
 
@@ -1532,9 +1512,9 @@ const rawProjectsData = [
       de: 'Offenbach am Main, Deutschland'
     },
     tasks: {
-      en: 'Detailed tasks to be added.',
-      sr: 'Detaljan opis zadataka biće dodat naknadno.',
-      de: 'Detaillierte Aufgaben werden hinzugefügt.'
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
     }
   }
 ];
