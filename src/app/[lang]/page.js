@@ -13,16 +13,18 @@ export default async function Home({ params }) {
       {/* HERO SEKCIJA */}
       <section className="relative pt-16 pb-24 md:pt-32 md:pb-32 overflow-hidden min-h-[80vh] flex items-center">
         
-        {/* Pozadinska slika na nivou cele sekcije */}
-        <Image 
-          src="/landing/hero-slika-v3.jpg" 
-          alt={landing.hero.imageAlt}
-          fill
-          priority
-          className="object-cover -z-20"
-        />
+        {/* Pozadinski video na nivou cele sekcije */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover -z-20"
+        >
+          <source src="/bimvideo.mp4" type="video/mp4" />
+        </video>
         
-        {/* Blagi tamni sloj (overlay) preko slike da bi se sve bolje uklopilo */}
+        {/* Blagi tamni sloj (overlay) preko videa da bi se sve bolje uklopilo */}
         <div className="absolute inset-0 bg-black/20 -z-10"></div>
 
         <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
