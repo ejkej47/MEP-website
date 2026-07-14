@@ -14,24 +14,28 @@ export async function generateMetadata({ params }) {
   };
 
   const baseUrl = "https://eecmep.com";
+  // Apsolutna putanja do tvoje slike iz public foldera
+  const ogImageUrl = `${baseUrl}/og-image.jpg`; 
 
-  // Podešavanje SEO tekstova za svaki jezik ponaosob
+  // Prošireni SEO podaci sa ključnim rečima specifičnim za jezik
   const seoData = {
     en: {
       title: "EE&C MEP | Electrical Design & BIM Modeling",
       description: "Comprehensive Electrical Design, BIM modeling, and coordination for commercial, industrial, and residential projects.",
+      keywords: ["electrical design", "BIM modeling", "MEP engineering", "BIM coordination", "Serbia"],
     },
     sr: {
       title: "EE&C MEP | Elektro projektovanje i BIM modelovanje",
-      description: "Projektovanje elektroinstalacija (Electrical Design), BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
+      description: "Projektovanje elektroinstalacija, BIM modelovanje i koordinacija za komercijalne, industrijske i stambene objekte.",
+      keywords: ["elektro projektovanje", "BIM modelovanje", "MEP inženjering", "BIM koordinacija", "Srbija"],
     },
     de: {
       title: "EE&C MEP | Elektroplanung & BIM-Modellierung",
       description: "Umfassende Elektroplanung, BIM-Modellierung und Koordination für Gewerbe-, Industrie- und Wohnprojekte.",
+      keywords: ["Elektroplanung", "BIM-Modellierung", "MEP-Engineering", "BIM-Koordination", "Serbien"],
     }
   };
 
-  // Ako iz nekog razloga jezik nije prepoznat, uvek povlači engleski
   const currentSeo = seoData[params.lang] || seoData.en;
 
   return {
@@ -41,9 +45,13 @@ export async function generateMetadata({ params }) {
       template: "%s | EE&C MEP"
     },
     description: currentSeo.description,
-    keywords: ["electrical design", "BIM modeling", "MEP engineering", "elektro projektovanje", "BIM koordinacija", "Serbia"],
+    keywords: currentSeo.keywords,
     authors: [{ name: "EE&C MEP" }],
     creator: "EE&C MEP",
+    robots: {
+      index: true,
+      follow: true,
+    },
     openGraph: {
       type: "website",
       locale: localeMap[params.lang] ?? "en_US",
@@ -51,6 +59,20 @@ export async function generateMetadata({ params }) {
       title: currentSeo.title,
       description: currentSeo.description,
       siteName: "EE&C MEP",
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: currentSeo.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: currentSeo.title,
+      description: currentSeo.description,
+      images: [ogImageUrl],
     },
     alternates: {
       canonical: `${baseUrl}/${params.lang}`,
@@ -66,6 +88,14 @@ export async function generateMetadata({ params }) {
 export default async function RootLayout({ children, params }) {
   const dict = await getDictionary(params.lang);
 
+  // Definišemo trenutni SEO opis za JSON-LD u zavisnosti od jezika
+  const seoDescriptions = {
+    en: "Comprehensive Electrical Design, BIM modeling, and coordination.",
+    sr: "Sveobuhvatno elektro projektovanje, BIM modelovanje i koordinacija.",
+    de: "Umfassende Elektroplanung, BIM-Modellierung und Koordination."
+  };
+  const currentDesc = seoDescriptions[params.lang] || seoDescriptions.en;
+
   // JSON-LD Schema za Gugl
   const jsonLd = {
     "@context": "https://schema.org",
@@ -73,10 +103,11 @@ export default async function RootLayout({ children, params }) {
     "name": "EE&C MEP",
     "url": "https://eecmep.com",
     "logo": "https://eecmep.com/logo.svg",
-    "description": "Comprehensive Electrical Design, BIM modeling, and coordination.",
+    "image": "https://eecmep.com/og-image.jpg",
+    "description": currentDesc,
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "RS" // Ostavljamo RS da bi te Gugl i dalje pronalazio klijentima koji traže firme u Srbiji
+      "addressCountry": "RS"
     },
     "knowsAbout": [
       "Electrical Design",
@@ -89,7 +120,6 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={params.lang}>
       <body className="flex flex-col min-h-screen">
-        {/* Ubacivanje Schema Markupa za SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
