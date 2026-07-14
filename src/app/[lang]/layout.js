@@ -103,7 +103,7 @@ export default async function RootLayout({ children, params }) {
     "name": "EE&C MEP",
     "url": "https://eecmep.com",
     "logo": "https://eecmep.com/logo.svg",
-    "image": "https://eecmep.com/og-image.jpg",
+    "image": "https://eecmep.com/og-image.png",
     "description": currentDesc,
     "address": {
       "@type": "PostalAddress",
