@@ -65,6 +65,6 @@ export function middleware(request) {
 export const config = {
   matcher: [
     // Aktiviraj middleware na svim rutama osim sistemskih fajlova
-    '/((?!_next).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)',
   ],
 }

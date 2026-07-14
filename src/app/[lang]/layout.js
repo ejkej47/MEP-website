@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
 
   const baseUrl = "https://eecmep.com";
   // Apsolutna putanja do tvoje slike iz public foldera
-  const ogImageUrl = `${baseUrl}/og-image.jpg`; 
+  const ogImageUrl = `${baseUrl}/og-image.png`; 
 
   // Prošireni SEO podaci sa ključnim rečima specifičnim za jezik
   const seoData = {
