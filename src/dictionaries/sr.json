@@ -321,7 +321,9 @@
           { "id": 4, "name": "Nemanja Simić", "role": "Elektro projektant", "imagePlaceholder": "NEMANJA", "image": "/people/005-Nemanja-Simic.jpg" },
           { "id": 5, "name": "Aleksa Ninić", "role": "Elektro projektant", "imagePlaceholder": "ALEKSA", "image": "/people/002-Aleksa-Ninic.jpg" },
           { "id": 6, "name": "Mateja Stanković", "role": "Elektro projektant", "imagePlaceholder": "MATEJA", "image": "/people/004-Mateja-Stankovic.jpg" },
-          { "id": 8, "name": "Denis Rakić", "role": "Elektro projektant", "imagePlaceholder": "DENIS", "image": "/people/008-Denis-Rakic.jpg" }
+          { "id": 8, "name": "Denis Rakić", "role": "Elektro projektant", "imagePlaceholder": "DENIS", "image": "/people/008-Denis-Rakic.jpg" },
+          { "id": 15, "name": "Mihajlo Hrćan", "role": "Elektro projektant", "imagePlaceholder": "MIHAJLO", "image": "/people/Mihajlo Hrcan.jpg" },
+          { "id": 16, "name": "Sandra Stanković", "role": "Elektro projektant", "imagePlaceholder": "SANDRA", "image": "/people/Sandra Stankovic.jpg" }
         ]
       },
       "masinska": {
@@ -338,6 +340,12 @@
           { "id": 11, "name": "Igor Uzon", "role": "Vođa projekta", "imagePlaceholder": "IGOR", "image": "/people/default-avatar.png" },
           { "id": 12, "name": "Marko Radić", "role": "Građevinski inženjer", "imagePlaceholder": "MARKO", "image": "/people/default-avatar.png" },
           { "id": 13, "name": "Adam Ramoul", "role": "Građevinski inženjer", "imagePlaceholder": "ADAM", "image": "/people/default-avatar.png" }
+        ]
+      },
+      "acquisitions": {
+        "title": "Razvoj poslovanja",
+        "members": [
+          { "id": 17, "name": "Siniša Stanković", "role": "Project Acquisitions Manager", "imagePlaceholder": "SINISA", "image": "/people/Sinisa Stankovic.jpg" }
         ]
       },
       "marketing": {
