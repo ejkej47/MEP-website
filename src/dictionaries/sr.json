@@ -331,6 +331,7 @@
         "members": [
           { "id": 9, "name": "Vladan Mučibabić", "role": "Vođa projekta", "imagePlaceholder": "VLADAN", "image": "/people/default-avatar.png" },
           { "id": 10, "name": "Strahinja Stojiljković", "role": "Mašinski projektant", "imagePlaceholder": "STRAHINJA", "image": "/people/009_Strahinja_Stojiljkovic.jpg" },
+          { "id": 17, "name": "Jovan Geratović", "role": "Mašinski projektant", "imagePlaceholder": "JOVAN", "image": "/people/Jovan Geratovic.jpg" },
           { "id": 7, "name": "Nikola Raketić", "role": "Mašinski projektant", "imagePlaceholder": "NIKOLA", "image": "/people/006-Nikola-Raketic.jpg" }
         ]
       },
