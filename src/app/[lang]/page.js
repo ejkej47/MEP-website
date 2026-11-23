@@ -132,7 +132,7 @@ export default async function Home({ params }) {
             {/* Velika Slika Placeholder */}
             <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-200 border border-neutral-300 relative flex items-center justify-center overflow-hidden transition-all duration-500">
               <Image 
-                src="/landing/landing-projekti.png" 
+                src="/landing/landing-projekti-v2.png" 
                 alt={landing.statements.s3.title} 
                 fill
                 className="object-cover"
