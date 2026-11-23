@@ -323,7 +323,8 @@ const rawProjectsData = [
   }
 
   // ===== SKLONJENI PROJEKTI (pod komentarom) =====
-  // Da vratiš projekat: izvadi ga iz komentara ispod i ubaci gore na mesto po godini.
+  // Da vratiš projekat: izvadi ga iz komentara ispod i ubaci gore na željeno mesto,
+  // i vrati njegovu sliku iz arhiva/projekti/ u public/projects/.
   /*
   {
     id: 74,
