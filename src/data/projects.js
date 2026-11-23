@@ -43,26 +43,6 @@ const rawProjectsData = [
   },
   {
     id: 3,
-    year: '2024–2026',
-    image: '/projects/hypermep-projects-013.png',
-    title: {
-      en: 'Comprehensive School, Melsungen',
-      sr: 'Sveobuhvatna škola, Melzungen',
-      de: 'Gesamtschule, Melsungen'
-    },
-    location: {
-      en: 'Melsungen, Germany',
-      sr: 'Melzungen, Nemačka',
-      de: 'Melsungen, Deutschland'
-    },
-    tasks: {
-      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
-      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
-      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
-    }
-  },
-  {
-    id: 4,
     year: '2025',
     image: '/projects/image34.jpeg',
     title: {
@@ -82,7 +62,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 5,
+    id: 4,
     year: '2025',
     image: '/projects/image35.jpeg',
     title: {
@@ -102,7 +82,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 6,
+    id: 5,
     year: '2025',
     image: '/projects/image39.jpeg',
     title: {
@@ -122,7 +102,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 7,
+    id: 6,
     year: '2025',
     image: '/projects/image40.jpeg',
     title: {
@@ -142,7 +122,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 8,
+    id: 7,
     year: '2024–2025',
     image: '/projects/hypermep-projects-016.png',
     title: {
@@ -162,7 +142,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 9,
+    id: 8,
     year: '2024-2025',
     image: '/projects/Porodicna kuca - 2026.png',
     title: {
@@ -182,7 +162,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 10,
+    id: 9,
     year: '2024-2025',
     image: '/projects/Porodicna kuca 3.png',
     title: {
@@ -202,7 +182,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 11,
+    id: 10,
     year: '2024-2025',
     image: '/projects/Porodicna kuca 4.png',
     title: {
@@ -222,7 +202,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 12,
+    id: 11,
     year: '2023-2025',
     image: '/projects/Porodicna kuca 2.png',
     title: {
@@ -242,7 +222,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 13,
+    id: 12,
     year: '2023–2025',
     image: '/projects/hypermep-projects-024.png',
     title: {
@@ -262,7 +242,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 14,
+    id: 13,
     year: '2023-2025',
     image: '/projects/Poslovni prostor Homberg.png',
     title: {
@@ -282,7 +262,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 15,
+    id: 14,
     year: '2023-2025',
     image: '/projects/Višenamenska zgrada Degerfeld.png',
     title: {
@@ -302,7 +282,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 16,
+    id: 15,
     year: '2024',
     image: '/projects/image36.jpeg',
     title: {
@@ -322,7 +302,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 17,
+    id: 16,
     year: '2023–2024',
     image: '/projects/hypermep-projects-028.png',
     title: {
@@ -342,7 +322,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 18,
+    id: 17,
     year: '2022-2024',
     image: '/projects/Tržni centar Dizeldorf.png',
     title: {
@@ -362,7 +342,7 @@ const rawProjectsData = [
     }
   },
   {
-    id: 19,
+    id: 18,
     year: '2023',
     image: '/projects/image38.jpeg',
     title: {
@@ -385,6 +365,26 @@ const rawProjectsData = [
   // ===== SKLONJENI PROJEKTI (pod komentarom) =====
   // Da vratiš projekat: izvadi ga iz komentara ispod i ubaci gore na mesto po godini.
   /*
+  {
+    id: 19,
+    year: '2024–2026',
+    image: '/projects/hypermep-projects-013.png',
+    title: {
+      en: 'Comprehensive School, Melsungen',
+      sr: 'Sveobuhvatna škola, Melzungen',
+      de: 'Gesamtschule, Melsungen'
+    },
+    location: {
+      en: 'Melsungen, Germany',
+      sr: 'Melzungen, Nemačka',
+      de: 'Melsungen, Deutschland'
+    },
+    tasks: {
+      en: 'Design of high and low voltage installations, as well as indoor and outdoor lighting.',
+      sr: 'Projektovanje instalacija jake i slabe struje, kao i unutrašnjeg i spoljašnjeg osvetljenja.',
+      de: 'Planung von Stark- und Schwachstromanlagen sowie der Innen- und Außenbeleuchtung.'
+    }
+  },
   {
     id: 20,
     year: '2024–2026',
